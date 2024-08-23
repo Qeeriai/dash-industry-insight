@@ -62,7 +62,7 @@ app.layout = html.Div([
             ),
             html.Br(),
         ], style={"padding": "10px"}),  # Adjust the padding here to reduce space
-    ], className="four columns", style={"padding": "20px", "backgroundColor": "#f9f9f9"}),  # Change to three columns
+    ], className="four columns", style={"padding": "20px", "backgroundColor": "#f9f9f9"}),  
 
     html.Div([
         html.Div([
@@ -202,7 +202,7 @@ def update_graph(selected_codes, selected_occupations):
         else:
             return '#000000'  # Default to black for any undefined levels
 
-    # Create the forecast metrics table with colored Future Growth Rating
+    # Create the forecast metrics table 
     forecast_metrics = []
     forecast_metrics.append(html.Tr([
         html.Th('Occupation'),
@@ -218,7 +218,7 @@ def update_graph(selected_codes, selected_occupations):
             
             forecast_metrics.append(html.Tr([
                 html.Td(occupation),
-                html.Td(growth_rating, style={'color': color}),  # Apply color here
+                html.Td(growth_rating, style={'color': color}),  
                 html.Td(filtered_df[(filtered_df['Occupation'] == occupation) & (filtered_df['Metric'] == 'Projected Employment Growth (%)')]['Value'].values[0])
             ]))
 
