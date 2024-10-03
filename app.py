@@ -9,7 +9,7 @@ import json
 
 
 # Load the data
-df_employment_outlook = pd.read_csv('data/employment_outlook_2.csv')
+df_employment_outlook = pd.read_csv('data/employment_outlook.csv')
 
 # Load GeoJSON data for Australian states
 with open('data/states.min.geojson') as f:
