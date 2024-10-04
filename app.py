@@ -1,11 +1,11 @@
 import dash
-from dash import dcc, html, Input, Output
+from dash import Dash, dcc, html, Input, Output
 import plotly.graph_objs as go
 import pandas as pd
 import plotly.colors as pcolors
 import plotly.express as px
 import json
-
+from flask_cors import CORS
 
 
 # Load the data
@@ -22,6 +22,8 @@ app = dash.Dash(
 )
 app.title = "Job Industry Insights Dashboard"
 server = app.server
+CORS(app.server)  # Enable CORS to allow communication between Dash and React
+
 
 # Predefined Plotly color scale
 color_scale = pcolors.qualitative.Plotly
@@ -420,5 +422,7 @@ def update_state_map(selected_codes, selected_occupations):
 
 
 # Run the app
-if __name__ == '__main__':
-    app.run_server(debug=True, port=8080)
+# if __name__ == '__main__':
+#     app.run_server(debug=True, port=8080)
+if __name__ == "__main__":
+    app.run_server(debug=True, host='0.0.0.0', port=8050)  # Ensure it's running on port 8050
