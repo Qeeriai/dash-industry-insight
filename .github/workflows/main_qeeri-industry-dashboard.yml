@@ -67,3 +67,7 @@ jobs:
           app-name: 'qeeri-industry-dashboard'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_975D6E1B0F3E46B19C39D76425E44BB7 }}
+
+
+      - name: 'Start Gunicorn server'
+        run: gunicorn app:app --bind 0.0.0.0:$PORT
