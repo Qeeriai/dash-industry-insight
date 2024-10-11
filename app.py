@@ -411,14 +411,13 @@ def update_state_map(selected_codes, selected_occupations):
 # if __name__ == '__main__':
 #     app.run_server(port=8080)
 
+if __name__ == '__main__':
+    app.run_server(debug=True)
+
+# logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
 
 # if __name__ == '__main__':
-#     app.run_server()
-
-logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
-
-if __name__ == '__main__':
-    try:
-        app.run_server(debug=True, port=7070)
-    except Exception as e:
-        logging.error(f"Error occurred: {e}")
+#     try:
+#         app.run_server(debug=True, port=7070)
+#     except Exception as e:
+#         logging.error(f"Error occurred: {e}")
