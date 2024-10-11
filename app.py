@@ -6,7 +6,9 @@ import plotly.colors as pcolors
 import plotly.express as px
 import json
 from flask_cors import CORS
-
+import os
+import logging
+import sys
 
 # Load the data
 df_employment_outlook = pd.read_csv('data/employment_outlook.csv')
@@ -37,77 +39,61 @@ default_occupations = ['ICT Business and Systems Analysts', 'Primary School Teac
 
 # Define layout
 app.layout = html.Div([
+
+    # Left Sidebar - Filters
     html.Div([
         html.H5("Job Industry Analytics", style={"color": "#2c82ff"}),
         html.H3("Welcome to the Job Industry Insights Dashboard", style={"marginBottom": "20px"}),
-        html.Div(
-            "Explore job industry trends, job demand, salary, and employee satisfaction. Select different filters to visualize insights over time.",
-            style={"marginBottom": "30px"}
-        ),
-        html.Div([
-            html.Label("Select ANZSCO code:", style={'font-weight': 'bold'}),
-            dcc.Dropdown(
-                id='anzsco-code-filter',
-                options=[{'label': code, 'value': code} for code in df_employment_outlook['ANZSCO code'].unique()],
-                value=None,
-                placeholder="Select ANZSCO code",
-                multi=True
-            ),
-            html.Br(),
-            html.Label("Select Occupation:", style={'font-weight': 'bold', 'margin-top': '10px'}),
-            dcc.Dropdown(
-                id='occupation-filter',
-                options=[{'label': occ, 'value': occ} for occ in df_employment_outlook['Occupation'].unique()],
-                value=default_occupations,
-                placeholder="Select Occupation",
-                multi=True
-            ),
-            html.Br(),
-        ], style={"padding": "10px"}),  # Adjust the padding here to reduce space
-    ], className="four columns", style={"padding": "20px", "backgroundColor": "#f9f9f9"}),  
+        html.P("Explore job industry trends, job demand, salary, and employee satisfaction. Select different filters to visualize insights over time.",
+               style={"marginBottom": "30px"}),
 
+        html.Label("Select ANZSCO code:", style={'font-weight': 'bold'}),
+        dcc.Dropdown(
+            id='anzsco-code-filter',
+            options=[{'label': code, 'value': code} for code in df_employment_outlook['ANZSCO code'].unique()],
+            value=None,
+            placeholder="Select ANZSCO code",
+            multi=True
+        ),
+        html.Br(),
+        html.Label("Select Occupation:", style={'font-weight': 'bold'}),
+        dcc.Dropdown(
+            id='occupation-filter',
+            options=[{'label': occ, 'value': occ} for occ in df_employment_outlook['Occupation'].unique()],
+            value=default_occupations,
+            placeholder="Select Occupation",
+            multi=True
+        ),
+    ], style={"width": "25%", "float": "left", "padding": "20px", "backgroundColor": "#f9f9f9"}),  # Width set to 25%
+
+    # Main content section - Graphs and Tables
     html.Div([
+        # Employment Trend
         html.Div([
             html.B("Employment Trend (2011-2026)"),
-            html.Hr(),
             dcc.Graph(id='employment-trend'),
-        ], style={"marginBottom": "30px", "backgroundColor": "#ffffff", "padding": "20px"}),
+        ], style={"backgroundColor": "#ffffff", "padding": "20px", "marginBottom": "20px"}),
+
+        # Employment Forecast Metrics
         html.Div([
             html.B("Employment Forecast Metrics"),
-            html.Hr(),
             html.Table(id='forecast-metrics', style={'margin-top': '20px'}),
-        ], style={"backgroundColor": "#ffffff", "padding": "20px"}),
+        ], style={"backgroundColor": "#ffffff", "padding": "20px", "marginBottom": "20px"}),
+
+        # Age Profile
         html.Div([
             html.B("Age Profile (% Share)"),
-            html.Hr(),
             dcc.Graph(id='age-distribution-graph'),
-        ], style={"backgroundColor": "#ffffff", "padding": "20px"}),
-        
-        # Place the two donut charts in a row
-        html.Div([
-            html.B("Gender and Employment Type"),
-            html.Hr(),
-            html.Div([
-                html.Div([
-                    dcc.Graph(id='gender-donut-chart'),
-                ], className="six columns", style={"backgroundColor": "#ffffff", "padding": "20px"}),
+        ], style={"backgroundColor": "#ffffff", "padding": "20px", "marginBottom": "20px"}),
 
-                html.Div([
-                    dcc.Graph(id='employment-type-donut-chart'),
-                ], className="six columns", style={"backgroundColor": "#ffffff", "padding": "20px"}),
-            ], className="row", style={"width": "100%", "display": "flex", "flex-direction": "row"}),
-        
-        ], style={"backgroundColor": "#ffffff", "padding": "20px"}),
-
-
+        # Employment Distribution by State
         html.Div([
             html.B("Employment Distribution by State"),
-            html.Hr(),
             dcc.Graph(id='state-map'),
         ], style={"backgroundColor": "#ffffff", "padding": "20px"}),
-        
-    ], className="eight columns", style={"padding": "10px"}),  # Increase to nine columns
-], className="row", style={"width": "100%", "display": "flex", "flex-direction": "row"})
+    ], style={"width": "75%", "float": "right", "padding": "10px"}),  # Width set to 75%
+
+], style={"display": "flex", "flex-direction": "row"})  # Ensure both sections are in a row
 
 
 
@@ -423,10 +409,16 @@ def update_state_map(selected_codes, selected_occupations):
 
 # Run the app
 # if __name__ == '__main__':
-#     app.run_server(debug=True, port=8080)
-# if __name__ == "__main__":
-#     app.run_server(debug=True, host='0.0.0.0', port=8050)  # Ensure it's running on port 8050
+#     app.run_server(port=8080)
 
+
+# if __name__ == '__main__':
+#     app.run_server()
+
+logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
 
 if __name__ == '__main__':
-    app.run_server()
+    try:
+        app.run_server(debug=True, port=7070)
+    except Exception as e:
+        logging.error(f"Error occurred: {e}")
