@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'qeeri-industry-dashboard'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_975D6E1B0F3E46B19C39D76425E44BB7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5A3145D224CC467F84FC1B6E6189C3C9 }}
