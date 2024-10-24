@@ -54,7 +54,14 @@ app.layout = html.Div([
                 multi=True
             ),]
         , style={"padding": "10px"}),  # Adjust the padding here to reduce space
-    ], className="four columns", style={"padding": "20px", "backgroundColor": "#f9f9f9"}),  
+    ], className="four columns", style={
+        "padding": "20px", 
+        "backgroundColor": "#f9f9f9",
+        "flexShrink": "0",     # Prevents shrinking when the window resizes
+        "position": "sticky",   # Makes the sidebar sticky
+        "top": "0",             # Sticks the sidebar to the top when scrolling
+        "height": "100vh"      # Ensures the sidebar takes the full height
+        }),  
 
     html.Div([
         html.Div([
@@ -96,8 +103,20 @@ app.layout = html.Div([
             dcc.Graph(id='state-map'),
         ], style={"backgroundColor": "#ffffff", "padding": "20px"}),
         
-    ], className="eight columns", style={"padding": "10px"}),  # Increase to nine columns
-], className="row", style={"width": "100%", "display": "flex", "flex-direction": "row"})
+    ], className="eight columns", style={
+        "padding": "10px",
+        "flex": "1",  # Ensures the right section expands to take up remaining space
+        "overflowY": "auto",      # Enables vertical scrolling
+        "height": "100vh"         # Matches height with the sidebar
+        }),  
+], className="row", style={
+    "width": "100%", 
+    "display": "flex", 
+    "flex-direction": "row",
+    "height": "100vh",
+    "overflow": "hidden"        # Prevents parent container from scrolling
+
+    })
 
 
 
