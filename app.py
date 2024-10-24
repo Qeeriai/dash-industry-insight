@@ -32,6 +32,12 @@ color_scale = pcolors.qualitative.Plotly
 def generate_color(index):
     return color_scale[index % len(color_scale)]
 
+# Consistent color mapping for gender
+GENDER_COLORS = {
+    'Male Share': '#636EFA',  # Blue
+    'Female Share': '#EF553B'  # Red
+}
+
 # Define default occupations to pre-fill
 default_occupations = ['Primary School Teachers', 'Middle School Teachers','Special Education Teachers']
 
@@ -360,13 +366,13 @@ def update_gender_per_occupation(selected_occupations):
                 x=gender_df[gender_df['Metric'] == 'Male Share']['Occupation'],
                 y=gender_df[gender_df['Metric'] == 'Male Share']['Value'],
                 name='Male Share',
-                # marker=dict(color='blue')
+                marker=dict(color=GENDER_COLORS['Male Share'])  # For Male Share
             ),
             go.Bar(
                 x=gender_df[gender_df['Metric'] == 'Female Share']['Occupation'],
                 y=gender_df[gender_df['Metric'] == 'Female Share']['Value'],
                 name='Female Share',
-                # marker=dict(color='red')
+                marker=dict(color=GENDER_COLORS['Female Share'])  # For Female Share
             )
         ],
         'layout': go.Layout(
