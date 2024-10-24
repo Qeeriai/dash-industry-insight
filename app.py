@@ -300,7 +300,9 @@ def update_gender_donut_chart(selected_occupations):
             labels=aggregated_gender['Metric'],
             values=aggregated_gender['Value'],
             hole=0.5,
-            marker=dict(colors=[generate_color(i) for i in range(len(aggregated_gender))])
+            # marker=dict(colors=[generate_color(i) for i in range(len(aggregated_gender))])
+            marker=dict(colors=[GENDER_COLORS[label] for label in aggregated_gender['Metric']])
+
         )],
         'layout': go.Layout(
             title='Gender Distribution',
@@ -359,31 +361,57 @@ def update_gender_per_occupation(selected_occupations):
     # Filter the data for gender metrics
     gender_df = filtered_df[filtered_df['Metric'].isin(['Male Share', 'Female Share'])]
 
-    # Create a bar chart showing gender distribution per occupation
+    # Pivot the data to have Male and Female shares as columns
+    gender_df = gender_df.pivot_table(
+        values='Value',
+        index='Occupation',
+        columns='Metric',
+        aggfunc='mean'
+    ).fillna(0)
+
+    # Normalize the values to ensure they sum to 100%
+    gender_df['Total'] = gender_df['Male Share'] + gender_df['Female Share']
+    gender_df['Male Share'] = (gender_df['Male Share'] / gender_df['Total']) * 100
+    gender_df['Female Share'] = (gender_df['Female Share'] / gender_df['Total']) * 100
+
+    # Adjust rounding to ensure the sum equals 100%
+    def round_to_100(row):
+        male = round(row['Male Share'])
+        female = 100 - male  # Ensure the total is exactly 100
+        return pd.Series([male, female], index=['Male Share', 'Female Share'])
+
+    # Apply the rounding function to each row
+    gender_df[['Male Share', 'Female Share']] = gender_df.apply(round_to_100, axis=1)
+
+    # Create the bar chart
     figure = {
         'data': [
             go.Bar(
-                x=gender_df[gender_df['Metric'] == 'Male Share']['Occupation'],
-                y=gender_df[gender_df['Metric'] == 'Male Share']['Value'],
+                x=gender_df.index,
+                y=gender_df['Male Share'],
                 name='Male Share',
-                marker=dict(color=GENDER_COLORS['Male Share'])  # For Male Share
+                marker=dict(color=GENDER_COLORS['Male Share']),
+                hovertemplate='%{y:.1f}%<extra></extra>'
             ),
             go.Bar(
-                x=gender_df[gender_df['Metric'] == 'Female Share']['Occupation'],
-                y=gender_df[gender_df['Metric'] == 'Female Share']['Value'],
+                x=gender_df.index,
+                y=gender_df['Female Share'],
                 name='Female Share',
-                marker=dict(color=GENDER_COLORS['Female Share'])  # For Female Share
+                marker=dict(color=GENDER_COLORS['Female Share']),
+                hovertemplate='%{y:.1f}%<extra></extra>'
             )
         ],
         'layout': go.Layout(
             title='Gender Distribution by Occupation',
             xaxis={'title': 'Occupation'},
             yaxis={'title': '% Share'},
-            barmode='group',  # Bars side by side for comparison
+            barmode='group',
+            yaxis_range=[0, 100]  # Ensure the y-axis goes up to 100%
         )
     }
 
     return figure
+
 
 
 # Callback to update the map based on the selected occupations and codes
