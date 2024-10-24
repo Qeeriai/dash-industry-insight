@@ -5309,1422 +5309,1422 @@ ANZSCO code,Occupation,Year,Metric,Value
 8996,Recycling and Rubbish Collectors,,Future Growth Rating,Stable
 8997,Vending Machine Attendants,,Future Growth Rating,Moderate
 8999,Other Miscellaneous Labourers,,Future Growth Rating,Strong
-1111,Chief Executives and Managing Directors,,Male Share,21
-1112,General Managers,,Male Share,29
-1113,Legislators,,Male Share,41
-1211,Aquaculture Farmers,,Male Share,15
-1212,Crop Farmers,,Male Share,25
-1213,Livestock Farmers,,Male Share,32
-1214,Mixed Crop and Livestock Farmers,,Male Share,25
-1311,"Advertising, Public Relations and Sales Manager",,Male Share,41
-1321,Corporate Services Managers,,Male Share,62
-1322,Finance Managers,,Male Share,46
-1323,Human Resource Managers,,Male Share,57
-1324,Policy and Planning Managers,,Male Share,56
-1332,Engineering Managers,,Male Share,9
-1333,"Importers, Exporters and Wholesalers",,Male Share,25
-1336,"Supply, Distribution and Procurement Managers",,Male Share,22
-1341,Child Care Centre Managers,,Male Share,92
-1342,Health and Welfare Services Managers,,Male Share,74
-1343,School Principals,,Male Share,60
-1344,Other Education Managers,,Male Share,61
-1351,ICT Managers,,Male Share,21
-1391,Commissioned Officers (Management),,Male Share,15
-1392,Senior Non-Commissioned Defence Force Officers,,Male Share,15
-1399,Other Specialist Managers,,Male Share,40
-1411,Cafe and Restaurant Managers,,Male Share,54
-1412,Caravan Park and Camping Ground Managers,,Male Share,48
-1413,Hotel and Motel Managers,,Male Share,43
-1414,Licensed Club Managers,,Male Share,43
-1419,Other Accommodation and Hospitality Managers,,Male Share,60
-1421,Retail Managers,,Male Share,50
-1491,"Amusement, Fitness and Sports Centre Managers",,Male Share,44
-1492,"Call, Contact Centre & Customer Service Managers",,Male Share,44
-1493,Conference and Event Organisers,,Male Share,75
-1494,Transport Services Managers,,Male Share,18
-1499,"Other Hospitality, Retail and Service Managers",,Male Share,33
+1111,Chief Executives and Managing Directors,,Male Share,79
+1112,General Managers,,Male Share,71
+1113,Legislators,,Male Share,59
+1211,Aquaculture Farmers,,Male Share,85
+1212,Crop Farmers,,Male Share,75
+1213,Livestock Farmers,,Male Share,69
+1214,Mixed Crop and Livestock Farmers,,Male Share,75
+1311,"Advertising, Public Relations and Sales Manager",,Male Share,59
+1321,Corporate Services Managers,,Male Share,38
+1322,Finance Managers,,Male Share,54
+1323,Human Resource Managers,,Male Share,43
+1324,Policy and Planning Managers,,Male Share,44
+1332,Engineering Managers,,Male Share,91
+1333,"Importers, Exporters and Wholesalers",,Male Share,75
+1336,"Supply, Distribution and Procurement Managers",,Male Share,78
+1341,Child Care Centre Managers,,Male Share,8
+1342,Health and Welfare Services Managers,,Male Share,26
+1343,School Principals,,Male Share,40
+1344,Other Education Managers,,Male Share,39
+1351,ICT Managers,,Male Share,79
+1391,Commissioned Officers (Management),,Male Share,85
+1392,Senior Non-Commissioned Defence Force Officers,,Male Share,85
+1399,Other Specialist Managers,,Male Share,60
+1411,Cafe and Restaurant Managers,,Male Share,47
+1412,Caravan Park and Camping Ground Managers,,Male Share,52
+1413,Hotel and Motel Managers,,Male Share,57
+1414,Licensed Club Managers,,Male Share,57
+1419,Other Accommodation and Hospitality Managers,,Male Share,40
+1421,Retail Managers,,Male Share,51
+1491,"Amusement, Fitness and Sports Centre Managers",,Male Share,56
+1492,"Call, Contact Centre & Customer Service Managers",,Male Share,56
+1493,Conference and Event Organisers,,Male Share,25
+1494,Transport Services Managers,,Male Share,82
+1499,"Other Hospitality, Retail and Service Managers",,Male Share,67
 2111,"Actors, Dancers and Other Entertainers",,Male Share,50
-2112,Music Professionals,,Male Share,29
-2113,Photographers,,Male Share,49
-2114,Visual Arts and Crafts Professionals,,Male Share,57
-2121,"Artistic Directors, Media Producers & Presenters",,Male Share,43
-2122,"Authors, and Book and Script Editors",,Male Share,67
-2123,"Film, Television, Radio and Stage Directors",,Male Share,29
-2124,Journalists and Other Writers,,Male Share,56
-2211,Accountants,,Male Share,52
-2212,"Auditors, Company Secretaries and Corporate Treasurers",,Male Share,48
-2221,Financial Brokers,,Male Share,34
-2222,Financial Dealers,,Male Share,31
-2223,Financial Investment Advisers and Managers,,Male Share,31
-2231,Human Resource Professionals,,Male Share,72
-2232,ICT Trainers,,Male Share,47
-2233,Training and Development Professionals,,Male Share,58
-2241,"Actuaries, Mathematicians and Statisticians",,Male Share,43
-2242,"Archivists, Curators and Records Managers",,Male Share,71
-2243,Economists,,Male Share,33
-2244,Intelligence and Policy Analysts,,Male Share,62
-2245,Land Economists and Valuers,,Male Share,25
-2246,Librarians,,Male Share,84
-2247,Management and Organisation Analysts,,Male Share,42
-2249,Other Information and Organisation Professionals,,Male Share,56
-2251,Advertising and Marketing Professionals,,Male Share,61
-2252,ICT Sales Professionals,,Male Share,25
-2253,Public Relations Professionals,,Male Share,73
-2254,Technical Sales Representatives,,Male Share,28
-2311,Air Transport Professionals,,Male Share,9
-2312,Marine Transport Professionals,,Male Share,5
-2321,Architects and Landscape Architects,,Male Share,34
-2322,Surveyors and Spatial Scientists,,Male Share,13
-2323,"Fashion, Industrial and Jewellery Designers",,Male Share,62
-2324,"Graphic and Web Designers, and Illustrators",,Male Share,51
-2325,Interior Designers,,Male Share,76
-2326,Urban and Regional Planners,,Male Share,46
-2331,Chemical and Materials Engineers,,Male Share,20
-2332,Civil Engineering Professionals,,Male Share,12
-2333,Electrical Engineers,,Male Share,7
-2334,Electronics Engineers,,Male Share,6
-2335,"Industrial, Mechanical and Production Engineers",,Male Share,7
-2336,Mining Engineers,,Male Share,13
-2339,Other Engineering Professionals,,Male Share,15
-2341,Agricultural and Forestry Scientists,,Male Share,26
-2342,"Chemists, and Food and Wine Scientists",,Male Share,40
-2343,Environmental Scientists,,Male Share,41
-2344,"Geologists, Geophysicists and Hydrogeologists",,Male Share,25
-2345,Life Scientists,,Male Share,53
-2346,Medical Laboratory Scientists,,Male Share,71
-2347,Veterinarians,,Male Share,61
-2349,Other Natural and Physical Science Professionals,,Male Share,41
-2411,Early Childhood (Pre-primary School) Teachers,,Male Share,98
-2412,Primary School Teachers,,Male Share,85
-2413,Middle School Teachers,,Male Share,66
-2414,Secondary School Teachers,,Male Share,62
-2415,Special Education Teachers,,Male Share,86
-2421,University Lecturers and Tutors,,Male Share,49
-2422,Vocational Education Teachers,,Male Share,51
-2491,Education Advisers and Reviewers,,Male Share,71
-2492,Private Tutors and Teachers,,Male Share,71
-2493,Teachers of English to Speakers of Other Languages,,Male Share,76
-2511,Nutrition Professionals,,Male Share,94
-2512,Medical Imaging Professionals,,Male Share,71
-2513,Occupational & Environmental Health Professionals,,Male Share,44
-2514,Optometrists and Orthoptists,,Male Share,58
-2515,Pharmacists,,Male Share,62
-2519,Other Health Diagnostic & Promotion Professionals,,Male Share,79
-2521,Chiropractors and Osteopaths,,Male Share,44
-2522,Complementary Health Therapists,,Male Share,72
-2523,Dental Practitioners,,Male Share,42
-2524,Occupational Therapists,,Male Share,92
-2525,Physiotherapists,,Male Share,67
-2526,Podiatrists,,Male Share,60
-2527,Audiologists and Speech Pathologists,,Male Share,93
-2531,General Practitioners and Resident Medical Officers,,Male Share,46
-2532,Anaesthetists,,Male Share,33
-2533,Specialist Physicians,,Male Share,43
-2534,Psychiatrists,,Male Share,44
-2535,Surgeons,,Male Share,18
-2539,Other Medical Practitioners,,Male Share,46
-2541,Midwives,,Male Share,98
-2542,Nurse Educators and Researchers,,Male Share,91
-2543,Nurse Managers,,Male Share,87
-2544,Registered Nurses,,Male Share,89
-2611,ICT Business and Systems Analysts,,Male Share,30
-2612,Multimedia Specialists and Web Developers,,Male Share,17
-2613,Software and Applications Programmers,,Male Share,17
-2621,Database & Systems Administrators & ICT Security,,Male Share,21
-2631,Computer Network Professionals,,Male Share,8
-2632,ICT Support and Test Engineers,,Male Share,24
-2633,Telecommunications Engineering Professionals,,Male Share,17
-2711,Barristers,,Male Share,32
-2712,Judicial and Other Legal Professionals,,Male Share,58
-2713,Solicitors,,Male Share,51
-2721,Counsellors,,Male Share,77
-2722,Ministers of Religion,,Male Share,29
-2723,Psychologists and Psychotherapists,,Male Share,80
-2724,Social Professionals,,Male Share,64
-2725,Social Workers,,Male Share,84
-2726,"Welfare, Recreation and Community Arts Workers",,Male Share,78
-3111,Agricultural Technicians,,Male Share,37
-3112,Medical Technicians,,Male Share,79
-3113,Primary Products Inspectors,,Male Share,31
-3114,Science Technicians,,Male Share,53
-3121,"Architectural, Building & Surveying Technicians",,Male Share,11
-3122,Civil Engineering Draftspersons and Technicians,,Male Share,14
-3123,"Electrical Engineering Draftspersons, Technicians",,Male Share,7
-3124,"Electronic Engineering Draftspersons, Technicians",,Male Share,8
-3125,"Mechanical Engineering Draftspersons, Technicians",,Male Share,5
-3126,Safety Inspectors,,Male Share,20
-3129,Other Building and Engineering Technicians,,Male Share,11
-3131,ICT Support Technicians,,Male Share,22
-3132,Telecommunications Technical Specialists,,Male Share,10
-3211,Automotive Electricians,,Male Share,2
-3212,Motor Mechanics,,Male Share,1
-3221,"Metal Casting, Forging & Finishing Trades",,Male Share,5
-3222,Sheetmetal Trades Workers,,Male Share,1
-3223,Structural Steel and Welding Trades Workers,,Male Share,1
-3231,Aircraft Maintenance Engineers,,Male Share,3
-3232,Metal Fitters and Machinists,,Male Share,1
-3233,Precision Metal Trades Workers,,Male Share,7
-3234,Toolmakers and Engineering Patternmakers,,Male Share,3
-3241,Panelbeaters,,Male Share,2
-3242,Vehicle Body Builders and Trimmers,,Male Share,3
-3243,Vehicle Painters,,Male Share,2
-3311,Bricklayers and Stonemasons,,Male Share,1
-3312,Carpenters and Joiners,,Male Share,1
-3321,Floor Finishers,,Male Share,2
-3322,Painting Trades Workers,,Male Share,4
-3331,Glaziers,,Male Share,1
-3332,Plasterers,,Male Share,1
-3333,Roof Tilers,,Male Share,1
-3334,Wall and Floor Tilers,,Male Share,2
-3341,Plumbers,,Male Share,1
-3411,Electricians,,Male Share,2
-3421,Airconditioning and Refrigeration Mechanics,,Male Share,1
-3422,Electrical Distribution Trades Workers,,Male Share,1
-3423,Electronics Trades Workers,,Male Share,6
-3424,Telecommunications Trades Workers,,Male Share,4
-3511,Bakers and Pastrycooks,,Male Share,32
-3512,Butchers and Smallgoods Makers,,Male Share,6
-3513,Chefs,,Male Share,25
-3514,Cooks,,Male Share,54
-3611,Animal Attendants and Trainers,,Male Share,68
-3612,Shearers,,Male Share,3
-3613,Veterinary Nurses,,Male Share,97
-3621,Florists,,Male Share,92
-3622,Gardeners,,Male Share,11
-3623,Greenkeepers,,Male Share,3
-3624,Nurserypersons,,Male Share,40
-3911,Hairdressers,,Male Share,85
-3921,"Binders, Finishers and Screen Printers",,Male Share,26
-3922,Graphic Pre-press Trades Workers,,Male Share,34
-3923,Printers,,Male Share,13
-3931,Canvas and Leather Goods Makers,,Male Share,23
-3932,Clothing Trades Workers,,Male Share,80
-3933,Upholsterers,,Male Share,9
-3941,Cabinetmakers,,Male Share,2
-3942,Wood Machinists and Other Wood Trades Workers,,Male Share,18
-3991,Boat Builders and Shipwrights,,Male Share,2
-3992,"Chemical, Gas, Petroleum & Power Plant Operators",,Male Share,4
-3993,"Gallery, Library and Museum Technicians",,Male Share,86
-3994,Jewellers,,Male Share,34
-3995,Performing Arts Technicians,,Male Share,30
-3996,Signwriters,,Male Share,12
-3999,Other Technicians and Trades Workers,,Male Share,39
-4111,Ambulance Officers and Paramedics,,Male Share,37
-4112,"Dental Hygienists, Technicians and Therapists",,Male Share,60
-4113,Diversional Therapists,,Male Share,91
-4114,Enrolled and Mothercraft Nurses,,Male Share,90
-4115,Indigenous Health Workers,,Male Share,73
-4116,Massage Therapists,,Male Share,76
-4117,Welfare Support Workers,,Male Share,74
-4211,Child Carers,,Male Share,95
-4221,Education Aides,,Male Share,90
-4231,Aged and Disabled Carers,,Male Share,80
-4232,Dental Assistants,,Male Share,98
-4233,Nursing Support and Personal Care Workers,,Male Share,78
-4234,Special Care Workers,,Male Share,69
-4311,Bar Attendants and Baristas,,Male Share,59
-4312,Cafe Workers,,Male Share,81
-4313,Gaming Workers,,Male Share,43
-4314,Hotel Service Managers,,Male Share,62
-4315,Waiters,,Male Share,76
-4319,Other Hospitality Workers,,Male Share,45
-4411,Defence Force Members - Other Ranks,,Male Share,13
-4412,Fire and Emergency Workers,,Male Share,7
-4413,Police,,Male Share,27
-4421,Prison Officers,,Male Share,27
-4422,Security Officers and Guards,,Male Share,16
-4511,Beauty Therapists,,Male Share,97
-4512,Driving Instructors,,Male Share,23
-4513,Funeral Workers,,Male Share,45
-4514,"Gallery, Museum and Tour Guides",,Male Share,48
-4515,Personal Care Consultants,,Male Share,81
-4516,Tourism and Travel Advisers,,Male Share,80
-4517,Travel Attendants,,Male Share,74
-4518,Other Personal Service Workers,,Male Share,67
-4521,Fitness Instructors,,Male Share,60
-4522,Outdoor Adventure Guides,,Male Share,37
+2112,Music Professionals,,Male Share,71
+2113,Photographers,,Male Share,51
+2114,Visual Arts and Crafts Professionals,,Male Share,43
+2121,"Artistic Directors, Media Producers & Presenters",,Male Share,57
+2122,"Authors, and Book and Script Editors",,Male Share,33
+2123,"Film, Television, Radio and Stage Directors",,Male Share,71
+2124,Journalists and Other Writers,,Male Share,44
+2211,Accountants,,Male Share,48
+2212,"Auditors, Company Secretaries and Corporate Treasurers",,Male Share,52
+2221,Financial Brokers,,Male Share,66
+2222,Financial Dealers,,Male Share,70
+2223,Financial Investment Advisers and Managers,,Male Share,70
+2231,Human Resource Professionals,,Male Share,29
+2232,ICT Trainers,,Male Share,53
+2233,Training and Development Professionals,,Male Share,42
+2241,"Actuaries, Mathematicians and Statisticians",,Male Share,57
+2242,"Archivists, Curators and Records Managers",,Male Share,30
+2243,Economists,,Male Share,67
+2244,Intelligence and Policy Analysts,,Male Share,38
+2245,Land Economists and Valuers,,Male Share,75
+2246,Librarians,,Male Share,16
+2247,Management and Organisation Analysts,,Male Share,58
+2249,Other Information and Organisation Professionals,,Male Share,44
+2251,Advertising and Marketing Professionals,,Male Share,39
+2252,ICT Sales Professionals,,Male Share,75
+2253,Public Relations Professionals,,Male Share,27
+2254,Technical Sales Representatives,,Male Share,72
+2311,Air Transport Professionals,,Male Share,91
+2312,Marine Transport Professionals,,Male Share,95
+2321,Architects and Landscape Architects,,Male Share,66
+2322,Surveyors and Spatial Scientists,,Male Share,87
+2323,"Fashion, Industrial and Jewellery Designers",,Male Share,38
+2324,"Graphic and Web Designers, and Illustrators",,Male Share,49
+2325,Interior Designers,,Male Share,24
+2326,Urban and Regional Planners,,Male Share,54
+2331,Chemical and Materials Engineers,,Male Share,81
+2332,Civil Engineering Professionals,,Male Share,88
+2333,Electrical Engineers,,Male Share,93
+2334,Electronics Engineers,,Male Share,95
+2335,"Industrial, Mechanical and Production Engineers",,Male Share,93
+2336,Mining Engineers,,Male Share,87
+2339,Other Engineering Professionals,,Male Share,85
+2341,Agricultural and Forestry Scientists,,Male Share,74
+2342,"Chemists, and Food and Wine Scientists",,Male Share,60
+2343,Environmental Scientists,,Male Share,59
+2344,"Geologists, Geophysicists and Hydrogeologists",,Male Share,76
+2345,Life Scientists,,Male Share,47
+2346,Medical Laboratory Scientists,,Male Share,29
+2347,Veterinarians,,Male Share,39
+2349,Other Natural and Physical Science Professionals,,Male Share,59
+2411,Early Childhood (Pre-primary School) Teachers,,Male Share,2
+2412,Primary School Teachers,,Male Share,15
+2413,Middle School Teachers,,Male Share,34
+2414,Secondary School Teachers,,Male Share,38
+2415,Special Education Teachers,,Male Share,14
+2421,University Lecturers and Tutors,,Male Share,51
+2422,Vocational Education Teachers,,Male Share,49
+2491,Education Advisers and Reviewers,,Male Share,29
+2492,Private Tutors and Teachers,,Male Share,29
+2493,Teachers of English to Speakers of Other Languages,,Male Share,24
+2511,Nutrition Professionals,,Male Share,6
+2512,Medical Imaging Professionals,,Male Share,29
+2513,Occupational & Environmental Health Professionals,,Male Share,56
+2514,Optometrists and Orthoptists,,Male Share,42
+2515,Pharmacists,,Male Share,38
+2519,Other Health Diagnostic & Promotion Professionals,,Male Share,21
+2521,Chiropractors and Osteopaths,,Male Share,56
+2522,Complementary Health Therapists,,Male Share,28
+2523,Dental Practitioners,,Male Share,58
+2524,Occupational Therapists,,Male Share,8
+2525,Physiotherapists,,Male Share,33
+2526,Podiatrists,,Male Share,40
+2527,Audiologists and Speech Pathologists,,Male Share,7
+2531,General Practitioners and Resident Medical Officers,,Male Share,54
+2532,Anaesthetists,,Male Share,67
+2533,Specialist Physicians,,Male Share,57
+2534,Psychiatrists,,Male Share,56
+2535,Surgeons,,Male Share,82
+2539,Other Medical Practitioners,,Male Share,54
+2541,Midwives,,Male Share,2
+2542,Nurse Educators and Researchers,,Male Share,9
+2543,Nurse Managers,,Male Share,13
+2544,Registered Nurses,,Male Share,11
+2611,ICT Business and Systems Analysts,,Male Share,70
+2612,Multimedia Specialists and Web Developers,,Male Share,83
+2613,Software and Applications Programmers,,Male Share,83
+2621,Database & Systems Administrators & ICT Security,,Male Share,79
+2631,Computer Network Professionals,,Male Share,92
+2632,ICT Support and Test Engineers,,Male Share,76
+2633,Telecommunications Engineering Professionals,,Male Share,83
+2711,Barristers,,Male Share,68
+2712,Judicial and Other Legal Professionals,,Male Share,42
+2713,Solicitors,,Male Share,49
+2721,Counsellors,,Male Share,23
+2722,Ministers of Religion,,Male Share,72
+2723,Psychologists and Psychotherapists,,Male Share,20
+2724,Social Professionals,,Male Share,36
+2725,Social Workers,,Male Share,16
+2726,"Welfare, Recreation and Community Arts Workers",,Male Share,22
+3111,Agricultural Technicians,,Male Share,64
+3112,Medical Technicians,,Male Share,21
+3113,Primary Products Inspectors,,Male Share,69
+3114,Science Technicians,,Male Share,47
+3121,"Architectural, Building & Surveying Technicians",,Male Share,89
+3122,Civil Engineering Draftspersons and Technicians,,Male Share,86
+3123,"Electrical Engineering Draftspersons, Technicians",,Male Share,93
+3124,"Electronic Engineering Draftspersons, Technicians",,Male Share,92
+3125,"Mechanical Engineering Draftspersons, Technicians",,Male Share,95
+3126,Safety Inspectors,,Male Share,80
+3129,Other Building and Engineering Technicians,,Male Share,89
+3131,ICT Support Technicians,,Male Share,78
+3132,Telecommunications Technical Specialists,,Male Share,89
+3211,Automotive Electricians,,Male Share,98
+3212,Motor Mechanics,,Male Share,99
+3221,"Metal Casting, Forging & Finishing Trades",,Male Share,95
+3222,Sheetmetal Trades Workers,,Male Share,99
+3223,Structural Steel and Welding Trades Workers,,Male Share,99
+3231,Aircraft Maintenance Engineers,,Male Share,97
+3232,Metal Fitters and Machinists,,Male Share,99
+3233,Precision Metal Trades Workers,,Male Share,93
+3234,Toolmakers and Engineering Patternmakers,,Male Share,97
+3241,Panelbeaters,,Male Share,98
+3242,Vehicle Body Builders and Trimmers,,Male Share,97
+3243,Vehicle Painters,,Male Share,98
+3311,Bricklayers and Stonemasons,,Male Share,99
+3312,Carpenters and Joiners,,Male Share,99
+3321,Floor Finishers,,Male Share,98
+3322,Painting Trades Workers,,Male Share,96
+3331,Glaziers,,Male Share,99
+3332,Plasterers,,Male Share,99
+3333,Roof Tilers,,Male Share,99
+3334,Wall and Floor Tilers,,Male Share,98
+3341,Plumbers,,Male Share,99
+3411,Electricians,,Male Share,99
+3421,Airconditioning and Refrigeration Mechanics,,Male Share,99
+3422,Electrical Distribution Trades Workers,,Male Share,99
+3423,Electronics Trades Workers,,Male Share,94
+3424,Telecommunications Trades Workers,,Male Share,97
+3511,Bakers and Pastrycooks,,Male Share,68
+3512,Butchers and Smallgoods Makers,,Male Share,94
+3513,Chefs,,Male Share,75
+3514,Cooks,,Male Share,46
+3611,Animal Attendants and Trainers,,Male Share,33
+3612,Shearers,,Male Share,97
+3613,Veterinary Nurses,,Male Share,3
+3621,Florists,,Male Share,8
+3622,Gardeners,,Male Share,90
+3623,Greenkeepers,,Male Share,97
+3624,Nurserypersons,,Male Share,60
+3911,Hairdressers,,Male Share,15
+3921,"Binders, Finishers and Screen Printers",,Male Share,74
+3922,Graphic Pre-press Trades Workers,,Male Share,66
+3923,Printers,,Male Share,87
+3931,Canvas and Leather Goods Makers,,Male Share,77
+3932,Clothing Trades Workers,,Male Share,20
+3933,Upholsterers,,Male Share,91
+3941,Cabinetmakers,,Male Share,98
+3942,Wood Machinists and Other Wood Trades Workers,,Male Share,82
+3991,Boat Builders and Shipwrights,,Male Share,98
+3992,"Chemical, Gas, Petroleum & Power Plant Operators",,Male Share,96
+3993,"Gallery, Library and Museum Technicians",,Male Share,14
+3994,Jewellers,,Male Share,66
+3995,Performing Arts Technicians,,Male Share,70
+3996,Signwriters,,Male Share,88
+3999,Other Technicians and Trades Workers,,Male Share,61
+4111,Ambulance Officers and Paramedics,,Male Share,63
+4112,"Dental Hygienists, Technicians and Therapists",,Male Share,40
+4113,Diversional Therapists,,Male Share,9
+4114,Enrolled and Mothercraft Nurses,,Male Share,10
+4115,Indigenous Health Workers,,Male Share,27
+4116,Massage Therapists,,Male Share,24
+4117,Welfare Support Workers,,Male Share,26
+4211,Child Carers,,Male Share,5
+4221,Education Aides,,Male Share,10
+4231,Aged and Disabled Carers,,Male Share,20
+4232,Dental Assistants,,Male Share,2
+4233,Nursing Support and Personal Care Workers,,Male Share,22
+4234,Special Care Workers,,Male Share,31
+4311,Bar Attendants and Baristas,,Male Share,41
+4312,Cafe Workers,,Male Share,19
+4313,Gaming Workers,,Male Share,57
+4314,Hotel Service Managers,,Male Share,38
+4315,Waiters,,Male Share,24
+4319,Other Hospitality Workers,,Male Share,55
+4411,Defence Force Members - Other Ranks,,Male Share,87
+4412,Fire and Emergency Workers,,Male Share,93
+4413,Police,,Male Share,73
+4421,Prison Officers,,Male Share,73
+4422,Security Officers and Guards,,Male Share,84
+4511,Beauty Therapists,,Male Share,3
+4512,Driving Instructors,,Male Share,77
+4513,Funeral Workers,,Male Share,55
+4514,"Gallery, Museum and Tour Guides",,Male Share,52
+4515,Personal Care Consultants,,Male Share,19
+4516,Tourism and Travel Advisers,,Male Share,20
+4517,Travel Attendants,,Male Share,26
+4518,Other Personal Service Workers,,Male Share,33
+4521,Fitness Instructors,,Male Share,40
+4522,Outdoor Adventure Guides,,Male Share,63
 4523,"Sports Coaches, Instructors and Officials",,Male Share,50
-4524,Sportspersons,,Male Share,25
-5111,"Contract, Program and Project Administrators",,Male Share,55
-5121,Office Managers,,Male Share,88
-5122,Practice Managers,,Male Share,90
-5211,Personal Assistants,,Male Share,97
-5212,Secretaries,,Male Share,97
-5311,General Clerks,,Male Share,85
-5321,Keyboard Operators,,Male Share,84
-5411,Call or Contact Centre Workers,,Male Share,70
-5412,Information Officers,,Male Share,70
-5421,Receptionists,,Male Share,95
-5511,Accounting Clerks,,Male Share,81
-5512,Bookkeepers,,Male Share,91
-5513,Payroll Clerks,,Male Share,86
-5521,Bank Workers,,Male Share,70
-5522,Credit and Loans Officers,,Male Share,56
-5523,"Insurance, Money Market and Statistical Clerks",,Male Share,70
-5611,Betting Clerks,,Male Share,67
-5612,Couriers and Postal Deliverers,,Male Share,17
-5613,Filing and Registry Clerks,,Male Share,79
+4524,Sportspersons,,Male Share,75
+5111,"Contract, Program and Project Administrators",,Male Share,45
+5121,Office Managers,,Male Share,12
+5122,Practice Managers,,Male Share,10
+5211,Personal Assistants,,Male Share,3
+5212,Secretaries,,Male Share,3
+5311,General Clerks,,Male Share,15
+5321,Keyboard Operators,,Male Share,16
+5411,Call or Contact Centre Workers,,Male Share,30
+5412,Information Officers,,Male Share,30
+5421,Receptionists,,Male Share,5
+5511,Accounting Clerks,,Male Share,19
+5512,Bookkeepers,,Male Share,9
+5513,Payroll Clerks,,Male Share,14
+5521,Bank Workers,,Male Share,30
+5522,Credit and Loans Officers,,Male Share,44
+5523,"Insurance, Money Market and Statistical Clerks",,Male Share,30
+5611,Betting Clerks,,Male Share,33
+5612,Couriers and Postal Deliverers,,Male Share,83
+5613,Filing and Registry Clerks,,Male Share,22
 5614,Mail Sorters,,Male Share,50
-5615,Survey Interviewers,,Male Share,59
-5616,Switchboard Operators,,Male Share,81
-5619,Other Clerical and Office Support Workers,,Male Share,57
-5911,Purchasing and Supply Logistics Clerks,,Male Share,44
-5912,Transport and Despatch Clerks,,Male Share,35
-5991,Conveyancers and Legal Executives,,Male Share,82
-5992,Court and Legal Clerks,,Male Share,75
-5993,Debt Collectors,,Male Share,62
-5994,Human Resource Clerks,,Male Share,76
-5995,Inspectors and Regulatory Officers,,Male Share,51
-5996,"Insurance Investigators, Loss Adjusters and Risk Surveyors",,Male Share,31
-5997,Library Assistants,,Male Share,87
-5999,Other Clerical & Administrative Workers,,Male Share,64
-6111,"Auctioneers, and Stock and Station Agents",,Male Share,10
-6112,Insurance Agents,,Male Share,53
-6113,Sales Representatives,,Male Share,36
+5615,Survey Interviewers,,Male Share,41
+5616,Switchboard Operators,,Male Share,19
+5619,Other Clerical and Office Support Workers,,Male Share,43
+5911,Purchasing and Supply Logistics Clerks,,Male Share,56
+5912,Transport and Despatch Clerks,,Male Share,65
+5991,Conveyancers and Legal Executives,,Male Share,18
+5992,Court and Legal Clerks,,Male Share,25
+5993,Debt Collectors,,Male Share,38
+5994,Human Resource Clerks,,Male Share,24
+5995,Inspectors and Regulatory Officers,,Male Share,49
+5996,"Insurance Investigators, Loss Adjusters and Risk Surveyors",,Male Share,69
+5997,Library Assistants,,Male Share,13
+5999,Other Clerical & Administrative Workers,,Male Share,36
+6111,"Auctioneers, and Stock and Station Agents",,Male Share,90
+6112,Insurance Agents,,Male Share,47
+6113,Sales Representatives,,Male Share,64
 6121,Real Estate Sales Agents,,Male Share,50
-6211,Sales Assistants (General),,Male Share,68
-6212,ICT Sales Assistants,,Male Share,35
-6213,Motor Vehicle and Vehicle Parts Salespersons,,Male Share,16
-6214,Pharmacy Sales Assistants,,Male Share,90
-6215,Retail Supervisors,,Male Share,58
-6216,Service Station Attendants,,Male Share,47
-6217,Street Vendors and Related Salespersons,,Male Share,53
-6219,Other Sales Assistants and Salespersons,,Male Share,33
-6311,Checkout Operators and Office Cashiers,,Male Share,75
-6391,Models and Sales Demonstrators,,Male Share,81
-6392,Retail and Wool Buyers,,Male Share,55
-6393,Telemarketers,,Male Share,59
-6394,Ticket Salespersons,,Male Share,67
-6395,Visual Merchandisers,,Male Share,85
-6399,Other Sales Support Workers,,Male Share,66
-7111,"Clay, Concrete, Glass & Stone Machine Operators",,Male Share,3
-7112,Industrial Spraypainters,,Male Share,2
-7113,Paper and Wood Processing Machine Operators,,Male Share,6
-7114,Photographic Developers and Printers,,Male Share,61
-7115,Plastics and Rubber Production Machine Operators,,Male Share,9
-7116,Sewing Machinists,,Male Share,82
-7117,Textile & Footwear Production Machine Operators,,Male Share,33
-7119,Other Machine Operators,,Male Share,38
-7121,"Crane, Hoist and Lift Operators",,Male Share,3
-7122,"Drillers, Miners and Shot Firers",,Male Share,7
-7123,Engineering Production Workers,,Male Share,4
-7129,Other Stationary Plant Operators,,Male Share,8
-7211,"Agricultural, Forestry & Horticultural Operators",,Male Share,6
-7212,Earthmoving Plant Operators,,Male Share,2
-7213,Forklift Drivers,,Male Share,4
-7219,Other Mobile Plant Operators,,Male Share,10
-7311,Automobile Drivers,,Male Share,6
-7312,Bus and Coach Drivers,,Male Share,13
-7313,Train and Tram Drivers,,Male Share,9
-7321,Delivery Drivers,,Male Share,10
-7331,Truck Drivers,,Male Share,3
-7411,Storepersons,,Male Share,21
-8111,Car Detailers,,Male Share,12
-8112,Commercial Cleaners,,Male Share,57
-8113,Domestic Cleaners,,Male Share,77
-8114,Housekeepers,,Male Share,84
-8115,Laundry Workers,,Male Share,69
-8116,Other Cleaners,,Male Share,12
-8211,Building and Plumbing Labourers,,Male Share,3
-8212,Concreters,,Male Share,1
-8213,Fencers,,Male Share,4
-8214,Insulation and Home Improvement Installers,,Male Share,3
-8215,Paving and Surfacing Labourers,,Male Share,2
-8216,Railway Track Workers,,Male Share,4
-8217,Structural Steel Construction Workers,,Male Share,1
-8219,Other Construction and Mining Labourers,,Male Share,5
-8311,Food and Drink Factory Workers,,Male Share,30
-8312,"Meat Boners and Slicers, and Slaughterers",,Male Share,12
-8313,"Meat, Poultry and Seafood Process Workers",,Male Share,28
-8321,Packers,,Male Share,59
-8322,Product Assemblers,,Male Share,25
-8391,Metal Engineering Process Workers,,Male Share,6
-8392,Plastics and Rubber Factory Workers,,Male Share,25
-8393,Product Quality Controllers,,Male Share,46
-8394,Timber and Wood Process Workers,,Male Share,8
-8399,Other Factory Process Workers,,Male Share,23
-8411,Aquaculture Workers,,Male Share,14
-8412,Crop Farm Workers,,Male Share,31
-8413,Forestry and Logging Workers,,Male Share,10
-8414,Garden and Nursery Labourers,,Male Share,18
-8415,Livestock Farm Workers,,Male Share,37
-8416,Mixed Crop and Livestock Farm Workers,,Male Share,17
-8419,"Other Farm, Forestry and Garden Workers",,Male Share,11
-8511,Fast Food Cooks,,Male Share,29
-8512,Food Trades Assistants,,Male Share,59
-8513,Kitchenhands,,Male Share,55
-8911,Freight and Furniture Handlers,,Male Share,6
-8912,Shelf Fillers,,Male Share,39
-8991,Caretakers,,Male Share,15
-8992,Deck and Fishing Hands,,Male Share,8
-8993,Handypersons,,Male Share,4
-8994,Motor Vehicle Parts and Accessories Fitters,,Male Share,2
-8995,Printing Assistants and Table Workers,,Male Share,46
-8996,Recycling and Rubbish Collectors,,Male Share,6
-8997,Vending Machine Attendants,,Male Share,64
-8999,Other Miscellaneous Labourers,,Male Share,24
-1111,Chief Executives and Managing Directors,,Female Share,88
-1112,General Managers,,Female Share,89
-1113,Legislators,,Female Share,74
-1211,Aquaculture Farmers,,Female Share,79
-1212,Crop Farmers,,Female Share,78
-1213,Livestock Farmers,,Female Share,77
-1214,Mixed Crop and Livestock Farmers,,Female Share,84
-1311,"Advertising, Public Relations and Sales Manager",,Female Share,89
-1321,Corporate Services Managers,,Female Share,87
-1322,Finance Managers,,Female Share,86
-1323,Human Resource Managers,,Female Share,87
-1324,Policy and Planning Managers,,Female Share,86
-1332,Engineering Managers,,Female Share,94
-1333,"Importers, Exporters and Wholesalers",,Female Share,81
-1336,"Supply, Distribution and Procurement Managers",,Female Share,94
-1341,Child Care Centre Managers,,Female Share,71
-1342,Health and Welfare Services Managers,,Female Share,85
-1343,School Principals,,Female Share,96
-1344,Other Education Managers,,Female Share,85
-1351,ICT Managers,,Female Share,94
-1391,Commissioned Officers (Management),,Female Share,93
-1392,Senior Non-Commissioned Defence Force Officers,,Female Share,93
-1399,Other Specialist Managers,,Female Share,88
-1411,Cafe and Restaurant Managers,,Female Share,76
-1412,Caravan Park and Camping Ground Managers,,Female Share,84
-1413,Hotel and Motel Managers,,Female Share,87
-1414,Licensed Club Managers,,Female Share,83
-1419,Other Accommodation and Hospitality Managers,,Female Share,65
-1421,Retail Managers,,Female Share,82
-1491,"Amusement, Fitness and Sports Centre Managers",,Female Share,72
-1492,"Call, Contact Centre & Customer Service Managers",,Female Share,90
-1493,Conference and Event Organisers,,Female Share,71
-1494,Transport Services Managers,,Female Share,86
-1499,"Other Hospitality, Retail and Service Managers",,Female Share,85
-2111,"Actors, Dancers and Other Entertainers",,Female Share,32
-2112,Music Professionals,,Female Share,33
-2113,Photographers,,Female Share,48
-2114,Visual Arts and Crafts Professionals,,Female Share,49
-2121,"Artistic Directors, Media Producers & Presenters",,Female Share,76
-2122,"Authors, and Book and Script Editors",,Female Share,51
-2123,"Film, Television, Radio and Stage Directors",,Female Share,76
-2124,Journalists and Other Writers,,Female Share,68
-2211,Accountants,,Female Share,80
-2212,"Auditors, Company Secretaries and Corporate Treasurers",,Female Share,86
-2221,Financial Brokers,,Female Share,83
-2222,Financial Dealers,,Female Share,89
-2223,Financial Investment Advisers and Managers,,Female Share,84
-2231,Human Resource Professionals,,Female Share,81
-2232,ICT Trainers,,Female Share,68
-2233,Training and Development Professionals,,Female Share,77
-2241,"Actuaries, Mathematicians and Statisticians",,Female Share,79
-2242,"Archivists, Curators and Records Managers",,Female Share,69
-2243,Economists,,Female Share,84
-2244,Intelligence and Policy Analysts,,Female Share,80
-2245,Land Economists and Valuers,,Female Share,83
-2246,Librarians,,Female Share,61
-2247,Management and Organisation Analysts,,Female Share,79
-2249,Other Information and Organisation Professionals,,Female Share,77
-2251,Advertising and Marketing Professionals,,Female Share,78
-2252,ICT Sales Professionals,,Female Share,92
-2253,Public Relations Professionals,,Female Share,74
-2254,Technical Sales Representatives,,Female Share,91
-2311,Air Transport Professionals,,Female Share,78
-2312,Marine Transport Professionals,,Female Share,84
-2321,Architects and Landscape Architects,,Female Share,81
-2322,Surveyors and Spatial Scientists,,Female Share,87
-2323,"Fashion, Industrial and Jewellery Designers",,Female Share,74
-2324,"Graphic and Web Designers, and Illustrators",,Female Share,70
-2325,Interior Designers,,Female Share,69
-2326,Urban and Regional Planners,,Female Share,80
-2331,Chemical and Materials Engineers,,Female Share,88
-2332,Civil Engineering Professionals,,Female Share,90
-2333,Electrical Engineers,,Female Share,91
-2334,Electronics Engineers,,Female Share,89
-2335,"Industrial, Mechanical and Production Engineers",,Female Share,92
-2336,Mining Engineers,,Female Share,91
-2339,Other Engineering Professionals,,Female Share,89
-2341,Agricultural and Forestry Scientists,,Female Share,81
-2342,"Chemists, and Food and Wine Scientists",,Female Share,83
-2343,Environmental Scientists,,Female Share,76
-2344,"Geologists, Geophysicists and Hydrogeologists",,Female Share,83
-2345,Life Scientists,,Female Share,75
+6211,Sales Assistants (General),,Male Share,32
+6212,ICT Sales Assistants,,Male Share,66
+6213,Motor Vehicle and Vehicle Parts Salespersons,,Male Share,84
+6214,Pharmacy Sales Assistants,,Male Share,10
+6215,Retail Supervisors,,Male Share,42
+6216,Service Station Attendants,,Male Share,53
+6217,Street Vendors and Related Salespersons,,Male Share,47
+6219,Other Sales Assistants and Salespersons,,Male Share,67
+6311,Checkout Operators and Office Cashiers,,Male Share,25
+6391,Models and Sales Demonstrators,,Male Share,19
+6392,Retail and Wool Buyers,,Male Share,45
+6393,Telemarketers,,Male Share,41
+6394,Ticket Salespersons,,Male Share,33
+6395,Visual Merchandisers,,Male Share,15
+6399,Other Sales Support Workers,,Male Share,34
+7111,"Clay, Concrete, Glass & Stone Machine Operators",,Male Share,97
+7112,Industrial Spraypainters,,Male Share,98
+7113,Paper and Wood Processing Machine Operators,,Male Share,94
+7114,Photographic Developers and Printers,,Male Share,40
+7115,Plastics and Rubber Production Machine Operators,,Male Share,91
+7116,Sewing Machinists,,Male Share,18
+7117,Textile & Footwear Production Machine Operators,,Male Share,67
+7119,Other Machine Operators,,Male Share,62
+7121,"Crane, Hoist and Lift Operators",,Male Share,97
+7122,"Drillers, Miners and Shot Firers",,Male Share,93
+7123,Engineering Production Workers,,Male Share,96
+7129,Other Stationary Plant Operators,,Male Share,92
+7211,"Agricultural, Forestry & Horticultural Operators",,Male Share,95
+7212,Earthmoving Plant Operators,,Male Share,98
+7213,Forklift Drivers,,Male Share,96
+7219,Other Mobile Plant Operators,,Male Share,90
+7311,Automobile Drivers,,Male Share,94
+7312,Bus and Coach Drivers,,Male Share,87
+7313,Train and Tram Drivers,,Male Share,91
+7321,Delivery Drivers,,Male Share,90
+7331,Truck Drivers,,Male Share,97
+7411,Storepersons,,Male Share,80
+8111,Car Detailers,,Male Share,88
+8112,Commercial Cleaners,,Male Share,43
+8113,Domestic Cleaners,,Male Share,23
+8114,Housekeepers,,Male Share,16
+8115,Laundry Workers,,Male Share,32
+8116,Other Cleaners,,Male Share,88
+8211,Building and Plumbing Labourers,,Male Share,98
+8212,Concreters,,Male Share,99
+8213,Fencers,,Male Share,96
+8214,Insulation and Home Improvement Installers,,Male Share,97
+8215,Paving and Surfacing Labourers,,Male Share,98
+8216,Railway Track Workers,,Male Share,96
+8217,Structural Steel Construction Workers,,Male Share,99
+8219,Other Construction and Mining Labourers,,Male Share,95
+8311,Food and Drink Factory Workers,,Male Share,70
+8312,"Meat Boners and Slicers, and Slaughterers",,Male Share,88
+8313,"Meat, Poultry and Seafood Process Workers",,Male Share,72
+8321,Packers,,Male Share,41
+8322,Product Assemblers,,Male Share,76
+8391,Metal Engineering Process Workers,,Male Share,94
+8392,Plastics and Rubber Factory Workers,,Male Share,76
+8393,Product Quality Controllers,,Male Share,54
+8394,Timber and Wood Process Workers,,Male Share,92
+8399,Other Factory Process Workers,,Male Share,77
+8411,Aquaculture Workers,,Male Share,86
+8412,Crop Farm Workers,,Male Share,69
+8413,Forestry and Logging Workers,,Male Share,90
+8414,Garden and Nursery Labourers,,Male Share,82
+8415,Livestock Farm Workers,,Male Share,64
+8416,Mixed Crop and Livestock Farm Workers,,Male Share,83
+8419,"Other Farm, Forestry and Garden Workers",,Male Share,89
+8511,Fast Food Cooks,,Male Share,71
+8512,Food Trades Assistants,,Male Share,41
+8513,Kitchenhands,,Male Share,45
+8911,Freight and Furniture Handlers,,Male Share,94
+8912,Shelf Fillers,,Male Share,61
+8991,Caretakers,,Male Share,85
+8992,Deck and Fishing Hands,,Male Share,92
+8993,Handypersons,,Male Share,97
+8994,Motor Vehicle Parts and Accessories Fitters,,Male Share,98
+8995,Printing Assistants and Table Workers,,Male Share,55
+8996,Recycling and Rubbish Collectors,,Male Share,95
+8997,Vending Machine Attendants,,Male Share,37
+8999,Other Miscellaneous Labourers,,Male Share,76
+1111,Chief Executives and Managing Directors,,Female Share,21
+1112,General Managers,,Female Share,29
+1113,Legislators,,Female Share,41
+1211,Aquaculture Farmers,,Female Share,15
+1212,Crop Farmers,,Female Share,25
+1213,Livestock Farmers,,Female Share,32
+1214,Mixed Crop and Livestock Farmers,,Female Share,25
+1311,"Advertising, Public Relations and Sales Manager",,Female Share,41
+1321,Corporate Services Managers,,Female Share,62
+1322,Finance Managers,,Female Share,46
+1323,Human Resource Managers,,Female Share,57
+1324,Policy and Planning Managers,,Female Share,56
+1332,Engineering Managers,,Female Share,9
+1333,"Importers, Exporters and Wholesalers",,Female Share,25
+1336,"Supply, Distribution and Procurement Managers",,Female Share,22
+1341,Child Care Centre Managers,,Female Share,92
+1342,Health and Welfare Services Managers,,Female Share,74
+1343,School Principals,,Female Share,60
+1344,Other Education Managers,,Female Share,61
+1351,ICT Managers,,Female Share,21
+1391,Commissioned Officers (Management),,Female Share,15
+1392,Senior Non-Commissioned Defence Force Officers,,Female Share,15
+1399,Other Specialist Managers,,Female Share,40
+1411,Cafe and Restaurant Managers,,Female Share,54
+1412,Caravan Park and Camping Ground Managers,,Female Share,48
+1413,Hotel and Motel Managers,,Female Share,43
+1414,Licensed Club Managers,,Female Share,43
+1419,Other Accommodation and Hospitality Managers,,Female Share,60
+1421,Retail Managers,,Female Share,50
+1491,"Amusement, Fitness and Sports Centre Managers",,Female Share,44
+1492,"Call, Contact Centre & Customer Service Managers",,Female Share,44
+1493,Conference and Event Organisers,,Female Share,75
+1494,Transport Services Managers,,Female Share,18
+1499,"Other Hospitality, Retail and Service Managers",,Female Share,33
+2111,"Actors, Dancers and Other Entertainers",,Female Share,50
+2112,Music Professionals,,Female Share,29
+2113,Photographers,,Female Share,49
+2114,Visual Arts and Crafts Professionals,,Female Share,57
+2121,"Artistic Directors, Media Producers & Presenters",,Female Share,43
+2122,"Authors, and Book and Script Editors",,Female Share,67
+2123,"Film, Television, Radio and Stage Directors",,Female Share,29
+2124,Journalists and Other Writers,,Female Share,56
+2211,Accountants,,Female Share,52
+2212,"Auditors, Company Secretaries and Corporate Treasurers",,Female Share,48
+2221,Financial Brokers,,Female Share,34
+2222,Financial Dealers,,Female Share,31
+2223,Financial Investment Advisers and Managers,,Female Share,31
+2231,Human Resource Professionals,,Female Share,72
+2232,ICT Trainers,,Female Share,47
+2233,Training and Development Professionals,,Female Share,58
+2241,"Actuaries, Mathematicians and Statisticians",,Female Share,43
+2242,"Archivists, Curators and Records Managers",,Female Share,71
+2243,Economists,,Female Share,33
+2244,Intelligence and Policy Analysts,,Female Share,62
+2245,Land Economists and Valuers,,Female Share,25
+2246,Librarians,,Female Share,84
+2247,Management and Organisation Analysts,,Female Share,42
+2249,Other Information and Organisation Professionals,,Female Share,56
+2251,Advertising and Marketing Professionals,,Female Share,61
+2252,ICT Sales Professionals,,Female Share,25
+2253,Public Relations Professionals,,Female Share,73
+2254,Technical Sales Representatives,,Female Share,28
+2311,Air Transport Professionals,,Female Share,9
+2312,Marine Transport Professionals,,Female Share,5
+2321,Architects and Landscape Architects,,Female Share,34
+2322,Surveyors and Spatial Scientists,,Female Share,13
+2323,"Fashion, Industrial and Jewellery Designers",,Female Share,62
+2324,"Graphic and Web Designers, and Illustrators",,Female Share,51
+2325,Interior Designers,,Female Share,76
+2326,Urban and Regional Planners,,Female Share,46
+2331,Chemical and Materials Engineers,,Female Share,20
+2332,Civil Engineering Professionals,,Female Share,12
+2333,Electrical Engineers,,Female Share,7
+2334,Electronics Engineers,,Female Share,6
+2335,"Industrial, Mechanical and Production Engineers",,Female Share,7
+2336,Mining Engineers,,Female Share,13
+2339,Other Engineering Professionals,,Female Share,15
+2341,Agricultural and Forestry Scientists,,Female Share,26
+2342,"Chemists, and Food and Wine Scientists",,Female Share,40
+2343,Environmental Scientists,,Female Share,41
+2344,"Geologists, Geophysicists and Hydrogeologists",,Female Share,25
+2345,Life Scientists,,Female Share,53
 2346,Medical Laboratory Scientists,,Female Share,71
-2347,Veterinarians,,Female Share,72
-2349,Other Natural and Physical Science Professionals,,Female Share,74
-2411,Early Childhood (Pre-primary School) Teachers,,Female Share,56
-2412,Primary School Teachers,,Female Share,65
-2413,Middle School Teachers,,Female Share,83
-2414,Secondary School Teachers,,Female Share,76
-2415,Special Education Teachers,,Female Share,59
-2421,University Lecturers and Tutors,,Female Share,59
-2422,Vocational Education Teachers,,Female Share,58
-2491,Education Advisers and Reviewers,,Female Share,67
-2492,Private Tutors and Teachers,,Female Share,20
-2493,Teachers of English to Speakers of Other Languages,,Female Share,37
-2511,Nutrition Professionals,,Female Share,51
-2512,Medical Imaging Professionals,,Female Share,67
-2513,Occupational & Environmental Health Professionals,,Female Share,82
-2514,Optometrists and Orthoptists,,Female Share,64
-2515,Pharmacists,,Female Share,68
-2519,Other Health Diagnostic & Promotion Professionals,,Female Share,59
-2521,Chiropractors and Osteopaths,,Female Share,52
-2522,Complementary Health Therapists,,Female Share,37
-2523,Dental Practitioners,,Female Share,64
-2524,Occupational Therapists,,Female Share,58
-2525,Physiotherapists,,Female Share,63
-2526,Podiatrists,,Female Share,64
-2527,Audiologists and Speech Pathologists,,Female Share,57
-2531,General Practitioners and Resident Medical Officers,,Female Share,76
-2532,Anaesthetists,,Female Share,81
-2533,Specialist Physicians,,Female Share,79
-2534,Psychiatrists,,Female Share,71
-2535,Surgeons,,Female Share,87
-2539,Other Medical Practitioners,,Female Share,79
-2541,Midwives,,Female Share,39
-2542,Nurse Educators and Researchers,,Female Share,59
-2543,Nurse Managers,,Female Share,76
-2544,Registered Nurses,,Female Share,50
-2611,ICT Business and Systems Analysts,,Female Share,90
-2612,Multimedia Specialists and Web Developers,,Female Share,80
-2613,Software and Applications Programmers,,Female Share,90
-2621,Database & Systems Administrators & ICT Security,,Female Share,89
-2631,Computer Network Professionals,,Female Share,92
-2632,ICT Support and Test Engineers,,Female Share,91
-2633,Telecommunications Engineering Professionals,,Female Share,92
-2711,Barristers,,Female Share,85
-2712,Judicial and Other Legal Professionals,,Female Share,73
-2713,Solicitors,,Female Share,84
-2721,Counsellors,,Female Share,51
-2722,Ministers of Religion,,Female Share,70
-2723,Psychologists and Psychotherapists,,Female Share,52
-2724,Social Professionals,,Female Share,39
-2725,Social Workers,,Female Share,64
-2726,"Welfare, Recreation and Community Arts Workers",,Female Share,63
-3111,Agricultural Technicians,,Female Share,80
-3112,Medical Technicians,,Female Share,53
-3113,Primary Products Inspectors,,Female Share,81
-3114,Science Technicians,,Female Share,71
-3121,"Architectural, Building & Surveying Technicians",,Female Share,89
-3122,Civil Engineering Draftspersons and Technicians,,Female Share,89
-3123,"Electrical Engineering Draftspersons, Technicians",,Female Share,87
-3124,"Electronic Engineering Draftspersons, Technicians",,Female Share,88
-3125,"Mechanical Engineering Draftspersons, Technicians",,Female Share,89
-3126,Safety Inspectors,,Female Share,84
-3129,Other Building and Engineering Technicians,,Female Share,94
-3131,ICT Support Technicians,,Female Share,83
-3132,Telecommunications Technical Specialists,,Female Share,93
-3211,Automotive Electricians,,Female Share,90
-3212,Motor Mechanics,,Female Share,90
-3221,"Metal Casting, Forging & Finishing Trades",,Female Share,77
-3222,Sheetmetal Trades Workers,,Female Share,92
-3223,Structural Steel and Welding Trades Workers,,Female Share,91
-3231,Aircraft Maintenance Engineers,,Female Share,94
-3232,Metal Fitters and Machinists,,Female Share,93
-3233,Precision Metal Trades Workers,,Female Share,84
-3234,Toolmakers and Engineering Patternmakers,,Female Share,88
-3241,Panelbeaters,,Female Share,89
-3242,Vehicle Body Builders and Trimmers,,Female Share,89
-3243,Vehicle Painters,,Female Share,91
-3311,Bricklayers and Stonemasons,,Female Share,78
-3312,Carpenters and Joiners,,Female Share,87
-3321,Floor Finishers,,Female Share,73
-3322,Painting Trades Workers,,Female Share,76
-3331,Glaziers,,Female Share,89
-3332,Plasterers,,Female Share,78
-3333,Roof Tilers,,Female Share,76
-3334,Wall and Floor Tilers,,Female Share,76
-3341,Plumbers,,Female Share,88
-3411,Electricians,,Female Share,90
-3421,Airconditioning and Refrigeration Mechanics,,Female Share,89
-3422,Electrical Distribution Trades Workers,,Female Share,95
-3423,Electronics Trades Workers,,Female Share,81
-3424,Telecommunications Trades Workers,,Female Share,85
-3511,Bakers and Pastrycooks,,Female Share,72
-3512,Butchers and Smallgoods Makers,,Female Share,82
-3513,Chefs,,Female Share,72
-3514,Cooks,,Female Share,48
-3611,Animal Attendants and Trainers,,Female Share,51
-3612,Shearers,,Female Share,64
-3613,Veterinary Nurses,,Female Share,49
-3621,Florists,,Female Share,48
-3622,Gardeners,,Female Share,63
-3623,Greenkeepers,,Female Share,75
-3624,Nurserypersons,,Female Share,66
-3911,Hairdressers,,Female Share,51
-3921,"Binders, Finishers and Screen Printers",,Female Share,80
-3922,Graphic Pre-press Trades Workers,,Female Share,80
-3923,Printers,,Female Share,87
-3931,Canvas and Leather Goods Makers,,Female Share,73
-3932,Clothing Trades Workers,,Female Share,51
-3933,Upholsterers,,Female Share,78
-3941,Cabinetmakers,,Female Share,89
-3942,Wood Machinists and Other Wood Trades Workers,,Female Share,74
-3991,Boat Builders and Shipwrights,,Female Share,87
-3992,"Chemical, Gas, Petroleum & Power Plant Operators",,Female Share,95
-3993,"Gallery, Library and Museum Technicians",,Female Share,45
-3994,Jewellers,,Female Share,67
-3995,Performing Arts Technicians,,Female Share,56
-3996,Signwriters,,Female Share,82
-3999,Other Technicians and Trades Workers,,Female Share,68
-4111,Ambulance Officers and Paramedics,,Female Share,86
-4112,"Dental Hygienists, Technicians and Therapists",,Female Share,61
-4113,Diversional Therapists,,Female Share,42
-4114,Enrolled and Mothercraft Nurses,,Female Share,43
-4115,Indigenous Health Workers,,Female Share,76
-4116,Massage Therapists,,Female Share,25
-4117,Welfare Support Workers,,Female Share,63
-4211,Child Carers,,Female Share,47
-4221,Education Aides,,Female Share,22
-4231,Aged and Disabled Carers,,Female Share,33
-4232,Dental Assistants,,Female Share,46
-4233,Nursing Support and Personal Care Workers,,Female Share,38
-4234,Special Care Workers,,Female Share,52
-4311,Bar Attendants and Baristas,,Female Share,29
-4312,Cafe Workers,,Female Share,19
-4313,Gaming Workers,,Female Share,57
-4314,Hotel Service Managers,,Female Share,72
-4315,Waiters,,Female Share,16
-4319,Other Hospitality Workers,,Female Share,29
-4411,Defence Force Members - Other Ranks,,Female Share,94
-4412,Fire and Emergency Workers,,Female Share,93
-4413,Police,,Female Share,93
-4421,Prison Officers,,Female Share,92
-4422,Security Officers and Guards,,Female Share,68
-4511,Beauty Therapists,,Female Share,39
-4512,Driving Instructors,,Female Share,38
-4513,Funeral Workers,,Female Share,71
-4514,"Gallery, Museum and Tour Guides",,Female Share,43
-4515,Personal Care Consultants,,Female Share,26
-4516,Tourism and Travel Advisers,,Female Share,71
-4517,Travel Attendants,,Female Share,52
-4518,Other Personal Service Workers,,Female Share,34
-4521,Fitness Instructors,,Female Share,29
-4522,Outdoor Adventure Guides,,Female Share,57
-4523,"Sports Coaches, Instructors and Officials",,Female Share,19
-4524,Sportspersons,,Female Share,39
-5111,"Contract, Program and Project Administrators",,Female Share,82
-5121,Office Managers,,Female Share,62
-5122,Practice Managers,,Female Share,61
-5211,Personal Assistants,,Female Share,72
-5212,Secretaries,,Female Share,46
-5311,General Clerks,,Female Share,57
-5321,Keyboard Operators,,Female Share,53
-5411,Call or Contact Centre Workers,,Female Share,66
+2347,Veterinarians,,Female Share,61
+2349,Other Natural and Physical Science Professionals,,Female Share,41
+2411,Early Childhood (Pre-primary School) Teachers,,Female Share,98
+2412,Primary School Teachers,,Female Share,85
+2413,Middle School Teachers,,Female Share,66
+2414,Secondary School Teachers,,Female Share,62
+2415,Special Education Teachers,,Female Share,86
+2421,University Lecturers and Tutors,,Female Share,49
+2422,Vocational Education Teachers,,Female Share,51
+2491,Education Advisers and Reviewers,,Female Share,71
+2492,Private Tutors and Teachers,,Female Share,71
+2493,Teachers of English to Speakers of Other Languages,,Female Share,76
+2511,Nutrition Professionals,,Female Share,94
+2512,Medical Imaging Professionals,,Female Share,71
+2513,Occupational & Environmental Health Professionals,,Female Share,44
+2514,Optometrists and Orthoptists,,Female Share,58
+2515,Pharmacists,,Female Share,62
+2519,Other Health Diagnostic & Promotion Professionals,,Female Share,79
+2521,Chiropractors and Osteopaths,,Female Share,44
+2522,Complementary Health Therapists,,Female Share,72
+2523,Dental Practitioners,,Female Share,42
+2524,Occupational Therapists,,Female Share,92
+2525,Physiotherapists,,Female Share,67
+2526,Podiatrists,,Female Share,60
+2527,Audiologists and Speech Pathologists,,Female Share,93
+2531,General Practitioners and Resident Medical Officers,,Female Share,46
+2532,Anaesthetists,,Female Share,33
+2533,Specialist Physicians,,Female Share,43
+2534,Psychiatrists,,Female Share,44
+2535,Surgeons,,Female Share,18
+2539,Other Medical Practitioners,,Female Share,46
+2541,Midwives,,Female Share,98
+2542,Nurse Educators and Researchers,,Female Share,91
+2543,Nurse Managers,,Female Share,87
+2544,Registered Nurses,,Female Share,89
+2611,ICT Business and Systems Analysts,,Female Share,30
+2612,Multimedia Specialists and Web Developers,,Female Share,17
+2613,Software and Applications Programmers,,Female Share,17
+2621,Database & Systems Administrators & ICT Security,,Female Share,21
+2631,Computer Network Professionals,,Female Share,8
+2632,ICT Support and Test Engineers,,Female Share,24
+2633,Telecommunications Engineering Professionals,,Female Share,17
+2711,Barristers,,Female Share,32
+2712,Judicial and Other Legal Professionals,,Female Share,58
+2713,Solicitors,,Female Share,51
+2721,Counsellors,,Female Share,77
+2722,Ministers of Religion,,Female Share,29
+2723,Psychologists and Psychotherapists,,Female Share,80
+2724,Social Professionals,,Female Share,64
+2725,Social Workers,,Female Share,84
+2726,"Welfare, Recreation and Community Arts Workers",,Female Share,78
+3111,Agricultural Technicians,,Female Share,37
+3112,Medical Technicians,,Female Share,79
+3113,Primary Products Inspectors,,Female Share,31
+3114,Science Technicians,,Female Share,53
+3121,"Architectural, Building & Surveying Technicians",,Female Share,11
+3122,Civil Engineering Draftspersons and Technicians,,Female Share,14
+3123,"Electrical Engineering Draftspersons, Technicians",,Female Share,7
+3124,"Electronic Engineering Draftspersons, Technicians",,Female Share,8
+3125,"Mechanical Engineering Draftspersons, Technicians",,Female Share,5
+3126,Safety Inspectors,,Female Share,20
+3129,Other Building and Engineering Technicians,,Female Share,11
+3131,ICT Support Technicians,,Female Share,22
+3132,Telecommunications Technical Specialists,,Female Share,10
+3211,Automotive Electricians,,Female Share,2
+3212,Motor Mechanics,,Female Share,1
+3221,"Metal Casting, Forging & Finishing Trades",,Female Share,5
+3222,Sheetmetal Trades Workers,,Female Share,1
+3223,Structural Steel and Welding Trades Workers,,Female Share,1
+3231,Aircraft Maintenance Engineers,,Female Share,3
+3232,Metal Fitters and Machinists,,Female Share,1
+3233,Precision Metal Trades Workers,,Female Share,7
+3234,Toolmakers and Engineering Patternmakers,,Female Share,3
+3241,Panelbeaters,,Female Share,2
+3242,Vehicle Body Builders and Trimmers,,Female Share,3
+3243,Vehicle Painters,,Female Share,2
+3311,Bricklayers and Stonemasons,,Female Share,1
+3312,Carpenters and Joiners,,Female Share,1
+3321,Floor Finishers,,Female Share,2
+3322,Painting Trades Workers,,Female Share,4
+3331,Glaziers,,Female Share,1
+3332,Plasterers,,Female Share,1
+3333,Roof Tilers,,Female Share,1
+3334,Wall and Floor Tilers,,Female Share,2
+3341,Plumbers,,Female Share,1
+3411,Electricians,,Female Share,2
+3421,Airconditioning and Refrigeration Mechanics,,Female Share,1
+3422,Electrical Distribution Trades Workers,,Female Share,1
+3423,Electronics Trades Workers,,Female Share,6
+3424,Telecommunications Trades Workers,,Female Share,4
+3511,Bakers and Pastrycooks,,Female Share,32
+3512,Butchers and Smallgoods Makers,,Female Share,6
+3513,Chefs,,Female Share,25
+3514,Cooks,,Female Share,54
+3611,Animal Attendants and Trainers,,Female Share,68
+3612,Shearers,,Female Share,3
+3613,Veterinary Nurses,,Female Share,97
+3621,Florists,,Female Share,92
+3622,Gardeners,,Female Share,11
+3623,Greenkeepers,,Female Share,3
+3624,Nurserypersons,,Female Share,40
+3911,Hairdressers,,Female Share,85
+3921,"Binders, Finishers and Screen Printers",,Female Share,26
+3922,Graphic Pre-press Trades Workers,,Female Share,34
+3923,Printers,,Female Share,13
+3931,Canvas and Leather Goods Makers,,Female Share,23
+3932,Clothing Trades Workers,,Female Share,80
+3933,Upholsterers,,Female Share,9
+3941,Cabinetmakers,,Female Share,2
+3942,Wood Machinists and Other Wood Trades Workers,,Female Share,18
+3991,Boat Builders and Shipwrights,,Female Share,2
+3992,"Chemical, Gas, Petroleum & Power Plant Operators",,Female Share,4
+3993,"Gallery, Library and Museum Technicians",,Female Share,86
+3994,Jewellers,,Female Share,34
+3995,Performing Arts Technicians,,Female Share,30
+3996,Signwriters,,Female Share,12
+3999,Other Technicians and Trades Workers,,Female Share,39
+4111,Ambulance Officers and Paramedics,,Female Share,37
+4112,"Dental Hygienists, Technicians and Therapists",,Female Share,60
+4113,Diversional Therapists,,Female Share,91
+4114,Enrolled and Mothercraft Nurses,,Female Share,90
+4115,Indigenous Health Workers,,Female Share,73
+4116,Massage Therapists,,Female Share,76
+4117,Welfare Support Workers,,Female Share,74
+4211,Child Carers,,Female Share,95
+4221,Education Aides,,Female Share,90
+4231,Aged and Disabled Carers,,Female Share,80
+4232,Dental Assistants,,Female Share,98
+4233,Nursing Support and Personal Care Workers,,Female Share,78
+4234,Special Care Workers,,Female Share,69
+4311,Bar Attendants and Baristas,,Female Share,59
+4312,Cafe Workers,,Female Share,81
+4313,Gaming Workers,,Female Share,43
+4314,Hotel Service Managers,,Female Share,62
+4315,Waiters,,Female Share,76
+4319,Other Hospitality Workers,,Female Share,45
+4411,Defence Force Members - Other Ranks,,Female Share,13
+4412,Fire and Emergency Workers,,Female Share,7
+4413,Police,,Female Share,27
+4421,Prison Officers,,Female Share,27
+4422,Security Officers and Guards,,Female Share,16
+4511,Beauty Therapists,,Female Share,97
+4512,Driving Instructors,,Female Share,23
+4513,Funeral Workers,,Female Share,45
+4514,"Gallery, Museum and Tour Guides",,Female Share,48
+4515,Personal Care Consultants,,Female Share,81
+4516,Tourism and Travel Advisers,,Female Share,80
+4517,Travel Attendants,,Female Share,74
+4518,Other Personal Service Workers,,Female Share,67
+4521,Fitness Instructors,,Female Share,60
+4522,Outdoor Adventure Guides,,Female Share,37
+4523,"Sports Coaches, Instructors and Officials",,Female Share,50
+4524,Sportspersons,,Female Share,25
+5111,"Contract, Program and Project Administrators",,Female Share,55
+5121,Office Managers,,Female Share,88
+5122,Practice Managers,,Female Share,90
+5211,Personal Assistants,,Female Share,97
+5212,Secretaries,,Female Share,97
+5311,General Clerks,,Female Share,85
+5321,Keyboard Operators,,Female Share,84
+5411,Call or Contact Centre Workers,,Female Share,70
 5412,Information Officers,,Female Share,70
-5421,Receptionists,,Female Share,43
-5511,Accounting Clerks,,Female Share,66
-5512,Bookkeepers,,Female Share,33
-5513,Payroll Clerks,,Female Share,66
-5521,Bank Workers,,Female Share,67
-5522,Credit and Loans Officers,,Female Share,84
-5523,"Insurance, Money Market and Statistical Clerks",,Female Share,77
-5611,Betting Clerks,,Female Share,33
-5612,Couriers and Postal Deliverers,,Female Share,73
-5613,Filing and Registry Clerks,,Female Share,59
-5614,Mail Sorters,,Female Share,63
-5615,Survey Interviewers,,Female Share,20
-5616,Switchboard Operators,,Female Share,52
-5619,Other Clerical and Office Support Workers,,Female Share,48
-5911,Purchasing and Supply Logistics Clerks,,Female Share,83
-5912,Transport and Despatch Clerks,,Female Share,88
-5991,Conveyancers and Legal Executives,,Female Share,62
-5992,Court and Legal Clerks,,Female Share,65
-5993,Debt Collectors,,Female Share,73
+5421,Receptionists,,Female Share,95
+5511,Accounting Clerks,,Female Share,81
+5512,Bookkeepers,,Female Share,91
+5513,Payroll Clerks,,Female Share,86
+5521,Bank Workers,,Female Share,70
+5522,Credit and Loans Officers,,Female Share,56
+5523,"Insurance, Money Market and Statistical Clerks",,Female Share,70
+5611,Betting Clerks,,Female Share,67
+5612,Couriers and Postal Deliverers,,Female Share,17
+5613,Filing and Registry Clerks,,Female Share,79
+5614,Mail Sorters,,Female Share,50
+5615,Survey Interviewers,,Female Share,59
+5616,Switchboard Operators,,Female Share,81
+5619,Other Clerical and Office Support Workers,,Female Share,57
+5911,Purchasing and Supply Logistics Clerks,,Female Share,44
+5912,Transport and Despatch Clerks,,Female Share,35
+5991,Conveyancers and Legal Executives,,Female Share,82
+5992,Court and Legal Clerks,,Female Share,75
+5993,Debt Collectors,,Female Share,62
 5994,Human Resource Clerks,,Female Share,76
-5995,Inspectors and Regulatory Officers,,Female Share,80
-5996,"Insurance Investigators, Loss Adjusters and Risk Surveyors",,Female Share,87
-5997,Library Assistants,,Female Share,29
-5999,Other Clerical & Administrative Workers,,Female Share,62
-6111,"Auctioneers, and Stock and Station Agents",,Female Share,88
-6112,Insurance Agents,,Female Share,81
-6113,Sales Representatives,,Female Share,85
-6121,Real Estate Sales Agents,,Female Share,80
-6211,Sales Assistants (General),,Female Share,28
-6212,ICT Sales Assistants,,Female Share,68
-6213,Motor Vehicle and Vehicle Parts Salespersons,,Female Share,88
-6214,Pharmacy Sales Assistants,,Female Share,28
-6215,Retail Supervisors,,Female Share,70
-6216,Service Station Attendants,,Female Share,30
-6217,Street Vendors and Related Salespersons,,Female Share,46
-6219,Other Sales Assistants and Salespersons,,Female Share,68
-6311,Checkout Operators and Office Cashiers,,Female Share,14
-6391,Models and Sales Demonstrators,,Female Share,20
-6392,Retail and Wool Buyers,,Female Share,87
-6393,Telemarketers,,Female Share,49
-6394,Ticket Salespersons,,Female Share,45
-6395,Visual Merchandisers,,Female Share,50
-6399,Other Sales Support Workers,,Female Share,31
-7111,"Clay, Concrete, Glass & Stone Machine Operators",,Female Share,92
-7112,Industrial Spraypainters,,Female Share,90
-7113,Paper and Wood Processing Machine Operators,,Female Share,89
-7114,Photographic Developers and Printers,,Female Share,53
-7115,Plastics and Rubber Production Machine Operators,,Female Share,90
-7116,Sewing Machinists,,Female Share,57
-7117,Textile & Footwear Production Machine Operators,,Female Share,82
-7119,Other Machine Operators,,Female Share,68
-7121,"Crane, Hoist and Lift Operators",,Female Share,90
-7122,"Drillers, Miners and Shot Firers",,Female Share,95
-7123,Engineering Production Workers,,Female Share,92
-7129,Other Stationary Plant Operators,,Female Share,91
-7211,"Agricultural, Forestry & Horticultural Operators",,Female Share,82
-7212,Earthmoving Plant Operators,,Female Share,86
-7213,Forklift Drivers,,Female Share,86
-7219,Other Mobile Plant Operators,,Female Share,72
-7311,Automobile Drivers,,Female Share,58
-7312,Bus and Coach Drivers,,Female Share,60
-7313,Train and Tram Drivers,,Female Share,93
-7321,Delivery Drivers,,Female Share,52
-7331,Truck Drivers,,Female Share,85
-7411,Storepersons,,Female Share,73
-8111,Car Detailers,,Female Share,61
-8112,Commercial Cleaners,,Female Share,33
-8113,Domestic Cleaners,,Female Share,16
-8114,Housekeepers,,Female Share,22
-8115,Laundry Workers,,Female Share,49
-8116,Other Cleaners,,Female Share,50
-8211,Building and Plumbing Labourers,,Female Share,76
-8212,Concreters,,Female Share,79
-8213,Fencers,,Female Share,71
-8214,Insulation and Home Improvement Installers,,Female Share,78
-8215,Paving and Surfacing Labourers,,Female Share,88
-8216,Railway Track Workers,,Female Share,90
-8217,Structural Steel Construction Workers,,Female Share,85
-8219,Other Construction and Mining Labourers,,Female Share,81
-8311,Food and Drink Factory Workers,,Female Share,75
-8312,"Meat Boners and Slicers, and Slaughterers",,Female Share,74
-8313,"Meat, Poultry and Seafood Process Workers",,Female Share,72
-8321,Packers,,Female Share,55
-8322,Product Assemblers,,Female Share,82
-8391,Metal Engineering Process Workers,,Female Share,85
-8392,Plastics and Rubber Factory Workers,,Female Share,80
-8393,Product Quality Controllers,,Female Share,80
-8394,Timber and Wood Process Workers,,Female Share,79
-8399,Other Factory Process Workers,,Female Share,68
-8411,Aquaculture Workers,,Female Share,68
-8412,Crop Farm Workers,,Female Share,61
-8413,Forestry and Logging Workers,,Female Share,72
-8414,Garden and Nursery Labourers,,Female Share,52
-8415,Livestock Farm Workers,,Female Share,64
-8416,Mixed Crop and Livestock Farm Workers,,Female Share,75
-8419,"Other Farm, Forestry and Garden Workers",,Female Share,69
-8511,Fast Food Cooks,,Female Share,16
-8512,Food Trades Assistants,,Female Share,34
-8513,Kitchenhands,,Female Share,19
-8911,Freight and Furniture Handlers,,Female Share,64
-8912,Shelf Fillers,,Female Share,20
-8991,Caretakers,,Female Share,57
-8992,Deck and Fishing Hands,,Female Share,72
-8993,Handypersons,,Female Share,54
-8994,Motor Vehicle Parts and Accessories Fitters,,Female Share,89
-8995,Printing Assistants and Table Workers,,Female Share,64
-8996,Recycling and Rubbish Collectors,,Female Share,69
-8997,Vending Machine Attendants,,Female Share,39
-8999,Other Miscellaneous Labourers,,Female Share,46
-1111,Chief Executives and Managing Directors,,Full-time Share,21
-1112,General Managers,,Full-time Share,29
-1113,Legislators,,Full-time Share,41
-1211,Aquaculture Farmers,,Full-time Share,15
-1212,Crop Farmers,,Full-time Share,25
-1213,Livestock Farmers,,Full-time Share,32
-1214,Mixed Crop and Livestock Farmers,,Full-time Share,25
-1311,"Advertising, Public Relations and Sales Manager",,Full-time Share,41
-1321,Corporate Services Managers,,Full-time Share,62
-1322,Finance Managers,,Full-time Share,46
-1323,Human Resource Managers,,Full-time Share,57
-1324,Policy and Planning Managers,,Full-time Share,56
-1332,Engineering Managers,,Full-time Share,9
-1333,"Importers, Exporters and Wholesalers",,Full-time Share,25
-1336,"Supply, Distribution and Procurement Managers",,Full-time Share,22
-1341,Child Care Centre Managers,,Full-time Share,92
-1342,Health and Welfare Services Managers,,Full-time Share,74
-1343,School Principals,,Full-time Share,60
-1344,Other Education Managers,,Full-time Share,61
-1351,ICT Managers,,Full-time Share,21
-1391,Commissioned Officers (Management),,Full-time Share,15
-1392,Senior Non-Commissioned Defence Force Officers,,Full-time Share,15
-1399,Other Specialist Managers,,Full-time Share,40
-1411,Cafe and Restaurant Managers,,Full-time Share,54
-1412,Caravan Park and Camping Ground Managers,,Full-time Share,48
-1413,Hotel and Motel Managers,,Full-time Share,43
-1414,Licensed Club Managers,,Full-time Share,43
-1419,Other Accommodation and Hospitality Managers,,Full-time Share,60
-1421,Retail Managers,,Full-time Share,50
-1491,"Amusement, Fitness and Sports Centre Managers",,Full-time Share,44
-1492,"Call, Contact Centre & Customer Service Managers",,Full-time Share,44
-1493,Conference and Event Organisers,,Full-time Share,75
-1494,Transport Services Managers,,Full-time Share,18
-1499,"Other Hospitality, Retail and Service Managers",,Full-time Share,33
-2111,"Actors, Dancers and Other Entertainers",,Full-time Share,50
-2112,Music Professionals,,Full-time Share,29
-2113,Photographers,,Full-time Share,49
-2114,Visual Arts and Crafts Professionals,,Full-time Share,57
-2121,"Artistic Directors, Media Producers & Presenters",,Full-time Share,43
-2122,"Authors, and Book and Script Editors",,Full-time Share,67
-2123,"Film, Television, Radio and Stage Directors",,Full-time Share,29
-2124,Journalists and Other Writers,,Full-time Share,56
-2211,Accountants,,Full-time Share,52
-2212,"Auditors, Company Secretaries and Corporate Treasurers",,Full-time Share,48
-2221,Financial Brokers,,Full-time Share,34
-2222,Financial Dealers,,Full-time Share,31
-2223,Financial Investment Advisers and Managers,,Full-time Share,31
-2231,Human Resource Professionals,,Full-time Share,72
-2232,ICT Trainers,,Full-time Share,47
-2233,Training and Development Professionals,,Full-time Share,58
-2241,"Actuaries, Mathematicians and Statisticians",,Full-time Share,43
-2242,"Archivists, Curators and Records Managers",,Full-time Share,71
-2243,Economists,,Full-time Share,33
-2244,Intelligence and Policy Analysts,,Full-time Share,62
-2245,Land Economists and Valuers,,Full-time Share,25
-2246,Librarians,,Full-time Share,84
-2247,Management and Organisation Analysts,,Full-time Share,42
-2249,Other Information and Organisation Professionals,,Full-time Share,56
-2251,Advertising and Marketing Professionals,,Full-time Share,61
-2252,ICT Sales Professionals,,Full-time Share,25
-2253,Public Relations Professionals,,Full-time Share,73
-2254,Technical Sales Representatives,,Full-time Share,28
-2311,Air Transport Professionals,,Full-time Share,9
-2312,Marine Transport Professionals,,Full-time Share,5
-2321,Architects and Landscape Architects,,Full-time Share,34
-2322,Surveyors and Spatial Scientists,,Full-time Share,13
-2323,"Fashion, Industrial and Jewellery Designers",,Full-time Share,62
-2324,"Graphic and Web Designers, and Illustrators",,Full-time Share,51
-2325,Interior Designers,,Full-time Share,76
-2326,Urban and Regional Planners,,Full-time Share,46
-2331,Chemical and Materials Engineers,,Full-time Share,20
-2332,Civil Engineering Professionals,,Full-time Share,12
-2333,Electrical Engineers,,Full-time Share,7
-2334,Electronics Engineers,,Full-time Share,6
-2335,"Industrial, Mechanical and Production Engineers",,Full-time Share,7
-2336,Mining Engineers,,Full-time Share,13
-2339,Other Engineering Professionals,,Full-time Share,15
-2341,Agricultural and Forestry Scientists,,Full-time Share,26
-2342,"Chemists, and Food and Wine Scientists",,Full-time Share,40
-2343,Environmental Scientists,,Full-time Share,41
-2344,"Geologists, Geophysicists and Hydrogeologists",,Full-time Share,25
-2345,Life Scientists,,Full-time Share,53
+5995,Inspectors and Regulatory Officers,,Female Share,51
+5996,"Insurance Investigators, Loss Adjusters and Risk Surveyors",,Female Share,31
+5997,Library Assistants,,Female Share,87
+5999,Other Clerical & Administrative Workers,,Female Share,64
+6111,"Auctioneers, and Stock and Station Agents",,Female Share,10
+6112,Insurance Agents,,Female Share,53
+6113,Sales Representatives,,Female Share,36
+6121,Real Estate Sales Agents,,Female Share,50
+6211,Sales Assistants (General),,Female Share,68
+6212,ICT Sales Assistants,,Female Share,35
+6213,Motor Vehicle and Vehicle Parts Salespersons,,Female Share,16
+6214,Pharmacy Sales Assistants,,Female Share,90
+6215,Retail Supervisors,,Female Share,58
+6216,Service Station Attendants,,Female Share,47
+6217,Street Vendors and Related Salespersons,,Female Share,53
+6219,Other Sales Assistants and Salespersons,,Female Share,33
+6311,Checkout Operators and Office Cashiers,,Female Share,75
+6391,Models and Sales Demonstrators,,Female Share,81
+6392,Retail and Wool Buyers,,Female Share,55
+6393,Telemarketers,,Female Share,59
+6394,Ticket Salespersons,,Female Share,67
+6395,Visual Merchandisers,,Female Share,85
+6399,Other Sales Support Workers,,Female Share,66
+7111,"Clay, Concrete, Glass & Stone Machine Operators",,Female Share,3
+7112,Industrial Spraypainters,,Female Share,2
+7113,Paper and Wood Processing Machine Operators,,Female Share,6
+7114,Photographic Developers and Printers,,Female Share,61
+7115,Plastics and Rubber Production Machine Operators,,Female Share,9
+7116,Sewing Machinists,,Female Share,82
+7117,Textile & Footwear Production Machine Operators,,Female Share,33
+7119,Other Machine Operators,,Female Share,38
+7121,"Crane, Hoist and Lift Operators",,Female Share,3
+7122,"Drillers, Miners and Shot Firers",,Female Share,7
+7123,Engineering Production Workers,,Female Share,4
+7129,Other Stationary Plant Operators,,Female Share,8
+7211,"Agricultural, Forestry & Horticultural Operators",,Female Share,6
+7212,Earthmoving Plant Operators,,Female Share,2
+7213,Forklift Drivers,,Female Share,4
+7219,Other Mobile Plant Operators,,Female Share,10
+7311,Automobile Drivers,,Female Share,6
+7312,Bus and Coach Drivers,,Female Share,13
+7313,Train and Tram Drivers,,Female Share,9
+7321,Delivery Drivers,,Female Share,10
+7331,Truck Drivers,,Female Share,3
+7411,Storepersons,,Female Share,21
+8111,Car Detailers,,Female Share,12
+8112,Commercial Cleaners,,Female Share,57
+8113,Domestic Cleaners,,Female Share,77
+8114,Housekeepers,,Female Share,84
+8115,Laundry Workers,,Female Share,69
+8116,Other Cleaners,,Female Share,12
+8211,Building and Plumbing Labourers,,Female Share,3
+8212,Concreters,,Female Share,1
+8213,Fencers,,Female Share,4
+8214,Insulation and Home Improvement Installers,,Female Share,3
+8215,Paving and Surfacing Labourers,,Female Share,2
+8216,Railway Track Workers,,Female Share,4
+8217,Structural Steel Construction Workers,,Female Share,1
+8219,Other Construction and Mining Labourers,,Female Share,5
+8311,Food and Drink Factory Workers,,Female Share,30
+8312,"Meat Boners and Slicers, and Slaughterers",,Female Share,12
+8313,"Meat, Poultry and Seafood Process Workers",,Female Share,28
+8321,Packers,,Female Share,59
+8322,Product Assemblers,,Female Share,25
+8391,Metal Engineering Process Workers,,Female Share,6
+8392,Plastics and Rubber Factory Workers,,Female Share,25
+8393,Product Quality Controllers,,Female Share,46
+8394,Timber and Wood Process Workers,,Female Share,8
+8399,Other Factory Process Workers,,Female Share,23
+8411,Aquaculture Workers,,Female Share,14
+8412,Crop Farm Workers,,Female Share,31
+8413,Forestry and Logging Workers,,Female Share,10
+8414,Garden and Nursery Labourers,,Female Share,18
+8415,Livestock Farm Workers,,Female Share,37
+8416,Mixed Crop and Livestock Farm Workers,,Female Share,17
+8419,"Other Farm, Forestry and Garden Workers",,Female Share,11
+8511,Fast Food Cooks,,Female Share,29
+8512,Food Trades Assistants,,Female Share,59
+8513,Kitchenhands,,Female Share,55
+8911,Freight and Furniture Handlers,,Female Share,6
+8912,Shelf Fillers,,Female Share,39
+8991,Caretakers,,Female Share,15
+8992,Deck and Fishing Hands,,Female Share,8
+8993,Handypersons,,Female Share,4
+8994,Motor Vehicle Parts and Accessories Fitters,,Female Share,2
+8995,Printing Assistants and Table Workers,,Female Share,46
+8996,Recycling and Rubbish Collectors,,Female Share,6
+8997,Vending Machine Attendants,,Female Share,64
+8999,Other Miscellaneous Labourers,,Female Share,24
+1111,Chief Executives and Managing Directors,,Full-time Share,88
+1112,General Managers,,Full-time Share,89
+1113,Legislators,,Full-time Share,74
+1211,Aquaculture Farmers,,Full-time Share,79
+1212,Crop Farmers,,Full-time Share,78
+1213,Livestock Farmers,,Full-time Share,77
+1214,Mixed Crop and Livestock Farmers,,Full-time Share,84
+1311,"Advertising, Public Relations and Sales Manager",,Full-time Share,89
+1321,Corporate Services Managers,,Full-time Share,87
+1322,Finance Managers,,Full-time Share,86
+1323,Human Resource Managers,,Full-time Share,87
+1324,Policy and Planning Managers,,Full-time Share,86
+1332,Engineering Managers,,Full-time Share,94
+1333,"Importers, Exporters and Wholesalers",,Full-time Share,81
+1336,"Supply, Distribution and Procurement Managers",,Full-time Share,94
+1341,Child Care Centre Managers,,Full-time Share,71
+1342,Health and Welfare Services Managers,,Full-time Share,85
+1343,School Principals,,Full-time Share,96
+1344,Other Education Managers,,Full-time Share,85
+1351,ICT Managers,,Full-time Share,94
+1391,Commissioned Officers (Management),,Full-time Share,93
+1392,Senior Non-Commissioned Defence Force Officers,,Full-time Share,93
+1399,Other Specialist Managers,,Full-time Share,88
+1411,Cafe and Restaurant Managers,,Full-time Share,76
+1412,Caravan Park and Camping Ground Managers,,Full-time Share,84
+1413,Hotel and Motel Managers,,Full-time Share,87
+1414,Licensed Club Managers,,Full-time Share,83
+1419,Other Accommodation and Hospitality Managers,,Full-time Share,65
+1421,Retail Managers,,Full-time Share,82
+1491,"Amusement, Fitness and Sports Centre Managers",,Full-time Share,72
+1492,"Call, Contact Centre & Customer Service Managers",,Full-time Share,90
+1493,Conference and Event Organisers,,Full-time Share,71
+1494,Transport Services Managers,,Full-time Share,86
+1499,"Other Hospitality, Retail and Service Managers",,Full-time Share,85
+2111,"Actors, Dancers and Other Entertainers",,Full-time Share,32
+2112,Music Professionals,,Full-time Share,33
+2113,Photographers,,Full-time Share,48
+2114,Visual Arts and Crafts Professionals,,Full-time Share,49
+2121,"Artistic Directors, Media Producers & Presenters",,Full-time Share,76
+2122,"Authors, and Book and Script Editors",,Full-time Share,51
+2123,"Film, Television, Radio and Stage Directors",,Full-time Share,76
+2124,Journalists and Other Writers,,Full-time Share,68
+2211,Accountants,,Full-time Share,80
+2212,"Auditors, Company Secretaries and Corporate Treasurers",,Full-time Share,86
+2221,Financial Brokers,,Full-time Share,83
+2222,Financial Dealers,,Full-time Share,89
+2223,Financial Investment Advisers and Managers,,Full-time Share,84
+2231,Human Resource Professionals,,Full-time Share,81
+2232,ICT Trainers,,Full-time Share,68
+2233,Training and Development Professionals,,Full-time Share,77
+2241,"Actuaries, Mathematicians and Statisticians",,Full-time Share,79
+2242,"Archivists, Curators and Records Managers",,Full-time Share,69
+2243,Economists,,Full-time Share,84
+2244,Intelligence and Policy Analysts,,Full-time Share,80
+2245,Land Economists and Valuers,,Full-time Share,83
+2246,Librarians,,Full-time Share,61
+2247,Management and Organisation Analysts,,Full-time Share,79
+2249,Other Information and Organisation Professionals,,Full-time Share,77
+2251,Advertising and Marketing Professionals,,Full-time Share,78
+2252,ICT Sales Professionals,,Full-time Share,92
+2253,Public Relations Professionals,,Full-time Share,74
+2254,Technical Sales Representatives,,Full-time Share,91
+2311,Air Transport Professionals,,Full-time Share,78
+2312,Marine Transport Professionals,,Full-time Share,84
+2321,Architects and Landscape Architects,,Full-time Share,81
+2322,Surveyors and Spatial Scientists,,Full-time Share,87
+2323,"Fashion, Industrial and Jewellery Designers",,Full-time Share,74
+2324,"Graphic and Web Designers, and Illustrators",,Full-time Share,70
+2325,Interior Designers,,Full-time Share,69
+2326,Urban and Regional Planners,,Full-time Share,80
+2331,Chemical and Materials Engineers,,Full-time Share,88
+2332,Civil Engineering Professionals,,Full-time Share,90
+2333,Electrical Engineers,,Full-time Share,91
+2334,Electronics Engineers,,Full-time Share,89
+2335,"Industrial, Mechanical and Production Engineers",,Full-time Share,92
+2336,Mining Engineers,,Full-time Share,91
+2339,Other Engineering Professionals,,Full-time Share,89
+2341,Agricultural and Forestry Scientists,,Full-time Share,81
+2342,"Chemists, and Food and Wine Scientists",,Full-time Share,83
+2343,Environmental Scientists,,Full-time Share,76
+2344,"Geologists, Geophysicists and Hydrogeologists",,Full-time Share,83
+2345,Life Scientists,,Full-time Share,75
 2346,Medical Laboratory Scientists,,Full-time Share,71
-2347,Veterinarians,,Full-time Share,61
-2349,Other Natural and Physical Science Professionals,,Full-time Share,41
-2411,Early Childhood (Pre-primary School) Teachers,,Full-time Share,98
-2412,Primary School Teachers,,Full-time Share,85
-2413,Middle School Teachers,,Full-time Share,66
-2414,Secondary School Teachers,,Full-time Share,62
-2415,Special Education Teachers,,Full-time Share,86
-2421,University Lecturers and Tutors,,Full-time Share,49
-2422,Vocational Education Teachers,,Full-time Share,51
-2491,Education Advisers and Reviewers,,Full-time Share,71
-2492,Private Tutors and Teachers,,Full-time Share,71
-2493,Teachers of English to Speakers of Other Languages,,Full-time Share,76
-2511,Nutrition Professionals,,Full-time Share,94
-2512,Medical Imaging Professionals,,Full-time Share,71
-2513,Occupational & Environmental Health Professionals,,Full-time Share,44
-2514,Optometrists and Orthoptists,,Full-time Share,58
-2515,Pharmacists,,Full-time Share,62
-2519,Other Health Diagnostic & Promotion Professionals,,Full-time Share,79
-2521,Chiropractors and Osteopaths,,Full-time Share,44
-2522,Complementary Health Therapists,,Full-time Share,72
-2523,Dental Practitioners,,Full-time Share,42
-2524,Occupational Therapists,,Full-time Share,92
-2525,Physiotherapists,,Full-time Share,67
-2526,Podiatrists,,Full-time Share,60
-2527,Audiologists and Speech Pathologists,,Full-time Share,93
-2531,General Practitioners and Resident Medical Officers,,Full-time Share,46
-2532,Anaesthetists,,Full-time Share,33
-2533,Specialist Physicians,,Full-time Share,43
-2534,Psychiatrists,,Full-time Share,44
-2535,Surgeons,,Full-time Share,18
-2539,Other Medical Practitioners,,Full-time Share,46
-2541,Midwives,,Full-time Share,98
-2542,Nurse Educators and Researchers,,Full-time Share,91
-2543,Nurse Managers,,Full-time Share,87
-2544,Registered Nurses,,Full-time Share,89
-2611,ICT Business and Systems Analysts,,Full-time Share,30
-2612,Multimedia Specialists and Web Developers,,Full-time Share,17
-2613,Software and Applications Programmers,,Full-time Share,17
-2621,Database & Systems Administrators & ICT Security,,Full-time Share,21
-2631,Computer Network Professionals,,Full-time Share,8
-2632,ICT Support and Test Engineers,,Full-time Share,24
-2633,Telecommunications Engineering Professionals,,Full-time Share,17
-2711,Barristers,,Full-time Share,32
-2712,Judicial and Other Legal Professionals,,Full-time Share,58
-2713,Solicitors,,Full-time Share,51
-2721,Counsellors,,Full-time Share,77
-2722,Ministers of Religion,,Full-time Share,29
-2723,Psychologists and Psychotherapists,,Full-time Share,80
-2724,Social Professionals,,Full-time Share,64
-2725,Social Workers,,Full-time Share,84
-2726,"Welfare, Recreation and Community Arts Workers",,Full-time Share,78
-3111,Agricultural Technicians,,Full-time Share,37
-3112,Medical Technicians,,Full-time Share,79
-3113,Primary Products Inspectors,,Full-time Share,31
-3114,Science Technicians,,Full-time Share,53
-3121,"Architectural, Building & Surveying Technicians",,Full-time Share,11
-3122,Civil Engineering Draftspersons and Technicians,,Full-time Share,14
-3123,"Electrical Engineering Draftspersons, Technicians",,Full-time Share,7
-3124,"Electronic Engineering Draftspersons, Technicians",,Full-time Share,8
-3125,"Mechanical Engineering Draftspersons, Technicians",,Full-time Share,5
-3126,Safety Inspectors,,Full-time Share,20
-3129,Other Building and Engineering Technicians,,Full-time Share,11
-3131,ICT Support Technicians,,Full-time Share,22
-3132,Telecommunications Technical Specialists,,Full-time Share,10
-3211,Automotive Electricians,,Full-time Share,2
-3212,Motor Mechanics,,Full-time Share,1
-3221,"Metal Casting, Forging & Finishing Trades",,Full-time Share,5
-3222,Sheetmetal Trades Workers,,Full-time Share,1
-3223,Structural Steel and Welding Trades Workers,,Full-time Share,1
-3231,Aircraft Maintenance Engineers,,Full-time Share,3
-3232,Metal Fitters and Machinists,,Full-time Share,1
-3233,Precision Metal Trades Workers,,Full-time Share,7
-3234,Toolmakers and Engineering Patternmakers,,Full-time Share,3
-3241,Panelbeaters,,Full-time Share,2
-3242,Vehicle Body Builders and Trimmers,,Full-time Share,3
-3243,Vehicle Painters,,Full-time Share,2
-3311,Bricklayers and Stonemasons,,Full-time Share,1
-3312,Carpenters and Joiners,,Full-time Share,1
-3321,Floor Finishers,,Full-time Share,2
-3322,Painting Trades Workers,,Full-time Share,4
-3331,Glaziers,,Full-time Share,1
-3332,Plasterers,,Full-time Share,1
-3333,Roof Tilers,,Full-time Share,1
-3334,Wall and Floor Tilers,,Full-time Share,2
-3341,Plumbers,,Full-time Share,1
-3411,Electricians,,Full-time Share,2
-3421,Airconditioning and Refrigeration Mechanics,,Full-time Share,1
-3422,Electrical Distribution Trades Workers,,Full-time Share,1
-3423,Electronics Trades Workers,,Full-time Share,6
-3424,Telecommunications Trades Workers,,Full-time Share,4
-3511,Bakers and Pastrycooks,,Full-time Share,32
-3512,Butchers and Smallgoods Makers,,Full-time Share,6
-3513,Chefs,,Full-time Share,25
-3514,Cooks,,Full-time Share,54
-3611,Animal Attendants and Trainers,,Full-time Share,68
-3612,Shearers,,Full-time Share,3
-3613,Veterinary Nurses,,Full-time Share,97
-3621,Florists,,Full-time Share,92
-3622,Gardeners,,Full-time Share,11
-3623,Greenkeepers,,Full-time Share,3
-3624,Nurserypersons,,Full-time Share,40
-3911,Hairdressers,,Full-time Share,85
-3921,"Binders, Finishers and Screen Printers",,Full-time Share,26
-3922,Graphic Pre-press Trades Workers,,Full-time Share,34
-3923,Printers,,Full-time Share,13
-3931,Canvas and Leather Goods Makers,,Full-time Share,23
-3932,Clothing Trades Workers,,Full-time Share,80
-3933,Upholsterers,,Full-time Share,9
-3941,Cabinetmakers,,Full-time Share,2
-3942,Wood Machinists and Other Wood Trades Workers,,Full-time Share,18
-3991,Boat Builders and Shipwrights,,Full-time Share,2
-3992,"Chemical, Gas, Petroleum & Power Plant Operators",,Full-time Share,4
-3993,"Gallery, Library and Museum Technicians",,Full-time Share,86
-3994,Jewellers,,Full-time Share,34
-3995,Performing Arts Technicians,,Full-time Share,30
-3996,Signwriters,,Full-time Share,12
-3999,Other Technicians and Trades Workers,,Full-time Share,39
-4111,Ambulance Officers and Paramedics,,Full-time Share,37
-4112,"Dental Hygienists, Technicians and Therapists",,Full-time Share,60
-4113,Diversional Therapists,,Full-time Share,91
-4114,Enrolled and Mothercraft Nurses,,Full-time Share,90
-4115,Indigenous Health Workers,,Full-time Share,73
-4116,Massage Therapists,,Full-time Share,76
-4117,Welfare Support Workers,,Full-time Share,74
-4211,Child Carers,,Full-time Share,95
-4221,Education Aides,,Full-time Share,90
-4231,Aged and Disabled Carers,,Full-time Share,80
-4232,Dental Assistants,,Full-time Share,98
-4233,Nursing Support and Personal Care Workers,,Full-time Share,78
-4234,Special Care Workers,,Full-time Share,69
-4311,Bar Attendants and Baristas,,Full-time Share,59
-4312,Cafe Workers,,Full-time Share,81
-4313,Gaming Workers,,Full-time Share,43
-4314,Hotel Service Managers,,Full-time Share,62
-4315,Waiters,,Full-time Share,76
-4319,Other Hospitality Workers,,Full-time Share,45
-4411,Defence Force Members - Other Ranks,,Full-time Share,13
-4412,Fire and Emergency Workers,,Full-time Share,7
-4413,Police,,Full-time Share,27
-4421,Prison Officers,,Full-time Share,27
-4422,Security Officers and Guards,,Full-time Share,16
-4511,Beauty Therapists,,Full-time Share,97
-4512,Driving Instructors,,Full-time Share,23
-4513,Funeral Workers,,Full-time Share,45
-4514,"Gallery, Museum and Tour Guides",,Full-time Share,48
-4515,Personal Care Consultants,,Full-time Share,81
-4516,Tourism and Travel Advisers,,Full-time Share,80
-4517,Travel Attendants,,Full-time Share,74
-4518,Other Personal Service Workers,,Full-time Share,67
-4521,Fitness Instructors,,Full-time Share,60
-4522,Outdoor Adventure Guides,,Full-time Share,37
-4523,"Sports Coaches, Instructors and Officials",,Full-time Share,50
-4524,Sportspersons,,Full-time Share,25
-5111,"Contract, Program and Project Administrators",,Full-time Share,55
-5121,Office Managers,,Full-time Share,88
-5122,Practice Managers,,Full-time Share,90
-5211,Personal Assistants,,Full-time Share,97
-5212,Secretaries,,Full-time Share,97
-5311,General Clerks,,Full-time Share,85
-5321,Keyboard Operators,,Full-time Share,84
-5411,Call or Contact Centre Workers,,Full-time Share,70
+2347,Veterinarians,,Full-time Share,72
+2349,Other Natural and Physical Science Professionals,,Full-time Share,74
+2411,Early Childhood (Pre-primary School) Teachers,,Full-time Share,56
+2412,Primary School Teachers,,Full-time Share,65
+2413,Middle School Teachers,,Full-time Share,83
+2414,Secondary School Teachers,,Full-time Share,76
+2415,Special Education Teachers,,Full-time Share,59
+2421,University Lecturers and Tutors,,Full-time Share,59
+2422,Vocational Education Teachers,,Full-time Share,58
+2491,Education Advisers and Reviewers,,Full-time Share,67
+2492,Private Tutors and Teachers,,Full-time Share,20
+2493,Teachers of English to Speakers of Other Languages,,Full-time Share,37
+2511,Nutrition Professionals,,Full-time Share,51
+2512,Medical Imaging Professionals,,Full-time Share,67
+2513,Occupational & Environmental Health Professionals,,Full-time Share,82
+2514,Optometrists and Orthoptists,,Full-time Share,64
+2515,Pharmacists,,Full-time Share,68
+2519,Other Health Diagnostic & Promotion Professionals,,Full-time Share,59
+2521,Chiropractors and Osteopaths,,Full-time Share,52
+2522,Complementary Health Therapists,,Full-time Share,37
+2523,Dental Practitioners,,Full-time Share,64
+2524,Occupational Therapists,,Full-time Share,58
+2525,Physiotherapists,,Full-time Share,63
+2526,Podiatrists,,Full-time Share,64
+2527,Audiologists and Speech Pathologists,,Full-time Share,57
+2531,General Practitioners and Resident Medical Officers,,Full-time Share,76
+2532,Anaesthetists,,Full-time Share,81
+2533,Specialist Physicians,,Full-time Share,79
+2534,Psychiatrists,,Full-time Share,71
+2535,Surgeons,,Full-time Share,87
+2539,Other Medical Practitioners,,Full-time Share,79
+2541,Midwives,,Full-time Share,39
+2542,Nurse Educators and Researchers,,Full-time Share,59
+2543,Nurse Managers,,Full-time Share,76
+2544,Registered Nurses,,Full-time Share,50
+2611,ICT Business and Systems Analysts,,Full-time Share,90
+2612,Multimedia Specialists and Web Developers,,Full-time Share,80
+2613,Software and Applications Programmers,,Full-time Share,90
+2621,Database & Systems Administrators & ICT Security,,Full-time Share,89
+2631,Computer Network Professionals,,Full-time Share,92
+2632,ICT Support and Test Engineers,,Full-time Share,91
+2633,Telecommunications Engineering Professionals,,Full-time Share,92
+2711,Barristers,,Full-time Share,85
+2712,Judicial and Other Legal Professionals,,Full-time Share,73
+2713,Solicitors,,Full-time Share,84
+2721,Counsellors,,Full-time Share,51
+2722,Ministers of Religion,,Full-time Share,70
+2723,Psychologists and Psychotherapists,,Full-time Share,52
+2724,Social Professionals,,Full-time Share,39
+2725,Social Workers,,Full-time Share,64
+2726,"Welfare, Recreation and Community Arts Workers",,Full-time Share,63
+3111,Agricultural Technicians,,Full-time Share,80
+3112,Medical Technicians,,Full-time Share,53
+3113,Primary Products Inspectors,,Full-time Share,81
+3114,Science Technicians,,Full-time Share,71
+3121,"Architectural, Building & Surveying Technicians",,Full-time Share,89
+3122,Civil Engineering Draftspersons and Technicians,,Full-time Share,89
+3123,"Electrical Engineering Draftspersons, Technicians",,Full-time Share,87
+3124,"Electronic Engineering Draftspersons, Technicians",,Full-time Share,88
+3125,"Mechanical Engineering Draftspersons, Technicians",,Full-time Share,89
+3126,Safety Inspectors,,Full-time Share,84
+3129,Other Building and Engineering Technicians,,Full-time Share,94
+3131,ICT Support Technicians,,Full-time Share,83
+3132,Telecommunications Technical Specialists,,Full-time Share,93
+3211,Automotive Electricians,,Full-time Share,90
+3212,Motor Mechanics,,Full-time Share,90
+3221,"Metal Casting, Forging & Finishing Trades",,Full-time Share,77
+3222,Sheetmetal Trades Workers,,Full-time Share,92
+3223,Structural Steel and Welding Trades Workers,,Full-time Share,91
+3231,Aircraft Maintenance Engineers,,Full-time Share,94
+3232,Metal Fitters and Machinists,,Full-time Share,93
+3233,Precision Metal Trades Workers,,Full-time Share,84
+3234,Toolmakers and Engineering Patternmakers,,Full-time Share,88
+3241,Panelbeaters,,Full-time Share,89
+3242,Vehicle Body Builders and Trimmers,,Full-time Share,89
+3243,Vehicle Painters,,Full-time Share,91
+3311,Bricklayers and Stonemasons,,Full-time Share,78
+3312,Carpenters and Joiners,,Full-time Share,87
+3321,Floor Finishers,,Full-time Share,73
+3322,Painting Trades Workers,,Full-time Share,76
+3331,Glaziers,,Full-time Share,89
+3332,Plasterers,,Full-time Share,78
+3333,Roof Tilers,,Full-time Share,76
+3334,Wall and Floor Tilers,,Full-time Share,76
+3341,Plumbers,,Full-time Share,88
+3411,Electricians,,Full-time Share,90
+3421,Airconditioning and Refrigeration Mechanics,,Full-time Share,89
+3422,Electrical Distribution Trades Workers,,Full-time Share,95
+3423,Electronics Trades Workers,,Full-time Share,81
+3424,Telecommunications Trades Workers,,Full-time Share,85
+3511,Bakers and Pastrycooks,,Full-time Share,72
+3512,Butchers and Smallgoods Makers,,Full-time Share,82
+3513,Chefs,,Full-time Share,72
+3514,Cooks,,Full-time Share,48
+3611,Animal Attendants and Trainers,,Full-time Share,51
+3612,Shearers,,Full-time Share,64
+3613,Veterinary Nurses,,Full-time Share,49
+3621,Florists,,Full-time Share,48
+3622,Gardeners,,Full-time Share,63
+3623,Greenkeepers,,Full-time Share,75
+3624,Nurserypersons,,Full-time Share,66
+3911,Hairdressers,,Full-time Share,51
+3921,"Binders, Finishers and Screen Printers",,Full-time Share,80
+3922,Graphic Pre-press Trades Workers,,Full-time Share,80
+3923,Printers,,Full-time Share,87
+3931,Canvas and Leather Goods Makers,,Full-time Share,73
+3932,Clothing Trades Workers,,Full-time Share,51
+3933,Upholsterers,,Full-time Share,78
+3941,Cabinetmakers,,Full-time Share,89
+3942,Wood Machinists and Other Wood Trades Workers,,Full-time Share,74
+3991,Boat Builders and Shipwrights,,Full-time Share,87
+3992,"Chemical, Gas, Petroleum & Power Plant Operators",,Full-time Share,95
+3993,"Gallery, Library and Museum Technicians",,Full-time Share,45
+3994,Jewellers,,Full-time Share,67
+3995,Performing Arts Technicians,,Full-time Share,56
+3996,Signwriters,,Full-time Share,82
+3999,Other Technicians and Trades Workers,,Full-time Share,68
+4111,Ambulance Officers and Paramedics,,Full-time Share,86
+4112,"Dental Hygienists, Technicians and Therapists",,Full-time Share,61
+4113,Diversional Therapists,,Full-time Share,42
+4114,Enrolled and Mothercraft Nurses,,Full-time Share,43
+4115,Indigenous Health Workers,,Full-time Share,76
+4116,Massage Therapists,,Full-time Share,25
+4117,Welfare Support Workers,,Full-time Share,63
+4211,Child Carers,,Full-time Share,47
+4221,Education Aides,,Full-time Share,22
+4231,Aged and Disabled Carers,,Full-time Share,33
+4232,Dental Assistants,,Full-time Share,46
+4233,Nursing Support and Personal Care Workers,,Full-time Share,38
+4234,Special Care Workers,,Full-time Share,52
+4311,Bar Attendants and Baristas,,Full-time Share,29
+4312,Cafe Workers,,Full-time Share,19
+4313,Gaming Workers,,Full-time Share,57
+4314,Hotel Service Managers,,Full-time Share,72
+4315,Waiters,,Full-time Share,16
+4319,Other Hospitality Workers,,Full-time Share,29
+4411,Defence Force Members - Other Ranks,,Full-time Share,94
+4412,Fire and Emergency Workers,,Full-time Share,93
+4413,Police,,Full-time Share,93
+4421,Prison Officers,,Full-time Share,92
+4422,Security Officers and Guards,,Full-time Share,68
+4511,Beauty Therapists,,Full-time Share,39
+4512,Driving Instructors,,Full-time Share,38
+4513,Funeral Workers,,Full-time Share,71
+4514,"Gallery, Museum and Tour Guides",,Full-time Share,43
+4515,Personal Care Consultants,,Full-time Share,26
+4516,Tourism and Travel Advisers,,Full-time Share,71
+4517,Travel Attendants,,Full-time Share,52
+4518,Other Personal Service Workers,,Full-time Share,34
+4521,Fitness Instructors,,Full-time Share,29
+4522,Outdoor Adventure Guides,,Full-time Share,57
+4523,"Sports Coaches, Instructors and Officials",,Full-time Share,19
+4524,Sportspersons,,Full-time Share,39
+5111,"Contract, Program and Project Administrators",,Full-time Share,82
+5121,Office Managers,,Full-time Share,62
+5122,Practice Managers,,Full-time Share,61
+5211,Personal Assistants,,Full-time Share,72
+5212,Secretaries,,Full-time Share,46
+5311,General Clerks,,Full-time Share,57
+5321,Keyboard Operators,,Full-time Share,53
+5411,Call or Contact Centre Workers,,Full-time Share,66
 5412,Information Officers,,Full-time Share,70
-5421,Receptionists,,Full-time Share,95
-5511,Accounting Clerks,,Full-time Share,81
-5512,Bookkeepers,,Full-time Share,91
-5513,Payroll Clerks,,Full-time Share,86
-5521,Bank Workers,,Full-time Share,70
-5522,Credit and Loans Officers,,Full-time Share,56
-5523,"Insurance, Money Market and Statistical Clerks",,Full-time Share,70
-5611,Betting Clerks,,Full-time Share,67
-5612,Couriers and Postal Deliverers,,Full-time Share,17
-5613,Filing and Registry Clerks,,Full-time Share,79
-5614,Mail Sorters,,Full-time Share,50
-5615,Survey Interviewers,,Full-time Share,59
-5616,Switchboard Operators,,Full-time Share,81
-5619,Other Clerical and Office Support Workers,,Full-time Share,57
-5911,Purchasing and Supply Logistics Clerks,,Full-time Share,44
-5912,Transport and Despatch Clerks,,Full-time Share,35
-5991,Conveyancers and Legal Executives,,Full-time Share,82
-5992,Court and Legal Clerks,,Full-time Share,75
-5993,Debt Collectors,,Full-time Share,62
+5421,Receptionists,,Full-time Share,43
+5511,Accounting Clerks,,Full-time Share,66
+5512,Bookkeepers,,Full-time Share,33
+5513,Payroll Clerks,,Full-time Share,66
+5521,Bank Workers,,Full-time Share,67
+5522,Credit and Loans Officers,,Full-time Share,84
+5523,"Insurance, Money Market and Statistical Clerks",,Full-time Share,77
+5611,Betting Clerks,,Full-time Share,33
+5612,Couriers and Postal Deliverers,,Full-time Share,73
+5613,Filing and Registry Clerks,,Full-time Share,59
+5614,Mail Sorters,,Full-time Share,63
+5615,Survey Interviewers,,Full-time Share,20
+5616,Switchboard Operators,,Full-time Share,52
+5619,Other Clerical and Office Support Workers,,Full-time Share,48
+5911,Purchasing and Supply Logistics Clerks,,Full-time Share,83
+5912,Transport and Despatch Clerks,,Full-time Share,88
+5991,Conveyancers and Legal Executives,,Full-time Share,62
+5992,Court and Legal Clerks,,Full-time Share,65
+5993,Debt Collectors,,Full-time Share,73
 5994,Human Resource Clerks,,Full-time Share,76
-5995,Inspectors and Regulatory Officers,,Full-time Share,51
-5996,"Insurance Investigators, Loss Adjusters and Risk Surveyors",,Full-time Share,31
-5997,Library Assistants,,Full-time Share,87
-5999,Other Clerical & Administrative Workers,,Full-time Share,64
-6111,"Auctioneers, and Stock and Station Agents",,Full-time Share,10
-6112,Insurance Agents,,Full-time Share,53
-6113,Sales Representatives,,Full-time Share,36
-6121,Real Estate Sales Agents,,Full-time Share,50
-6211,Sales Assistants (General),,Full-time Share,68
-6212,ICT Sales Assistants,,Full-time Share,35
-6213,Motor Vehicle and Vehicle Parts Salespersons,,Full-time Share,16
-6214,Pharmacy Sales Assistants,,Full-time Share,90
-6215,Retail Supervisors,,Full-time Share,58
-6216,Service Station Attendants,,Full-time Share,47
-6217,Street Vendors and Related Salespersons,,Full-time Share,53
-6219,Other Sales Assistants and Salespersons,,Full-time Share,33
-6311,Checkout Operators and Office Cashiers,,Full-time Share,75
-6391,Models and Sales Demonstrators,,Full-time Share,81
-6392,Retail and Wool Buyers,,Full-time Share,55
-6393,Telemarketers,,Full-time Share,59
-6394,Ticket Salespersons,,Full-time Share,67
-6395,Visual Merchandisers,,Full-time Share,85
-6399,Other Sales Support Workers,,Full-time Share,66
-7111,"Clay, Concrete, Glass & Stone Machine Operators",,Full-time Share,3
-7112,Industrial Spraypainters,,Full-time Share,2
-7113,Paper and Wood Processing Machine Operators,,Full-time Share,6
-7114,Photographic Developers and Printers,,Full-time Share,61
-7115,Plastics and Rubber Production Machine Operators,,Full-time Share,9
-7116,Sewing Machinists,,Full-time Share,82
-7117,Textile & Footwear Production Machine Operators,,Full-time Share,33
-7119,Other Machine Operators,,Full-time Share,38
-7121,"Crane, Hoist and Lift Operators",,Full-time Share,3
-7122,"Drillers, Miners and Shot Firers",,Full-time Share,7
-7123,Engineering Production Workers,,Full-time Share,4
-7129,Other Stationary Plant Operators,,Full-time Share,8
-7211,"Agricultural, Forestry & Horticultural Operators",,Full-time Share,6
-7212,Earthmoving Plant Operators,,Full-time Share,2
-7213,Forklift Drivers,,Full-time Share,4
-7219,Other Mobile Plant Operators,,Full-time Share,10
-7311,Automobile Drivers,,Full-time Share,6
-7312,Bus and Coach Drivers,,Full-time Share,13
-7313,Train and Tram Drivers,,Full-time Share,9
-7321,Delivery Drivers,,Full-time Share,10
-7331,Truck Drivers,,Full-time Share,3
-7411,Storepersons,,Full-time Share,21
-8111,Car Detailers,,Full-time Share,12
-8112,Commercial Cleaners,,Full-time Share,57
-8113,Domestic Cleaners,,Full-time Share,77
-8114,Housekeepers,,Full-time Share,84
-8115,Laundry Workers,,Full-time Share,69
-8116,Other Cleaners,,Full-time Share,12
-8211,Building and Plumbing Labourers,,Full-time Share,3
-8212,Concreters,,Full-time Share,1
-8213,Fencers,,Full-time Share,4
-8214,Insulation and Home Improvement Installers,,Full-time Share,3
-8215,Paving and Surfacing Labourers,,Full-time Share,2
-8216,Railway Track Workers,,Full-time Share,4
-8217,Structural Steel Construction Workers,,Full-time Share,1
-8219,Other Construction and Mining Labourers,,Full-time Share,5
-8311,Food and Drink Factory Workers,,Full-time Share,30
-8312,"Meat Boners and Slicers, and Slaughterers",,Full-time Share,12
-8313,"Meat, Poultry and Seafood Process Workers",,Full-time Share,28
-8321,Packers,,Full-time Share,59
-8322,Product Assemblers,,Full-time Share,25
-8391,Metal Engineering Process Workers,,Full-time Share,6
-8392,Plastics and Rubber Factory Workers,,Full-time Share,25
-8393,Product Quality Controllers,,Full-time Share,46
-8394,Timber and Wood Process Workers,,Full-time Share,8
-8399,Other Factory Process Workers,,Full-time Share,23
-8411,Aquaculture Workers,,Full-time Share,14
-8412,Crop Farm Workers,,Full-time Share,31
-8413,Forestry and Logging Workers,,Full-time Share,10
-8414,Garden and Nursery Labourers,,Full-time Share,18
-8415,Livestock Farm Workers,,Full-time Share,37
-8416,Mixed Crop and Livestock Farm Workers,,Full-time Share,17
-8419,"Other Farm, Forestry and Garden Workers",,Full-time Share,11
-8511,Fast Food Cooks,,Full-time Share,29
-8512,Food Trades Assistants,,Full-time Share,59
-8513,Kitchenhands,,Full-time Share,55
-8911,Freight and Furniture Handlers,,Full-time Share,6
-8912,Shelf Fillers,,Full-time Share,39
-8991,Caretakers,,Full-time Share,15
-8992,Deck and Fishing Hands,,Full-time Share,8
-8993,Handypersons,,Full-time Share,4
-8994,Motor Vehicle Parts and Accessories Fitters,,Full-time Share,2
-8995,Printing Assistants and Table Workers,,Full-time Share,46
-8996,Recycling and Rubbish Collectors,,Full-time Share,6
-8997,Vending Machine Attendants,,Full-time Share,64
-8999,Other Miscellaneous Labourers,,Full-time Share,24
-1111,Chief Executives and Managing Directors,,Part-time Share,21
-1112,General Managers,,Part-time Share,29
-1113,Legislators,,Part-time Share,41
-1211,Aquaculture Farmers,,Part-time Share,15
-1212,Crop Farmers,,Part-time Share,25
-1213,Livestock Farmers,,Part-time Share,32
-1214,Mixed Crop and Livestock Farmers,,Part-time Share,25
-1311,"Advertising, Public Relations and Sales Manager",,Part-time Share,41
-1321,Corporate Services Managers,,Part-time Share,62
-1322,Finance Managers,,Part-time Share,46
-1323,Human Resource Managers,,Part-time Share,57
-1324,Policy and Planning Managers,,Part-time Share,56
-1332,Engineering Managers,,Part-time Share,9
-1333,"Importers, Exporters and Wholesalers",,Part-time Share,25
-1336,"Supply, Distribution and Procurement Managers",,Part-time Share,22
-1341,Child Care Centre Managers,,Part-time Share,92
-1342,Health and Welfare Services Managers,,Part-time Share,74
-1343,School Principals,,Part-time Share,60
-1344,Other Education Managers,,Part-time Share,61
-1351,ICT Managers,,Part-time Share,21
-1391,Commissioned Officers (Management),,Part-time Share,15
-1392,Senior Non-Commissioned Defence Force Officers,,Part-time Share,15
-1399,Other Specialist Managers,,Part-time Share,40
-1411,Cafe and Restaurant Managers,,Part-time Share,54
-1412,Caravan Park and Camping Ground Managers,,Part-time Share,48
-1413,Hotel and Motel Managers,,Part-time Share,43
-1414,Licensed Club Managers,,Part-time Share,43
-1419,Other Accommodation and Hospitality Managers,,Part-time Share,60
-1421,Retail Managers,,Part-time Share,50
-1491,"Amusement, Fitness and Sports Centre Managers",,Part-time Share,44
-1492,"Call, Contact Centre & Customer Service Managers",,Part-time Share,44
-1493,Conference and Event Organisers,,Part-time Share,75
-1494,Transport Services Managers,,Part-time Share,18
-1499,"Other Hospitality, Retail and Service Managers",,Part-time Share,33
-2111,"Actors, Dancers and Other Entertainers",,Part-time Share,50
-2112,Music Professionals,,Part-time Share,29
-2113,Photographers,,Part-time Share,49
-2114,Visual Arts and Crafts Professionals,,Part-time Share,57
-2121,"Artistic Directors, Media Producers & Presenters",,Part-time Share,43
-2122,"Authors, and Book and Script Editors",,Part-time Share,67
-2123,"Film, Television, Radio and Stage Directors",,Part-time Share,29
-2124,Journalists and Other Writers,,Part-time Share,56
-2211,Accountants,,Part-time Share,52
-2212,"Auditors, Company Secretaries and Corporate Treasurers",,Part-time Share,48
-2221,Financial Brokers,,Part-time Share,34
-2222,Financial Dealers,,Part-time Share,31
-2223,Financial Investment Advisers and Managers,,Part-time Share,31
-2231,Human Resource Professionals,,Part-time Share,72
-2232,ICT Trainers,,Part-time Share,47
-2233,Training and Development Professionals,,Part-time Share,58
-2241,"Actuaries, Mathematicians and Statisticians",,Part-time Share,43
-2242,"Archivists, Curators and Records Managers",,Part-time Share,71
-2243,Economists,,Part-time Share,33
-2244,Intelligence and Policy Analysts,,Part-time Share,62
-2245,Land Economists and Valuers,,Part-time Share,25
-2246,Librarians,,Part-time Share,84
-2247,Management and Organisation Analysts,,Part-time Share,42
-2249,Other Information and Organisation Professionals,,Part-time Share,56
-2251,Advertising and Marketing Professionals,,Part-time Share,61
-2252,ICT Sales Professionals,,Part-time Share,25
-2253,Public Relations Professionals,,Part-time Share,73
-2254,Technical Sales Representatives,,Part-time Share,28
-2311,Air Transport Professionals,,Part-time Share,9
-2312,Marine Transport Professionals,,Part-time Share,5
-2321,Architects and Landscape Architects,,Part-time Share,34
-2322,Surveyors and Spatial Scientists,,Part-time Share,13
-2323,"Fashion, Industrial and Jewellery Designers",,Part-time Share,62
-2324,"Graphic and Web Designers, and Illustrators",,Part-time Share,51
-2325,Interior Designers,,Part-time Share,76
-2326,Urban and Regional Planners,,Part-time Share,46
-2331,Chemical and Materials Engineers,,Part-time Share,20
-2332,Civil Engineering Professionals,,Part-time Share,12
-2333,Electrical Engineers,,Part-time Share,7
-2334,Electronics Engineers,,Part-time Share,6
-2335,"Industrial, Mechanical and Production Engineers",,Part-time Share,7
-2336,Mining Engineers,,Part-time Share,13
-2339,Other Engineering Professionals,,Part-time Share,15
-2341,Agricultural and Forestry Scientists,,Part-time Share,26
-2342,"Chemists, and Food and Wine Scientists",,Part-time Share,40
-2343,Environmental Scientists,,Part-time Share,41
-2344,"Geologists, Geophysicists and Hydrogeologists",,Part-time Share,25
-2345,Life Scientists,,Part-time Share,53
-2346,Medical Laboratory Scientists,,Part-time Share,71
-2347,Veterinarians,,Part-time Share,61
-2349,Other Natural and Physical Science Professionals,,Part-time Share,41
-2411,Early Childhood (Pre-primary School) Teachers,,Part-time Share,98
-2412,Primary School Teachers,,Part-time Share,85
-2413,Middle School Teachers,,Part-time Share,66
-2414,Secondary School Teachers,,Part-time Share,62
-2415,Special Education Teachers,,Part-time Share,86
-2421,University Lecturers and Tutors,,Part-time Share,49
-2422,Vocational Education Teachers,,Part-time Share,51
-2491,Education Advisers and Reviewers,,Part-time Share,71
-2492,Private Tutors and Teachers,,Part-time Share,71
-2493,Teachers of English to Speakers of Other Languages,,Part-time Share,76
-2511,Nutrition Professionals,,Part-time Share,94
-2512,Medical Imaging Professionals,,Part-time Share,71
-2513,Occupational & Environmental Health Professionals,,Part-time Share,44
-2514,Optometrists and Orthoptists,,Part-time Share,58
-2515,Pharmacists,,Part-time Share,62
-2519,Other Health Diagnostic & Promotion Professionals,,Part-time Share,79
-2521,Chiropractors and Osteopaths,,Part-time Share,44
-2522,Complementary Health Therapists,,Part-time Share,72
-2523,Dental Practitioners,,Part-time Share,42
-2524,Occupational Therapists,,Part-time Share,92
-2525,Physiotherapists,,Part-time Share,67
-2526,Podiatrists,,Part-time Share,60
-2527,Audiologists and Speech Pathologists,,Part-time Share,93
-2531,General Practitioners and Resident Medical Officers,,Part-time Share,46
-2532,Anaesthetists,,Part-time Share,33
-2533,Specialist Physicians,,Part-time Share,43
-2534,Psychiatrists,,Part-time Share,44
-2535,Surgeons,,Part-time Share,18
-2539,Other Medical Practitioners,,Part-time Share,46
-2541,Midwives,,Part-time Share,98
-2542,Nurse Educators and Researchers,,Part-time Share,91
-2543,Nurse Managers,,Part-time Share,87
-2544,Registered Nurses,,Part-time Share,89
-2611,ICT Business and Systems Analysts,,Part-time Share,30
-2612,Multimedia Specialists and Web Developers,,Part-time Share,17
-2613,Software and Applications Programmers,,Part-time Share,17
-2621,Database & Systems Administrators & ICT Security,,Part-time Share,21
+5995,Inspectors and Regulatory Officers,,Full-time Share,80
+5996,"Insurance Investigators, Loss Adjusters and Risk Surveyors",,Full-time Share,87
+5997,Library Assistants,,Full-time Share,29
+5999,Other Clerical & Administrative Workers,,Full-time Share,62
+6111,"Auctioneers, and Stock and Station Agents",,Full-time Share,88
+6112,Insurance Agents,,Full-time Share,81
+6113,Sales Representatives,,Full-time Share,85
+6121,Real Estate Sales Agents,,Full-time Share,80
+6211,Sales Assistants (General),,Full-time Share,28
+6212,ICT Sales Assistants,,Full-time Share,68
+6213,Motor Vehicle and Vehicle Parts Salespersons,,Full-time Share,88
+6214,Pharmacy Sales Assistants,,Full-time Share,28
+6215,Retail Supervisors,,Full-time Share,70
+6216,Service Station Attendants,,Full-time Share,30
+6217,Street Vendors and Related Salespersons,,Full-time Share,46
+6219,Other Sales Assistants and Salespersons,,Full-time Share,68
+6311,Checkout Operators and Office Cashiers,,Full-time Share,14
+6391,Models and Sales Demonstrators,,Full-time Share,20
+6392,Retail and Wool Buyers,,Full-time Share,87
+6393,Telemarketers,,Full-time Share,49
+6394,Ticket Salespersons,,Full-time Share,45
+6395,Visual Merchandisers,,Full-time Share,50
+6399,Other Sales Support Workers,,Full-time Share,31
+7111,"Clay, Concrete, Glass & Stone Machine Operators",,Full-time Share,92
+7112,Industrial Spraypainters,,Full-time Share,90
+7113,Paper and Wood Processing Machine Operators,,Full-time Share,89
+7114,Photographic Developers and Printers,,Full-time Share,53
+7115,Plastics and Rubber Production Machine Operators,,Full-time Share,90
+7116,Sewing Machinists,,Full-time Share,57
+7117,Textile & Footwear Production Machine Operators,,Full-time Share,82
+7119,Other Machine Operators,,Full-time Share,68
+7121,"Crane, Hoist and Lift Operators",,Full-time Share,90
+7122,"Drillers, Miners and Shot Firers",,Full-time Share,95
+7123,Engineering Production Workers,,Full-time Share,92
+7129,Other Stationary Plant Operators,,Full-time Share,91
+7211,"Agricultural, Forestry & Horticultural Operators",,Full-time Share,82
+7212,Earthmoving Plant Operators,,Full-time Share,86
+7213,Forklift Drivers,,Full-time Share,86
+7219,Other Mobile Plant Operators,,Full-time Share,72
+7311,Automobile Drivers,,Full-time Share,58
+7312,Bus and Coach Drivers,,Full-time Share,60
+7313,Train and Tram Drivers,,Full-time Share,93
+7321,Delivery Drivers,,Full-time Share,52
+7331,Truck Drivers,,Full-time Share,85
+7411,Storepersons,,Full-time Share,73
+8111,Car Detailers,,Full-time Share,61
+8112,Commercial Cleaners,,Full-time Share,33
+8113,Domestic Cleaners,,Full-time Share,16
+8114,Housekeepers,,Full-time Share,22
+8115,Laundry Workers,,Full-time Share,49
+8116,Other Cleaners,,Full-time Share,50
+8211,Building and Plumbing Labourers,,Full-time Share,76
+8212,Concreters,,Full-time Share,79
+8213,Fencers,,Full-time Share,71
+8214,Insulation and Home Improvement Installers,,Full-time Share,78
+8215,Paving and Surfacing Labourers,,Full-time Share,88
+8216,Railway Track Workers,,Full-time Share,90
+8217,Structural Steel Construction Workers,,Full-time Share,85
+8219,Other Construction and Mining Labourers,,Full-time Share,81
+8311,Food and Drink Factory Workers,,Full-time Share,75
+8312,"Meat Boners and Slicers, and Slaughterers",,Full-time Share,74
+8313,"Meat, Poultry and Seafood Process Workers",,Full-time Share,72
+8321,Packers,,Full-time Share,55
+8322,Product Assemblers,,Full-time Share,82
+8391,Metal Engineering Process Workers,,Full-time Share,85
+8392,Plastics and Rubber Factory Workers,,Full-time Share,80
+8393,Product Quality Controllers,,Full-time Share,80
+8394,Timber and Wood Process Workers,,Full-time Share,79
+8399,Other Factory Process Workers,,Full-time Share,68
+8411,Aquaculture Workers,,Full-time Share,68
+8412,Crop Farm Workers,,Full-time Share,61
+8413,Forestry and Logging Workers,,Full-time Share,72
+8414,Garden and Nursery Labourers,,Full-time Share,52
+8415,Livestock Farm Workers,,Full-time Share,64
+8416,Mixed Crop and Livestock Farm Workers,,Full-time Share,75
+8419,"Other Farm, Forestry and Garden Workers",,Full-time Share,69
+8511,Fast Food Cooks,,Full-time Share,16
+8512,Food Trades Assistants,,Full-time Share,34
+8513,Kitchenhands,,Full-time Share,19
+8911,Freight and Furniture Handlers,,Full-time Share,64
+8912,Shelf Fillers,,Full-time Share,20
+8991,Caretakers,,Full-time Share,57
+8992,Deck and Fishing Hands,,Full-time Share,72
+8993,Handypersons,,Full-time Share,54
+8994,Motor Vehicle Parts and Accessories Fitters,,Full-time Share,89
+8995,Printing Assistants and Table Workers,,Full-time Share,64
+8996,Recycling and Rubbish Collectors,,Full-time Share,69
+8997,Vending Machine Attendants,,Full-time Share,39
+8999,Other Miscellaneous Labourers,,Full-time Share,46
+1111,Chief Executives and Managing Directors,,Part-time Share,12
+1112,General Managers,,Part-time Share,11
+1113,Legislators,,Part-time Share,27
+1211,Aquaculture Farmers,,Part-time Share,21
+1212,Crop Farmers,,Part-time Share,22
+1213,Livestock Farmers,,Part-time Share,23
+1214,Mixed Crop and Livestock Farmers,,Part-time Share,16
+1311,"Advertising, Public Relations and Sales Manager",,Part-time Share,11
+1321,Corporate Services Managers,,Part-time Share,14
+1322,Finance Managers,,Part-time Share,14
+1323,Human Resource Managers,,Part-time Share,13
+1324,Policy and Planning Managers,,Part-time Share,14
+1332,Engineering Managers,,Part-time Share,6
+1333,"Importers, Exporters and Wholesalers",,Part-time Share,20
+1336,"Supply, Distribution and Procurement Managers",,Part-time Share,6
+1341,Child Care Centre Managers,,Part-time Share,29
+1342,Health and Welfare Services Managers,,Part-time Share,16
+1343,School Principals,,Part-time Share,4
+1344,Other Education Managers,,Part-time Share,15
+1351,ICT Managers,,Part-time Share,6
+1391,Commissioned Officers (Management),,Part-time Share,7
+1392,Senior Non-Commissioned Defence Force Officers,,Part-time Share,7
+1399,Other Specialist Managers,,Part-time Share,12
+1411,Cafe and Restaurant Managers,,Part-time Share,24
+1412,Caravan Park and Camping Ground Managers,,Part-time Share,16
+1413,Hotel and Motel Managers,,Part-time Share,13
+1414,Licensed Club Managers,,Part-time Share,17
+1419,Other Accommodation and Hospitality Managers,,Part-time Share,35
+1421,Retail Managers,,Part-time Share,19
+1491,"Amusement, Fitness and Sports Centre Managers",,Part-time Share,28
+1492,"Call, Contact Centre & Customer Service Managers",,Part-time Share,10
+1493,Conference and Event Organisers,,Part-time Share,29
+1494,Transport Services Managers,,Part-time Share,14
+1499,"Other Hospitality, Retail and Service Managers",,Part-time Share,15
+2111,"Actors, Dancers and Other Entertainers",,Part-time Share,68
+2112,Music Professionals,,Part-time Share,67
+2113,Photographers,,Part-time Share,52
+2114,Visual Arts and Crafts Professionals,,Part-time Share,51
+2121,"Artistic Directors, Media Producers & Presenters",,Part-time Share,24
+2122,"Authors, and Book and Script Editors",,Part-time Share,49
+2123,"Film, Television, Radio and Stage Directors",,Part-time Share,24
+2124,Journalists and Other Writers,,Part-time Share,32
+2211,Accountants,,Part-time Share,21
+2212,"Auditors, Company Secretaries and Corporate Treasurers",,Part-time Share,14
+2221,Financial Brokers,,Part-time Share,17
+2222,Financial Dealers,,Part-time Share,11
+2223,Financial Investment Advisers and Managers,,Part-time Share,16
+2231,Human Resource Professionals,,Part-time Share,19
+2232,ICT Trainers,,Part-time Share,33
+2233,Training and Development Professionals,,Part-time Share,24
+2241,"Actuaries, Mathematicians and Statisticians",,Part-time Share,21
+2242,"Archivists, Curators and Records Managers",,Part-time Share,31
+2243,Economists,,Part-time Share,16
+2244,Intelligence and Policy Analysts,,Part-time Share,20
+2245,Land Economists and Valuers,,Part-time Share,17
+2246,Librarians,,Part-time Share,39
+2247,Management and Organisation Analysts,,Part-time Share,21
+2249,Other Information and Organisation Professionals,,Part-time Share,23
+2251,Advertising and Marketing Professionals,,Part-time Share,22
+2252,ICT Sales Professionals,,Part-time Share,8
+2253,Public Relations Professionals,,Part-time Share,26
+2254,Technical Sales Representatives,,Part-time Share,10
+2311,Air Transport Professionals,,Part-time Share,23
+2312,Marine Transport Professionals,,Part-time Share,16
+2321,Architects and Landscape Architects,,Part-time Share,19
+2322,Surveyors and Spatial Scientists,,Part-time Share,14
+2323,"Fashion, Industrial and Jewellery Designers",,Part-time Share,26
+2324,"Graphic and Web Designers, and Illustrators",,Part-time Share,30
+2325,Interior Designers,,Part-time Share,31
+2326,Urban and Regional Planners,,Part-time Share,21
+2331,Chemical and Materials Engineers,,Part-time Share,12
+2332,Civil Engineering Professionals,,Part-time Share,10
+2333,Electrical Engineers,,Part-time Share,9
+2334,Electronics Engineers,,Part-time Share,11
+2335,"Industrial, Mechanical and Production Engineers",,Part-time Share,9
+2336,Mining Engineers,,Part-time Share,9
+2339,Other Engineering Professionals,,Part-time Share,11
+2341,Agricultural and Forestry Scientists,,Part-time Share,19
+2342,"Chemists, and Food and Wine Scientists",,Part-time Share,18
+2343,Environmental Scientists,,Part-time Share,24
+2344,"Geologists, Geophysicists and Hydrogeologists",,Part-time Share,17
+2345,Life Scientists,,Part-time Share,25
+2346,Medical Laboratory Scientists,,Part-time Share,29
+2347,Veterinarians,,Part-time Share,29
+2349,Other Natural and Physical Science Professionals,,Part-time Share,26
+2411,Early Childhood (Pre-primary School) Teachers,,Part-time Share,44
+2412,Primary School Teachers,,Part-time Share,36
+2413,Middle School Teachers,,Part-time Share,17
+2414,Secondary School Teachers,,Part-time Share,25
+2415,Special Education Teachers,,Part-time Share,41
+2421,University Lecturers and Tutors,,Part-time Share,42
+2422,Vocational Education Teachers,,Part-time Share,42
+2491,Education Advisers and Reviewers,,Part-time Share,33
+2492,Private Tutors and Teachers,,Part-time Share,80
+2493,Teachers of English to Speakers of Other Languages,,Part-time Share,63
+2511,Nutrition Professionals,,Part-time Share,49
+2512,Medical Imaging Professionals,,Part-time Share,33
+2513,Occupational & Environmental Health Professionals,,Part-time Share,18
+2514,Optometrists and Orthoptists,,Part-time Share,37
+2515,Pharmacists,,Part-time Share,32
+2519,Other Health Diagnostic & Promotion Professionals,,Part-time Share,41
+2521,Chiropractors and Osteopaths,,Part-time Share,48
+2522,Complementary Health Therapists,,Part-time Share,63
+2523,Dental Practitioners,,Part-time Share,36
+2524,Occupational Therapists,,Part-time Share,42
+2525,Physiotherapists,,Part-time Share,37
+2526,Podiatrists,,Part-time Share,36
+2527,Audiologists and Speech Pathologists,,Part-time Share,43
+2531,General Practitioners and Resident Medical Officers,,Part-time Share,24
+2532,Anaesthetists,,Part-time Share,19
+2533,Specialist Physicians,,Part-time Share,21
+2534,Psychiatrists,,Part-time Share,29
+2535,Surgeons,,Part-time Share,13
+2539,Other Medical Practitioners,,Part-time Share,21
+2541,Midwives,,Part-time Share,61
+2542,Nurse Educators and Researchers,,Part-time Share,41
+2543,Nurse Managers,,Part-time Share,24
+2544,Registered Nurses,,Part-time Share,50
+2611,ICT Business and Systems Analysts,,Part-time Share,10
+2612,Multimedia Specialists and Web Developers,,Part-time Share,21
+2613,Software and Applications Programmers,,Part-time Share,10
+2621,Database & Systems Administrators & ICT Security,,Part-time Share,11
 2631,Computer Network Professionals,,Part-time Share,8
-2632,ICT Support and Test Engineers,,Part-time Share,24
-2633,Telecommunications Engineering Professionals,,Part-time Share,17
-2711,Barristers,,Part-time Share,32
-2712,Judicial and Other Legal Professionals,,Part-time Share,58
-2713,Solicitors,,Part-time Share,51
-2721,Counsellors,,Part-time Share,77
-2722,Ministers of Religion,,Part-time Share,29
-2723,Psychologists and Psychotherapists,,Part-time Share,80
-2724,Social Professionals,,Part-time Share,64
-2725,Social Workers,,Part-time Share,84
-2726,"Welfare, Recreation and Community Arts Workers",,Part-time Share,78
-3111,Agricultural Technicians,,Part-time Share,37
-3112,Medical Technicians,,Part-time Share,79
-3113,Primary Products Inspectors,,Part-time Share,31
-3114,Science Technicians,,Part-time Share,53
+2632,ICT Support and Test Engineers,,Part-time Share,9
+2633,Telecommunications Engineering Professionals,,Part-time Share,9
+2711,Barristers,,Part-time Share,15
+2712,Judicial and Other Legal Professionals,,Part-time Share,27
+2713,Solicitors,,Part-time Share,16
+2721,Counsellors,,Part-time Share,49
+2722,Ministers of Religion,,Part-time Share,30
+2723,Psychologists and Psychotherapists,,Part-time Share,48
+2724,Social Professionals,,Part-time Share,61
+2725,Social Workers,,Part-time Share,37
+2726,"Welfare, Recreation and Community Arts Workers",,Part-time Share,37
+3111,Agricultural Technicians,,Part-time Share,20
+3112,Medical Technicians,,Part-time Share,47
+3113,Primary Products Inspectors,,Part-time Share,19
+3114,Science Technicians,,Part-time Share,29
 3121,"Architectural, Building & Surveying Technicians",,Part-time Share,11
-3122,Civil Engineering Draftspersons and Technicians,,Part-time Share,14
-3123,"Electrical Engineering Draftspersons, Technicians",,Part-time Share,7
-3124,"Electronic Engineering Draftspersons, Technicians",,Part-time Share,8
-3125,"Mechanical Engineering Draftspersons, Technicians",,Part-time Share,5
-3126,Safety Inspectors,,Part-time Share,20
-3129,Other Building and Engineering Technicians,,Part-time Share,11
-3131,ICT Support Technicians,,Part-time Share,22
-3132,Telecommunications Technical Specialists,,Part-time Share,10
-3211,Automotive Electricians,,Part-time Share,2
-3212,Motor Mechanics,,Part-time Share,1
-3221,"Metal Casting, Forging & Finishing Trades",,Part-time Share,5
-3222,Sheetmetal Trades Workers,,Part-time Share,1
-3223,Structural Steel and Welding Trades Workers,,Part-time Share,1
-3231,Aircraft Maintenance Engineers,,Part-time Share,3
-3232,Metal Fitters and Machinists,,Part-time Share,1
-3233,Precision Metal Trades Workers,,Part-time Share,7
-3234,Toolmakers and Engineering Patternmakers,,Part-time Share,3
-3241,Panelbeaters,,Part-time Share,2
-3242,Vehicle Body Builders and Trimmers,,Part-time Share,3
-3243,Vehicle Painters,,Part-time Share,2
-3311,Bricklayers and Stonemasons,,Part-time Share,1
-3312,Carpenters and Joiners,,Part-time Share,1
-3321,Floor Finishers,,Part-time Share,2
-3322,Painting Trades Workers,,Part-time Share,4
-3331,Glaziers,,Part-time Share,1
-3332,Plasterers,,Part-time Share,1
-3333,Roof Tilers,,Part-time Share,1
-3334,Wall and Floor Tilers,,Part-time Share,2
-3341,Plumbers,,Part-time Share,1
-3411,Electricians,,Part-time Share,2
-3421,Airconditioning and Refrigeration Mechanics,,Part-time Share,1
-3422,Electrical Distribution Trades Workers,,Part-time Share,1
-3423,Electronics Trades Workers,,Part-time Share,6
-3424,Telecommunications Trades Workers,,Part-time Share,4
-3511,Bakers and Pastrycooks,,Part-time Share,32
-3512,Butchers and Smallgoods Makers,,Part-time Share,6
-3513,Chefs,,Part-time Share,25
-3514,Cooks,,Part-time Share,54
-3611,Animal Attendants and Trainers,,Part-time Share,68
-3612,Shearers,,Part-time Share,3
-3613,Veterinary Nurses,,Part-time Share,97
-3621,Florists,,Part-time Share,92
-3622,Gardeners,,Part-time Share,11
-3623,Greenkeepers,,Part-time Share,3
-3624,Nurserypersons,,Part-time Share,40
-3911,Hairdressers,,Part-time Share,85
-3921,"Binders, Finishers and Screen Printers",,Part-time Share,26
-3922,Graphic Pre-press Trades Workers,,Part-time Share,34
+3122,Civil Engineering Draftspersons and Technicians,,Part-time Share,11
+3123,"Electrical Engineering Draftspersons, Technicians",,Part-time Share,13
+3124,"Electronic Engineering Draftspersons, Technicians",,Part-time Share,12
+3125,"Mechanical Engineering Draftspersons, Technicians",,Part-time Share,11
+3126,Safety Inspectors,,Part-time Share,16
+3129,Other Building and Engineering Technicians,,Part-time Share,6
+3131,ICT Support Technicians,,Part-time Share,17
+3132,Telecommunications Technical Specialists,,Part-time Share,8
+3211,Automotive Electricians,,Part-time Share,10
+3212,Motor Mechanics,,Part-time Share,10
+3221,"Metal Casting, Forging & Finishing Trades",,Part-time Share,23
+3222,Sheetmetal Trades Workers,,Part-time Share,8
+3223,Structural Steel and Welding Trades Workers,,Part-time Share,9
+3231,Aircraft Maintenance Engineers,,Part-time Share,6
+3232,Metal Fitters and Machinists,,Part-time Share,7
+3233,Precision Metal Trades Workers,,Part-time Share,16
+3234,Toolmakers and Engineering Patternmakers,,Part-time Share,12
+3241,Panelbeaters,,Part-time Share,11
+3242,Vehicle Body Builders and Trimmers,,Part-time Share,11
+3243,Vehicle Painters,,Part-time Share,10
+3311,Bricklayers and Stonemasons,,Part-time Share,22
+3312,Carpenters and Joiners,,Part-time Share,13
+3321,Floor Finishers,,Part-time Share,27
+3322,Painting Trades Workers,,Part-time Share,24
+3331,Glaziers,,Part-time Share,11
+3332,Plasterers,,Part-time Share,22
+3333,Roof Tilers,,Part-time Share,25
+3334,Wall and Floor Tilers,,Part-time Share,24
+3341,Plumbers,,Part-time Share,12
+3411,Electricians,,Part-time Share,10
+3421,Airconditioning and Refrigeration Mechanics,,Part-time Share,11
+3422,Electrical Distribution Trades Workers,,Part-time Share,5
+3423,Electronics Trades Workers,,Part-time Share,19
+3424,Telecommunications Trades Workers,,Part-time Share,15
+3511,Bakers and Pastrycooks,,Part-time Share,28
+3512,Butchers and Smallgoods Makers,,Part-time Share,18
+3513,Chefs,,Part-time Share,28
+3514,Cooks,,Part-time Share,52
+3611,Animal Attendants and Trainers,,Part-time Share,49
+3612,Shearers,,Part-time Share,36
+3613,Veterinary Nurses,,Part-time Share,51
+3621,Florists,,Part-time Share,52
+3622,Gardeners,,Part-time Share,37
+3623,Greenkeepers,,Part-time Share,25
+3624,Nurserypersons,,Part-time Share,34
+3911,Hairdressers,,Part-time Share,49
+3921,"Binders, Finishers and Screen Printers",,Part-time Share,20
+3922,Graphic Pre-press Trades Workers,,Part-time Share,20
 3923,Printers,,Part-time Share,13
-3931,Canvas and Leather Goods Makers,,Part-time Share,23
-3932,Clothing Trades Workers,,Part-time Share,80
-3933,Upholsterers,,Part-time Share,9
-3941,Cabinetmakers,,Part-time Share,2
-3942,Wood Machinists and Other Wood Trades Workers,,Part-time Share,18
-3991,Boat Builders and Shipwrights,,Part-time Share,2
-3992,"Chemical, Gas, Petroleum & Power Plant Operators",,Part-time Share,4
-3993,"Gallery, Library and Museum Technicians",,Part-time Share,86
-3994,Jewellers,,Part-time Share,34
-3995,Performing Arts Technicians,,Part-time Share,30
-3996,Signwriters,,Part-time Share,12
-3999,Other Technicians and Trades Workers,,Part-time Share,39
-4111,Ambulance Officers and Paramedics,,Part-time Share,37
-4112,"Dental Hygienists, Technicians and Therapists",,Part-time Share,60
-4113,Diversional Therapists,,Part-time Share,91
-4114,Enrolled and Mothercraft Nurses,,Part-time Share,90
-4115,Indigenous Health Workers,,Part-time Share,73
-4116,Massage Therapists,,Part-time Share,76
-4117,Welfare Support Workers,,Part-time Share,74
-4211,Child Carers,,Part-time Share,95
-4221,Education Aides,,Part-time Share,90
-4231,Aged and Disabled Carers,,Part-time Share,80
-4232,Dental Assistants,,Part-time Share,98
-4233,Nursing Support and Personal Care Workers,,Part-time Share,78
-4234,Special Care Workers,,Part-time Share,69
-4311,Bar Attendants and Baristas,,Part-time Share,59
+3931,Canvas and Leather Goods Makers,,Part-time Share,27
+3932,Clothing Trades Workers,,Part-time Share,49
+3933,Upholsterers,,Part-time Share,22
+3941,Cabinetmakers,,Part-time Share,11
+3942,Wood Machinists and Other Wood Trades Workers,,Part-time Share,26
+3991,Boat Builders and Shipwrights,,Part-time Share,13
+3992,"Chemical, Gas, Petroleum & Power Plant Operators",,Part-time Share,5
+3993,"Gallery, Library and Museum Technicians",,Part-time Share,55
+3994,Jewellers,,Part-time Share,33
+3995,Performing Arts Technicians,,Part-time Share,44
+3996,Signwriters,,Part-time Share,18
+3999,Other Technicians and Trades Workers,,Part-time Share,32
+4111,Ambulance Officers and Paramedics,,Part-time Share,14
+4112,"Dental Hygienists, Technicians and Therapists",,Part-time Share,39
+4113,Diversional Therapists,,Part-time Share,58
+4114,Enrolled and Mothercraft Nurses,,Part-time Share,57
+4115,Indigenous Health Workers,,Part-time Share,24
+4116,Massage Therapists,,Part-time Share,75
+4117,Welfare Support Workers,,Part-time Share,37
+4211,Child Carers,,Part-time Share,53
+4221,Education Aides,,Part-time Share,78
+4231,Aged and Disabled Carers,,Part-time Share,67
+4232,Dental Assistants,,Part-time Share,54
+4233,Nursing Support and Personal Care Workers,,Part-time Share,62
+4234,Special Care Workers,,Part-time Share,48
+4311,Bar Attendants and Baristas,,Part-time Share,71
 4312,Cafe Workers,,Part-time Share,81
-4313,Gaming Workers,,Part-time Share,43
-4314,Hotel Service Managers,,Part-time Share,62
-4315,Waiters,,Part-time Share,76
-4319,Other Hospitality Workers,,Part-time Share,45
-4411,Defence Force Members - Other Ranks,,Part-time Share,13
+4313,Gaming Workers,,Part-time Share,44
+4314,Hotel Service Managers,,Part-time Share,28
+4315,Waiters,,Part-time Share,84
+4319,Other Hospitality Workers,,Part-time Share,71
+4411,Defence Force Members - Other Ranks,,Part-time Share,6
 4412,Fire and Emergency Workers,,Part-time Share,7
-4413,Police,,Part-time Share,27
-4421,Prison Officers,,Part-time Share,27
-4422,Security Officers and Guards,,Part-time Share,16
-4511,Beauty Therapists,,Part-time Share,97
-4512,Driving Instructors,,Part-time Share,23
-4513,Funeral Workers,,Part-time Share,45
-4514,"Gallery, Museum and Tour Guides",,Part-time Share,48
-4515,Personal Care Consultants,,Part-time Share,81
-4516,Tourism and Travel Advisers,,Part-time Share,80
-4517,Travel Attendants,,Part-time Share,74
-4518,Other Personal Service Workers,,Part-time Share,67
-4521,Fitness Instructors,,Part-time Share,60
-4522,Outdoor Adventure Guides,,Part-time Share,37
-4523,"Sports Coaches, Instructors and Officials",,Part-time Share,50
-4524,Sportspersons,,Part-time Share,25
-5111,"Contract, Program and Project Administrators",,Part-time Share,55
-5121,Office Managers,,Part-time Share,88
-5122,Practice Managers,,Part-time Share,90
-5211,Personal Assistants,,Part-time Share,97
-5212,Secretaries,,Part-time Share,97
-5311,General Clerks,,Part-time Share,85
-5321,Keyboard Operators,,Part-time Share,84
-5411,Call or Contact Centre Workers,,Part-time Share,70
-5412,Information Officers,,Part-time Share,70
-5421,Receptionists,,Part-time Share,95
-5511,Accounting Clerks,,Part-time Share,81
-5512,Bookkeepers,,Part-time Share,91
-5513,Payroll Clerks,,Part-time Share,86
-5521,Bank Workers,,Part-time Share,70
-5522,Credit and Loans Officers,,Part-time Share,56
-5523,"Insurance, Money Market and Statistical Clerks",,Part-time Share,70
-5611,Betting Clerks,,Part-time Share,67
-5612,Couriers and Postal Deliverers,,Part-time Share,17
-5613,Filing and Registry Clerks,,Part-time Share,79
-5614,Mail Sorters,,Part-time Share,50
-5615,Survey Interviewers,,Part-time Share,59
-5616,Switchboard Operators,,Part-time Share,81
-5619,Other Clerical and Office Support Workers,,Part-time Share,57
-5911,Purchasing and Supply Logistics Clerks,,Part-time Share,44
-5912,Transport and Despatch Clerks,,Part-time Share,35
-5991,Conveyancers and Legal Executives,,Part-time Share,82
-5992,Court and Legal Clerks,,Part-time Share,75
-5993,Debt Collectors,,Part-time Share,62
-5994,Human Resource Clerks,,Part-time Share,76
-5995,Inspectors and Regulatory Officers,,Part-time Share,51
-5996,"Insurance Investigators, Loss Adjusters and Risk Surveyors",,Part-time Share,31
-5997,Library Assistants,,Part-time Share,87
-5999,Other Clerical & Administrative Workers,,Part-time Share,64
-6111,"Auctioneers, and Stock and Station Agents",,Part-time Share,10
-6112,Insurance Agents,,Part-time Share,53
-6113,Sales Representatives,,Part-time Share,36
-6121,Real Estate Sales Agents,,Part-time Share,50
-6211,Sales Assistants (General),,Part-time Share,68
-6212,ICT Sales Assistants,,Part-time Share,35
-6213,Motor Vehicle and Vehicle Parts Salespersons,,Part-time Share,16
-6214,Pharmacy Sales Assistants,,Part-time Share,90
-6215,Retail Supervisors,,Part-time Share,58
-6216,Service Station Attendants,,Part-time Share,47
-6217,Street Vendors and Related Salespersons,,Part-time Share,53
-6219,Other Sales Assistants and Salespersons,,Part-time Share,33
-6311,Checkout Operators and Office Cashiers,,Part-time Share,75
-6391,Models and Sales Demonstrators,,Part-time Share,81
-6392,Retail and Wool Buyers,,Part-time Share,55
-6393,Telemarketers,,Part-time Share,59
-6394,Ticket Salespersons,,Part-time Share,67
-6395,Visual Merchandisers,,Part-time Share,85
-6399,Other Sales Support Workers,,Part-time Share,66
-7111,"Clay, Concrete, Glass & Stone Machine Operators",,Part-time Share,3
-7112,Industrial Spraypainters,,Part-time Share,2
-7113,Paper and Wood Processing Machine Operators,,Part-time Share,6
-7114,Photographic Developers and Printers,,Part-time Share,61
-7115,Plastics and Rubber Production Machine Operators,,Part-time Share,9
-7116,Sewing Machinists,,Part-time Share,82
-7117,Textile & Footwear Production Machine Operators,,Part-time Share,33
-7119,Other Machine Operators,,Part-time Share,38
-7121,"Crane, Hoist and Lift Operators",,Part-time Share,3
-7122,"Drillers, Miners and Shot Firers",,Part-time Share,7
-7123,Engineering Production Workers,,Part-time Share,4
-7129,Other Stationary Plant Operators,,Part-time Share,8
-7211,"Agricultural, Forestry & Horticultural Operators",,Part-time Share,6
-7212,Earthmoving Plant Operators,,Part-time Share,2
-7213,Forklift Drivers,,Part-time Share,4
-7219,Other Mobile Plant Operators,,Part-time Share,10
-7311,Automobile Drivers,,Part-time Share,6
-7312,Bus and Coach Drivers,,Part-time Share,13
-7313,Train and Tram Drivers,,Part-time Share,9
-7321,Delivery Drivers,,Part-time Share,10
-7331,Truck Drivers,,Part-time Share,3
-7411,Storepersons,,Part-time Share,21
-8111,Car Detailers,,Part-time Share,12
-8112,Commercial Cleaners,,Part-time Share,57
-8113,Domestic Cleaners,,Part-time Share,77
-8114,Housekeepers,,Part-time Share,84
-8115,Laundry Workers,,Part-time Share,69
-8116,Other Cleaners,,Part-time Share,12
-8211,Building and Plumbing Labourers,,Part-time Share,3
-8212,Concreters,,Part-time Share,1
-8213,Fencers,,Part-time Share,4
-8214,Insulation and Home Improvement Installers,,Part-time Share,3
-8215,Paving and Surfacing Labourers,,Part-time Share,2
-8216,Railway Track Workers,,Part-time Share,4
-8217,Structural Steel Construction Workers,,Part-time Share,1
-8219,Other Construction and Mining Labourers,,Part-time Share,5
-8311,Food and Drink Factory Workers,,Part-time Share,30
-8312,"Meat Boners and Slicers, and Slaughterers",,Part-time Share,12
+4413,Police,,Part-time Share,8
+4421,Prison Officers,,Part-time Share,8
+4422,Security Officers and Guards,,Part-time Share,32
+4511,Beauty Therapists,,Part-time Share,61
+4512,Driving Instructors,,Part-time Share,62
+4513,Funeral Workers,,Part-time Share,29
+4514,"Gallery, Museum and Tour Guides",,Part-time Share,57
+4515,Personal Care Consultants,,Part-time Share,74
+4516,Tourism and Travel Advisers,,Part-time Share,29
+4517,Travel Attendants,,Part-time Share,48
+4518,Other Personal Service Workers,,Part-time Share,66
+4521,Fitness Instructors,,Part-time Share,71
+4522,Outdoor Adventure Guides,,Part-time Share,43
+4523,"Sports Coaches, Instructors and Officials",,Part-time Share,82
+4524,Sportspersons,,Part-time Share,61
+5111,"Contract, Program and Project Administrators",,Part-time Share,18
+5121,Office Managers,,Part-time Share,38
+5122,Practice Managers,,Part-time Share,39
+5211,Personal Assistants,,Part-time Share,28
+5212,Secretaries,,Part-time Share,54
+5311,General Clerks,,Part-time Share,43
+5321,Keyboard Operators,,Part-time Share,47
+5411,Call or Contact Centre Workers,,Part-time Share,34
+5412,Information Officers,,Part-time Share,30
+5421,Receptionists,,Part-time Share,57
+5511,Accounting Clerks,,Part-time Share,35
+5512,Bookkeepers,,Part-time Share,67
+5513,Payroll Clerks,,Part-time Share,34
+5521,Bank Workers,,Part-time Share,33
+5522,Credit and Loans Officers,,Part-time Share,16
+5523,"Insurance, Money Market and Statistical Clerks",,Part-time Share,23
+5611,Betting Clerks,,Part-time Share,68
+5612,Couriers and Postal Deliverers,,Part-time Share,27
+5613,Filing and Registry Clerks,,Part-time Share,41
+5614,Mail Sorters,,Part-time Share,37
+5615,Survey Interviewers,,Part-time Share,80
+5616,Switchboard Operators,,Part-time Share,49
+5619,Other Clerical and Office Support Workers,,Part-time Share,52
+5911,Purchasing and Supply Logistics Clerks,,Part-time Share,17
+5912,Transport and Despatch Clerks,,Part-time Share,12
+5991,Conveyancers and Legal Executives,,Part-time Share,38
+5992,Court and Legal Clerks,,Part-time Share,35
+5993,Debt Collectors,,Part-time Share,27
+5994,Human Resource Clerks,,Part-time Share,24
+5995,Inspectors and Regulatory Officers,,Part-time Share,20
+5996,"Insurance Investigators, Loss Adjusters and Risk Surveyors",,Part-time Share,13
+5997,Library Assistants,,Part-time Share,71
+5999,Other Clerical & Administrative Workers,,Part-time Share,38
+6111,"Auctioneers, and Stock and Station Agents",,Part-time Share,12
+6112,Insurance Agents,,Part-time Share,19
+6113,Sales Representatives,,Part-time Share,15
+6121,Real Estate Sales Agents,,Part-time Share,20
+6211,Sales Assistants (General),,Part-time Share,72
+6212,ICT Sales Assistants,,Part-time Share,32
+6213,Motor Vehicle and Vehicle Parts Salespersons,,Part-time Share,12
+6214,Pharmacy Sales Assistants,,Part-time Share,72
+6215,Retail Supervisors,,Part-time Share,30
+6216,Service Station Attendants,,Part-time Share,70
+6217,Street Vendors and Related Salespersons,,Part-time Share,54
+6219,Other Sales Assistants and Salespersons,,Part-time Share,32
+6311,Checkout Operators and Office Cashiers,,Part-time Share,87
+6391,Models and Sales Demonstrators,,Part-time Share,80
+6392,Retail and Wool Buyers,,Part-time Share,13
+6393,Telemarketers,,Part-time Share,51
+6394,Ticket Salespersons,,Part-time Share,55
+6395,Visual Merchandisers,,Part-time Share,50
+6399,Other Sales Support Workers,,Part-time Share,69
+7111,"Clay, Concrete, Glass & Stone Machine Operators",,Part-time Share,8
+7112,Industrial Spraypainters,,Part-time Share,10
+7113,Paper and Wood Processing Machine Operators,,Part-time Share,11
+7114,Photographic Developers and Printers,,Part-time Share,48
+7115,Plastics and Rubber Production Machine Operators,,Part-time Share,10
+7116,Sewing Machinists,,Part-time Share,43
+7117,Textile & Footwear Production Machine Operators,,Part-time Share,18
+7119,Other Machine Operators,,Part-time Share,32
+7121,"Crane, Hoist and Lift Operators",,Part-time Share,10
+7122,"Drillers, Miners and Shot Firers",,Part-time Share,6
+7123,Engineering Production Workers,,Part-time Share,8
+7129,Other Stationary Plant Operators,,Part-time Share,10
+7211,"Agricultural, Forestry & Horticultural Operators",,Part-time Share,18
+7212,Earthmoving Plant Operators,,Part-time Share,14
+7213,Forklift Drivers,,Part-time Share,14
+7219,Other Mobile Plant Operators,,Part-time Share,28
+7311,Automobile Drivers,,Part-time Share,42
+7312,Bus and Coach Drivers,,Part-time Share,40
+7313,Train and Tram Drivers,,Part-time Share,7
+7321,Delivery Drivers,,Part-time Share,48
+7331,Truck Drivers,,Part-time Share,15
+7411,Storepersons,,Part-time Share,27
+8111,Car Detailers,,Part-time Share,39
+8112,Commercial Cleaners,,Part-time Share,67
+8113,Domestic Cleaners,,Part-time Share,84
+8114,Housekeepers,,Part-time Share,78
+8115,Laundry Workers,,Part-time Share,51
+8116,Other Cleaners,,Part-time Share,50
+8211,Building and Plumbing Labourers,,Part-time Share,24
+8212,Concreters,,Part-time Share,21
+8213,Fencers,,Part-time Share,29
+8214,Insulation and Home Improvement Installers,,Part-time Share,22
+8215,Paving and Surfacing Labourers,,Part-time Share,12
+8216,Railway Track Workers,,Part-time Share,10
+8217,Structural Steel Construction Workers,,Part-time Share,15
+8219,Other Construction and Mining Labourers,,Part-time Share,19
+8311,Food and Drink Factory Workers,,Part-time Share,25
+8312,"Meat Boners and Slicers, and Slaughterers",,Part-time Share,27
 8313,"Meat, Poultry and Seafood Process Workers",,Part-time Share,28
-8321,Packers,,Part-time Share,59
-8322,Product Assemblers,,Part-time Share,25
-8391,Metal Engineering Process Workers,,Part-time Share,6
-8392,Plastics and Rubber Factory Workers,,Part-time Share,25
-8393,Product Quality Controllers,,Part-time Share,46
-8394,Timber and Wood Process Workers,,Part-time Share,8
-8399,Other Factory Process Workers,,Part-time Share,23
-8411,Aquaculture Workers,,Part-time Share,14
-8412,Crop Farm Workers,,Part-time Share,31
-8413,Forestry and Logging Workers,,Part-time Share,10
-8414,Garden and Nursery Labourers,,Part-time Share,18
-8415,Livestock Farm Workers,,Part-time Share,37
-8416,Mixed Crop and Livestock Farm Workers,,Part-time Share,17
-8419,"Other Farm, Forestry and Garden Workers",,Part-time Share,11
-8511,Fast Food Cooks,,Part-time Share,29
-8512,Food Trades Assistants,,Part-time Share,59
-8513,Kitchenhands,,Part-time Share,55
-8911,Freight and Furniture Handlers,,Part-time Share,6
-8912,Shelf Fillers,,Part-time Share,39
-8991,Caretakers,,Part-time Share,15
-8992,Deck and Fishing Hands,,Part-time Share,8
-8993,Handypersons,,Part-time Share,4
-8994,Motor Vehicle Parts and Accessories Fitters,,Part-time Share,2
-8995,Printing Assistants and Table Workers,,Part-time Share,46
-8996,Recycling and Rubbish Collectors,,Part-time Share,6
-8997,Vending Machine Attendants,,Part-time Share,64
-8999,Other Miscellaneous Labourers,,Part-time Share,24
+8321,Packers,,Part-time Share,45
+8322,Product Assemblers,,Part-time Share,18
+8391,Metal Engineering Process Workers,,Part-time Share,15
+8392,Plastics and Rubber Factory Workers,,Part-time Share,20
+8393,Product Quality Controllers,,Part-time Share,20
+8394,Timber and Wood Process Workers,,Part-time Share,21
+8399,Other Factory Process Workers,,Part-time Share,32
+8411,Aquaculture Workers,,Part-time Share,32
+8412,Crop Farm Workers,,Part-time Share,39
+8413,Forestry and Logging Workers,,Part-time Share,28
+8414,Garden and Nursery Labourers,,Part-time Share,48
+8415,Livestock Farm Workers,,Part-time Share,36
+8416,Mixed Crop and Livestock Farm Workers,,Part-time Share,25
+8419,"Other Farm, Forestry and Garden Workers",,Part-time Share,31
+8511,Fast Food Cooks,,Part-time Share,84
+8512,Food Trades Assistants,,Part-time Share,66
+8513,Kitchenhands,,Part-time Share,81
+8911,Freight and Furniture Handlers,,Part-time Share,36
+8912,Shelf Fillers,,Part-time Share,80
+8991,Caretakers,,Part-time Share,43
+8992,Deck and Fishing Hands,,Part-time Share,28
+8993,Handypersons,,Part-time Share,46
+8994,Motor Vehicle Parts and Accessories Fitters,,Part-time Share,11
+8995,Printing Assistants and Table Workers,,Part-time Share,36
+8996,Recycling and Rubbish Collectors,,Part-time Share,32
+8997,Vending Machine Attendants,,Part-time Share,62
+8999,Other Miscellaneous Labourers,,Part-time Share,54
 1111,Chief Executives and Managing Directors,,industry,"Professional, Scientific and Technical Services"
 1112,General Managers,,industry,Manufacturing
 1113,Legislators,,industry,Public Administration and Safety

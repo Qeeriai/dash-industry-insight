@@ -32,8 +32,14 @@ color_scale = pcolors.qualitative.Plotly
 def generate_color(index):
     return color_scale[index % len(color_scale)]
 
+# Consistent color mapping for gender
+GENDER_COLORS = {
+    'Male Share': '#636EFA',  # Blue
+    'Female Share': '#EF553B'  # Red
+}
+
 # Define default occupations to pre-fill
-default_occupations = ['ICT Business and Systems Analysts', 'Primary School Teachers', 'Cafe and Restaurant Managers', 'Tourism and Travel Advisers']
+default_occupations = ['Primary School Teachers', 'Middle School Teachers','Special Education Teachers']
 
 # Define layout
 app.layout = html.Div([
@@ -45,15 +51,6 @@ app.layout = html.Div([
             style={"marginBottom": "30px"}
         ),
         html.Div([
-            html.Label("Select ANZSCO code:", style={'font-weight': 'bold'}),
-            dcc.Dropdown(
-                id='anzsco-code-filter',
-                options=[{'label': code, 'value': code} for code in df_employment_outlook['ANZSCO code'].unique()],
-                value=None,
-                placeholder="Select ANZSCO code",
-                multi=True
-            ),
-            html.Br(),
             html.Label("Select Occupation:", style={'font-weight': 'bold', 'margin-top': '10px'}),
             dcc.Dropdown(
                 id='occupation-filter',
@@ -61,10 +58,16 @@ app.layout = html.Div([
                 value=default_occupations,
                 placeholder="Select Occupation",
                 multi=True
-            ),
-            html.Br(),
-        ], style={"padding": "10px"}),  # Adjust the padding here to reduce space
-    ], className="four columns", style={"padding": "20px", "backgroundColor": "#f9f9f9"}),  
+            ),]
+        , style={"padding": "10px"}),  # Adjust the padding here to reduce space
+    ], className="four columns", style={
+        "padding": "20px", 
+        "backgroundColor": "#f9f9f9",
+        "flexShrink": "0",     # Prevents shrinking when the window resizes
+        "position": "sticky",   # Makes the sidebar sticky
+        "top": "0",             # Sticks the sidebar to the top when scrolling
+        "height": "100vh"      # Ensures the sidebar takes the full height
+        }),  
 
     html.Div([
         html.Div([
@@ -85,7 +88,7 @@ app.layout = html.Div([
         
         # Place the two donut charts in a row
         html.Div([
-            html.B("Gender and Employment Type"),
+            html.B("Overall Gender and Employment Type Distribution"),
             html.Hr(),
             html.Div([
                 html.Div([
@@ -99,6 +102,13 @@ app.layout = html.Div([
         
         ], style={"backgroundColor": "#ffffff", "padding": "20px"}),
 
+           # Graph for Gender by Occupation
+        html.Div([
+            html.B("Gender Distribution by Occupation"),
+            html.Hr(),
+            dcc.Graph(id='gender-per-occupation-bar'),
+        ], style={"marginTop": "30px", "backgroundColor": "#ffffff", "padding": "20px"}),
+
 
         html.Div([
             html.B("Employment Distribution by State"),
@@ -106,44 +116,32 @@ app.layout = html.Div([
             dcc.Graph(id='state-map'),
         ], style={"backgroundColor": "#ffffff", "padding": "20px"}),
         
-    ], className="eight columns", style={"padding": "10px"}),  # Increase to nine columns
-], className="row", style={"width": "100%", "display": "flex", "flex-direction": "row"})
+    ], className="eight columns", style={
+        "padding": "10px",
+        "flex": "1",  # Ensures the right section expands to take up remaining space
+        "overflowY": "auto",      # Enables vertical scrolling
+        "height": "100vh"         # Matches height with the sidebar
+        }),  
+], className="row", style={
+    "width": "100%", 
+    "display": "flex", 
+    "flex-direction": "row",
+    "height": "100vh",
+    "overflow": "hidden"        # Prevents parent container from scrolling
+
+    })
 
 
-
-
-# Callback to update the ANZSCO code dropdown based on selected occupations
-@app.callback(
-    Output('anzsco-code-filter', 'value'),
-    Input('occupation-filter', 'value')
-)
-def update_anzsco_code(selected_occupations):
-    if selected_occupations:
-        return df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]['ANZSCO code'].unique().tolist()
-    return []
-
-# Callback to update the Occupation dropdown based on selected ANZSCO codes
-@app.callback(
-    Output('occupation-filter', 'value'),
-    Input('anzsco-code-filter', 'value')
-)
-def update_occupation(selected_codes):
-    if selected_codes:
-        return df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]['Occupation'].unique().tolist()
-    return []
 
 # Callback to update the graph and metrics
 @app.callback(
     [Output('employment-trend', 'figure'),
      Output('forecast-metrics', 'children')],
-    [Input('anzsco-code-filter', 'value'),
-     Input('occupation-filter', 'value')]
+     Input('occupation-filter', 'value')
 )
-def update_graph(selected_codes, selected_occupations):
+def update_graph(selected_occupations):
     # Filter data based on selected ANZSCO codes and selected occupations
-    if selected_codes:
-        filtered_df = df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]
-    elif selected_occupations:
+    if  selected_occupations:
         filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
     else:
         filtered_df = df_employment_outlook
@@ -229,14 +227,11 @@ def update_graph(selected_codes, selected_occupations):
 # Callback to update the age distribution graph
 @app.callback(
     Output('age-distribution-graph', 'figure'),
-    [Input('anzsco-code-filter', 'value'),
-     Input('occupation-filter', 'value')]
+     Input('occupation-filter', 'value')
 )
-def update_age_distribution(selected_codes, selected_occupations):
+def update_age_distribution(selected_occupations):
     # Filter data based on selected ANZSCO codes and selected occupations
-    if selected_codes:
-        filtered_df = df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]
-    elif selected_occupations:
+    if selected_occupations:
         filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
     else:
         filtered_df = df_employment_outlook
@@ -286,14 +281,11 @@ def update_age_distribution(selected_codes, selected_occupations):
 # Callback to update the gender distribution donut chart
 @app.callback(
     Output('gender-donut-chart', 'figure'),
-    [Input('anzsco-code-filter', 'value'),
-     Input('occupation-filter', 'value')]
+     Input('occupation-filter', 'value')
 )
-def update_gender_donut_chart(selected_codes, selected_occupations):
+def update_gender_donut_chart(selected_occupations):
     # Filter data based on selected ANZSCO codes and selected occupations
-    if selected_codes:
-        filtered_df = df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]
-    elif selected_occupations:
+    if selected_occupations:
         filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
     else:
         filtered_df = df_employment_outlook
@@ -310,7 +302,9 @@ def update_gender_donut_chart(selected_codes, selected_occupations):
             labels=aggregated_gender['Metric'],
             values=aggregated_gender['Value'],
             hole=0.5,
-            marker=dict(colors=[generate_color(i) for i in range(len(aggregated_gender))])
+            # marker=dict(colors=[generate_color(i) for i in range(len(aggregated_gender))])
+            marker=dict(colors=[GENDER_COLORS[label] for label in aggregated_gender['Metric']])
+
         )],
         'layout': go.Layout(
             title='Gender Distribution',
@@ -323,14 +317,11 @@ def update_gender_donut_chart(selected_codes, selected_occupations):
 # Callback to update the full-time/part-time distribution donut chart
 @app.callback(
     Output('employment-type-donut-chart', 'figure'),
-    [Input('anzsco-code-filter', 'value'),
-     Input('occupation-filter', 'value')]
+     Input('occupation-filter', 'value')
 )
-def update_employment_type_donut_chart(selected_codes, selected_occupations):
+def update_employment_type_donut_chart(selected_occupations):
     # Filter data based on selected ANZSCO codes and selected occupations
-    if selected_codes:
-        filtered_df = df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]
-    elif selected_occupations:
+    if selected_occupations:
         filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
     else:
         filtered_df = df_employment_outlook
@@ -347,7 +338,7 @@ def update_employment_type_donut_chart(selected_codes, selected_occupations):
             labels=aggregated_employment_type['Metric'],
             values=aggregated_employment_type['Value'],
             hole=0.5,
-            marker=dict(colors=[generate_color(i) for i in range(len(aggregated_employment_type))])
+            marker=dict(colors=[generate_color(i) for i in range(2, 4)])
         )],
         'layout': go.Layout(
             title='Employment Type Distribution',
@@ -357,18 +348,82 @@ def update_employment_type_donut_chart(selected_codes, selected_occupations):
 
     return figure
 
+@app.callback(
+    Output('gender-per-occupation-bar', 'figure'),
+    Input('occupation-filter', 'value')
+)
+
+def update_gender_per_occupation(selected_occupations):
+    # Filter the data based on selected occupations
+    if selected_occupations:
+        filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
+    else:
+        filtered_df = df_employment_outlook
+
+    # Filter the data for gender metrics
+    gender_df = filtered_df[filtered_df['Metric'].isin(['Male Share', 'Female Share'])]
+
+    # Pivot the data to have Male and Female shares as columns
+    gender_df = gender_df.pivot_table(
+        values='Value',
+        index='Occupation',
+        columns='Metric',
+        aggfunc='mean'
+    ).fillna(0)
+
+    # Normalize the values to ensure they sum to 100%
+    gender_df['Total'] = gender_df['Male Share'] + gender_df['Female Share']
+    gender_df['Male Share'] = (gender_df['Male Share'] / gender_df['Total']) * 100
+    gender_df['Female Share'] = (gender_df['Female Share'] / gender_df['Total']) * 100
+
+    # Adjust rounding to ensure the sum equals 100%
+    def round_to_100(row):
+        male = round(row['Male Share'])
+        female = 100 - male  # Ensure the total is exactly 100
+        return pd.Series([male, female], index=['Male Share', 'Female Share'])
+
+    # Apply the rounding function to each row
+    gender_df[['Male Share', 'Female Share']] = gender_df.apply(round_to_100, axis=1)
+
+    # Create the bar chart
+    figure = {
+        'data': [
+            go.Bar(
+                x=gender_df.index,
+                y=gender_df['Male Share'],
+                name='Male Share',
+                marker=dict(color=GENDER_COLORS['Male Share']),
+                hovertemplate='%{y:.1f}%<extra></extra>'
+            ),
+            go.Bar(
+                x=gender_df.index,
+                y=gender_df['Female Share'],
+                name='Female Share',
+                marker=dict(color=GENDER_COLORS['Female Share']),
+                hovertemplate='%{y:.1f}%<extra></extra>'
+            )
+        ],
+        'layout': go.Layout(
+            title='Gender Distribution by Occupation',
+            xaxis={'title': 'Occupation'},
+            yaxis={'title': '% Share'},
+            barmode='group',
+            yaxis_range=[0, 100]  # Ensure the y-axis goes up to 100%
+        )
+    }
+
+    return figure
+
+
 
 # Callback to update the map based on the selected occupations and codes
 @app.callback(
     Output('state-map', 'figure'),
-    [Input('anzsco-code-filter', 'value'),
-     Input('occupation-filter', 'value')]
+     Input('occupation-filter', 'value')
 )
-def update_state_map(selected_codes, selected_occupations):
-    # Filter data based on selected ANZSCO codes and selected occupations
-    if selected_codes:
-        filtered_df = df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]
-    elif selected_occupations:
+def update_state_map( selected_occupations):
+    # Filter data based on  selected occupations
+    if selected_occupations:
         filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
     else:
         filtered_df = df_employment_outlook
