@@ -45,15 +45,6 @@ app.layout = html.Div([
             style={"marginBottom": "30px"}
         ),
         html.Div([
-            html.Label("Select ANZSCO code:", style={'font-weight': 'bold'}),
-            dcc.Dropdown(
-                id='anzsco-code-filter',
-                options=[{'label': code, 'value': code} for code in df_employment_outlook['ANZSCO code'].unique()],
-                value=None,
-                placeholder="Select ANZSCO code",
-                multi=True
-            ),
-            html.Br(),
             html.Label("Select Occupation:", style={'font-weight': 'bold', 'margin-top': '10px'}),
             dcc.Dropdown(
                 id='occupation-filter',
@@ -61,9 +52,8 @@ app.layout = html.Div([
                 value=default_occupations,
                 placeholder="Select Occupation",
                 multi=True
-            ),
-            html.Br(),
-        ], style={"padding": "10px"}),  # Adjust the padding here to reduce space
+            ),]
+        , style={"padding": "10px"}),  # Adjust the padding here to reduce space
     ], className="four columns", style={"padding": "20px", "backgroundColor": "#f9f9f9"}),  
 
     html.Div([
@@ -111,39 +101,15 @@ app.layout = html.Div([
 
 
 
-
-# Callback to update the ANZSCO code dropdown based on selected occupations
-@app.callback(
-    Output('anzsco-code-filter', 'value'),
-    Input('occupation-filter', 'value')
-)
-def update_anzsco_code(selected_occupations):
-    if selected_occupations:
-        return df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]['ANZSCO code'].unique().tolist()
-    return []
-
-# Callback to update the Occupation dropdown based on selected ANZSCO codes
-@app.callback(
-    Output('occupation-filter', 'value'),
-    Input('anzsco-code-filter', 'value')
-)
-def update_occupation(selected_codes):
-    if selected_codes:
-        return df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]['Occupation'].unique().tolist()
-    return []
-
 # Callback to update the graph and metrics
 @app.callback(
     [Output('employment-trend', 'figure'),
      Output('forecast-metrics', 'children')],
-    [Input('anzsco-code-filter', 'value'),
-     Input('occupation-filter', 'value')]
+     Input('occupation-filter', 'value')
 )
-def update_graph(selected_codes, selected_occupations):
+def update_graph(selected_occupations):
     # Filter data based on selected ANZSCO codes and selected occupations
-    if selected_codes:
-        filtered_df = df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]
-    elif selected_occupations:
+    if  selected_occupations:
         filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
     else:
         filtered_df = df_employment_outlook
@@ -229,14 +195,11 @@ def update_graph(selected_codes, selected_occupations):
 # Callback to update the age distribution graph
 @app.callback(
     Output('age-distribution-graph', 'figure'),
-    [Input('anzsco-code-filter', 'value'),
-     Input('occupation-filter', 'value')]
+     Input('occupation-filter', 'value')
 )
-def update_age_distribution(selected_codes, selected_occupations):
+def update_age_distribution(selected_occupations):
     # Filter data based on selected ANZSCO codes and selected occupations
-    if selected_codes:
-        filtered_df = df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]
-    elif selected_occupations:
+    if selected_occupations:
         filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
     else:
         filtered_df = df_employment_outlook
@@ -286,14 +249,11 @@ def update_age_distribution(selected_codes, selected_occupations):
 # Callback to update the gender distribution donut chart
 @app.callback(
     Output('gender-donut-chart', 'figure'),
-    [Input('anzsco-code-filter', 'value'),
-     Input('occupation-filter', 'value')]
+     Input('occupation-filter', 'value')
 )
-def update_gender_donut_chart(selected_codes, selected_occupations):
+def update_gender_donut_chart(selected_occupations):
     # Filter data based on selected ANZSCO codes and selected occupations
-    if selected_codes:
-        filtered_df = df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]
-    elif selected_occupations:
+    if selected_occupations:
         filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
     else:
         filtered_df = df_employment_outlook
@@ -323,14 +283,11 @@ def update_gender_donut_chart(selected_codes, selected_occupations):
 # Callback to update the full-time/part-time distribution donut chart
 @app.callback(
     Output('employment-type-donut-chart', 'figure'),
-    [Input('anzsco-code-filter', 'value'),
-     Input('occupation-filter', 'value')]
+     Input('occupation-filter', 'value')
 )
-def update_employment_type_donut_chart(selected_codes, selected_occupations):
+def update_employment_type_donut_chart(selected_occupations):
     # Filter data based on selected ANZSCO codes and selected occupations
-    if selected_codes:
-        filtered_df = df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]
-    elif selected_occupations:
+    if selected_occupations:
         filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
     else:
         filtered_df = df_employment_outlook
@@ -361,14 +318,11 @@ def update_employment_type_donut_chart(selected_codes, selected_occupations):
 # Callback to update the map based on the selected occupations and codes
 @app.callback(
     Output('state-map', 'figure'),
-    [Input('anzsco-code-filter', 'value'),
-     Input('occupation-filter', 'value')]
+     Input('occupation-filter', 'value')
 )
-def update_state_map(selected_codes, selected_occupations):
-    # Filter data based on selected ANZSCO codes and selected occupations
-    if selected_codes:
-        filtered_df = df_employment_outlook[df_employment_outlook['ANZSCO code'].isin(selected_codes)]
-    elif selected_occupations:
+def update_state_map( selected_occupations):
+    # Filter data based on  selected occupations
+    if selected_occupations:
         filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
     else:
         filtered_df = df_employment_outlook
