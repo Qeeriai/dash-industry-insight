@@ -96,6 +96,11 @@ app.layout = html.Div([
         
         ], style={"backgroundColor": "#ffffff", "padding": "20px"}),
 
+           # New Graph for Gender by Occupation
+        html.Div([
+            dcc.Graph(id='gender-per-occupation-bar'),
+        ], style={"marginTop": "30px", "backgroundColor": "#ffffff", "padding": "20px"}),
+
 
         html.Div([
             html.B("Employment Distribution by State"),
@@ -328,6 +333,47 @@ def update_employment_type_donut_chart(selected_occupations):
         'layout': go.Layout(
             title='Employment Type Distribution',
             showlegend=True
+        )
+    }
+
+    return figure
+
+@app.callback(
+    Output('gender-per-occupation-bar', 'figure'),
+    Input('occupation-filter', 'value')
+)
+
+def update_gender_per_occupation(selected_occupations):
+    # Filter the data based on selected occupations
+    if selected_occupations:
+        filtered_df = df_employment_outlook[df_employment_outlook['Occupation'].isin(selected_occupations)]
+    else:
+        filtered_df = df_employment_outlook
+
+    # Filter the data for gender metrics
+    gender_df = filtered_df[filtered_df['Metric'].isin(['Male Share', 'Female Share'])]
+
+    # Create a bar chart showing gender distribution per occupation
+    figure = {
+        'data': [
+            go.Bar(
+                x=gender_df[gender_df['Metric'] == 'Male Share']['Occupation'],
+                y=gender_df[gender_df['Metric'] == 'Male Share']['Value'],
+                name='Male Share',
+                # marker=dict(color='blue')
+            ),
+            go.Bar(
+                x=gender_df[gender_df['Metric'] == 'Female Share']['Occupation'],
+                y=gender_df[gender_df['Metric'] == 'Female Share']['Value'],
+                name='Female Share',
+                # marker=dict(color='red')
+            )
+        ],
+        'layout': go.Layout(
+            title='Gender Distribution by Occupation',
+            xaxis={'title': 'Occupation'},
+            yaxis={'title': '% Share'},
+            barmode='group',  # Bars side by side for comparison
         )
     }
 
