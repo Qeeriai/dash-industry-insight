@@ -33,7 +33,7 @@ def generate_color(index):
     return color_scale[index % len(color_scale)]
 
 # Define default occupations to pre-fill
-default_occupations = ['ICT Business and Systems Analysts', 'Primary School Teachers', 'Cafe and Restaurant Managers', 'Tourism and Travel Advisers']
+default_occupations = ['Primary School Teachers', 'Middle School Teachers','Special Education Teachers']
 
 # Define layout
 app.layout = html.Div([
