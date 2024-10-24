@@ -88,7 +88,7 @@ app.layout = html.Div([
         
         # Place the two donut charts in a row
         html.Div([
-            html.B("Gender and Employment Type"),
+            html.B("Overall Gender and Employment Type Distribution"),
             html.Hr(),
             html.Div([
                 html.Div([
@@ -102,8 +102,10 @@ app.layout = html.Div([
         
         ], style={"backgroundColor": "#ffffff", "padding": "20px"}),
 
-           # New Graph for Gender by Occupation
+           # Graph for Gender by Occupation
         html.Div([
+            html.B("Gender Distribution by Occupation"),
+            html.Hr(),
             dcc.Graph(id='gender-per-occupation-bar'),
         ], style={"marginTop": "30px", "backgroundColor": "#ffffff", "padding": "20px"}),
 
@@ -336,7 +338,7 @@ def update_employment_type_donut_chart(selected_occupations):
             labels=aggregated_employment_type['Metric'],
             values=aggregated_employment_type['Value'],
             hole=0.5,
-            marker=dict(colors=[generate_color(i) for i in range(len(aggregated_employment_type))])
+            marker=dict(colors=[generate_color(i) for i in range(2, 4)])
         )],
         'layout': go.Layout(
             title='Employment Type Distribution',
