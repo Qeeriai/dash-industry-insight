@@ -6,6 +6,11 @@ import plotly.colors as pcolors
 import plotly.express as px
 import json
 from flask_cors import CORS
+from chatbot import get_gpt_response
+from dash.dependencies import Input, Output, State
+import openai
+import re
+
 
 
 # Load the data
@@ -44,14 +49,13 @@ default_occupations = ['Primary School Teachers', 'Middle School Teachers','Spec
 # Define layout
 app.layout = html.Div([
     html.Div([
-        html.H5("Job Industry Analytics", style={"color": "#2c82ff"}),
-        html.H3("Welcome to the Job Industry Insights Dashboard", style={"marginBottom": "20px"}),
+        html.H3("Welcome to the Job Industry Insights Dashboard", style={"marginBottom": "20px","color": "#2c82ff"}),
         html.Div(
-            "Explore job industry trends, job demand, salary, and employee satisfaction. Select different filters to visualize insights over time.",
-            style={"marginBottom": "30px"}
+            "Navigate through industry trends, employment distributions, and job growth forecasts. Understand how roles evolve across states and between genders. Utilize AI-powered summaries and the chatbot to make informed career decisions for your future",
+            style={"marginBottom": "10px"}
         ),
         html.Div([
-            html.Label("Select Occupation:", style={'font-weight': 'bold', 'margin-top': '10px'}),
+            html.Label("Select Occupation:", style={'font-weight': 'bold', 'margin-top': '5px'}),
             dcc.Dropdown(
                 id='occupation-filter',
                 options=[{'label': occ, 'value': occ} for occ in df_employment_outlook['Occupation'].unique()],
@@ -60,13 +64,115 @@ app.layout = html.Div([
                 multi=True
             ),]
         , style={"padding": "10px"}),  # Adjust the padding here to reduce space
+
+        # Summary section (AI-generated insights)
+        html.Div([
+            html.Div(id="future-icon", children="🚀", style={
+                "fontSize": "30px", 
+                "color": "#007bff", 
+                "marginRight": "10px", 
+                "cursor": "default"
+            }),
+            html.Label("Future Outlook for Selected Occupations", style={
+                'font-weight': 'bold', 
+                'font-size': '16px',
+                'color': "#2c82ff"
+            }),
+        ], style={
+            "display": "flex", 
+            "alignItems": "center", 
+            "marginTop": "20px"
+        }),
+        html.Div(
+            html.H6("Loading ... ", style={"marginBottom": "5px"}),
+            id='ai-summary',
+            style={
+                "marginTop": "20px", 
+                "padding": "20px", 
+                "backgroundColor": "#f8f9fa",  # Light background for better contrast
+                "borderRadius": "10px",  # Smooth rounded edges
+                "boxShadow": "0 4px 8px rgba(0, 0, 0, 0.1)",  # Subtle shadow effect
+                "fontFamily": "'Arial', sans-serif",  # Clean font
+                "lineHeight": "1.6",  # Improved line spacing
+                "color": "#333",  # Darker text for readability
+                "fontSize": "16px",  # Adjusted font size
+                "maxHeight": "300px", 
+                "overflowY": "auto"
+            }
+        ),
+
+
+        # Chatbot Area
+        html.Div([
+            # Header with Icon and Label on the Same Line
+            html.Div([
+                html.Div(id="chat-icon", children="🤖", style={
+                    "fontSize": "30px", 
+                    "color": "#007bff", 
+                    "marginRight": "10px", 
+                    "cursor": "default"
+                }),
+                html.Label("Chatbot Assistant", style={
+                    'font-weight': 'bold',
+                    'font-size': '16px',
+                    'color': "#2c82ff",
+                    'verticalAlign': 'middle'
+                }),
+            ], style={
+                "display": "flex", 
+                "alignItems": "center", 
+                "marginTop": "20px"
+            }),
+
+            # Chat Response Box
+            html.Div(id='chat-response', style={
+                "marginTop": "10px", 
+                "padding": "10px", 
+                "backgroundColor": "#f8f9fa", 
+                "borderRadius": "10px", 
+                "boxShadow": "0 4px 8px rgba(0, 0, 0, 0.1)", 
+                "fontFamily": "'Arial', sans-serif", 
+                "minHeight": "80px",  # Ensures some height even when no messages yet
+                "overflowY": "auto",  # Scroll if content overflows
+            }),
+
+            # Text Input Area
+            dcc.Textarea(
+                id='chat-input',
+                placeholder='Type your message...',
+                style={
+                    "width": "100%", 
+                    "height": "50px", 
+                    "marginTop": "10px", 
+                    "borderRadius": "8px", 
+                    "border": "1px solid #ddd"
+                }
+            ),
+
+            # Send Button
+            html.Button('SEND', id='chat-submit', style={
+                "marginTop": "10px", 
+                "backgroundColor": "#007bff", 
+                "color": "white", 
+                "border": "none", 
+                "padding": "10px 20px", 
+                "borderRadius": "8px", 
+                "cursor": "pointer",
+                "transition": "background 0.3s"
+            })
+        ], style={"marginTop": "20px", "width": "100%"})
+
+
+
     ], className="four columns", style={
         "padding": "20px", 
         "backgroundColor": "#f9f9f9",
         "flexShrink": "0",     # Prevents shrinking when the window resizes
         "position": "sticky",   # Makes the sidebar sticky
         "top": "0",             # Sticks the sidebar to the top when scrolling
-        "height": "100vh"      # Ensures the sidebar takes the full height
+        "height": "100vh" ,     # Ensures the sidebar takes the full height
+        "overflowY": "auto"     # Enables vertical scrolling in the sidebar
+
         }),  
 
     html.Div([
@@ -102,7 +208,7 @@ app.layout = html.Div([
         
         ], style={"backgroundColor": "#ffffff", "padding": "20px"}),
 
-           # Graph for Gender by Occupation
+        # Graph for Gender by Occupation
         html.Div([
             html.B("Gender Distribution by Occupation"),
             html.Hr(),
@@ -471,6 +577,181 @@ def update_state_map( selected_occupations):
     fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 
     return fig
+
+
+
+def format_response_to_html(text):
+    """
+    Convert **bold** markdown to <b>HTML</b>, clean up formatting, 
+    and ensure proper Dash HTML rendering.
+    """
+    # Convert **bold** to <b>...</b>
+    formatted_text = re.sub(r'\*\*(.*?)\*\*', r'\1', text)  
+
+    # Remove leading dashes from the text
+    formatted_text = re.sub(r'- ', '', formatted_text)  
+
+    # Remove any markdown headers, e.g., '#'
+    formatted_text = re.sub(r'#', '', formatted_text)  
+
+    # Split the text into lines and return as a list for bullet points
+    return [line.strip() for line in formatted_text.split('\n') if line.strip()]
+
+
+
+@app.callback(
+    Output('ai-summary', 'children'),
+    Input('occupation-filter', 'value')
+)
+def generate_ai_summary(selected_occupations):
+    if not selected_occupations:
+        return html.P("Select one or more occupations to see insights.")
+
+    # Build summaries for all selected occupations
+    summaries = []
+    try:
+        for occupation in selected_occupations:
+            # Prompt Engineering: Ask for concise summary limited to key points
+            prompt =  (
+                f"Provide a very concise summary for {occupation}, what the future will look like, very high level what happening in that industry "
+                f"highlighting key things in 2-3 bullet points."
+                f"throwing some emoji for friendly responses"
+                )
+
+            response = openai.ChatCompletion.create(
+                engine="northstar_4omini",  # Replace with your engine name
+                messages=[
+                    {"role": "system", "content": "You are an assistant providing concise job market insights."},
+                    {"role": "user", "content": prompt}
+                ],
+                max_tokens=100,  # Limit the response to ensure conciseness
+                temperature=0.5   # Lower creativity for more focused response
+            )
+            summary = response.choices[0].message["content"]
+            formatted_summary = format_response_to_html(summary)
+
+            # Split the summary into individual points for bullet lists
+            summary_points = format_response_to_html(summary)
+
+
+            # Build the summary block using proper Dash HTML components
+            summaries.append(
+                html.Div([
+                    html.B(f"{occupation}:"),
+                    html.Ul([html.Li(point) for point in summary_points]),
+                ], style={"marginBottom": "15px"})
+            )
+
+        ## Return the final summary with proper structure
+        return html.Div([
+            html.Div(summaries),
+            html.Hr(),
+            html.P("Need more details? Use the chatbot below to ask further questions."),
+        ], style={"backgroundColor": "#f9f9f9", "padding": "15px", "borderRadius": "8px"})
+
+    except Exception as e:
+        return html.P(f"Error generating summary: {str(e)}", style={"color": "red"})
+
+
+
+
+
+def format_response_to_html_chatbot(text):
+    """
+    Convert markdown-like syntax into Dash HTML components.
+    """
+
+
+    # Convert **bold** to <b>...</b>
+    formatted_text = re.sub(r'\*\*(.*?)\*\*', r'\1', text) 
+
+     # Remove any markdown headers, e.g., '#'
+    formatted_text = re.sub(r'#', '', formatted_text)  
+
+    # Split the text into lines
+    lines = formatted_text.split('\n')
+
+    # Handle ordered and unordered lists
+    list_items = []
+    is_ordered = False
+
+    for line in lines:
+        stripped_line = line.strip()
+        if re.match(r'^\d+\.\s', stripped_line):
+            # Handle ordered list items
+            list_items.append(html.Li(stripped_line[3:]))  # Remove the 'X. ' part
+            is_ordered = True
+        elif stripped_line.startswith('- '):
+            # Handle unordered list items
+            list_items.append(html.Li(stripped_line[2:]))  # Remove the '- ' part
+        elif stripped_line:  # Handle regular paragraphs
+            list_items.append(html.P(stripped_line))
+
+    # If we have list items, wrap them accordingly
+    if list_items:
+        if is_ordered:
+            return html.Ol(list_items)  # Ordered list
+        else:
+            return html.Ul(list_items)  # Unordered list
+
+    # If no lists detected, return as regular paragraphs
+    return [html.P(line.strip()) for line in lines if line.strip()]
+
+
+
+@app.callback(
+    [Output('chat-response', 'children'),
+     Output('chat-input', 'value')],  # Reset input field
+    Input('chat-submit', 'n_clicks'),
+    State('chat-input', 'value'),
+    State('chat-response', 'children'),
+    prevent_initial_call=True
+)
+def handle_chat_input(n_clicks, user_input, chat_history):
+    # Ensure chat history is initialized as a list if it's None
+    if chat_history is None:
+        chat_history = []
+
+    if not user_input:
+        return chat_history, ""  # Clear input field
+
+    try:
+        # Generate AI response
+        response = openai.ChatCompletion.create(
+            engine="northstar_4omini",
+            messages=[
+                {"role": "system", "content": "You are a chatbot answering questions about the job market."},
+                {"role": "user", "content": user_input}
+            ],
+            max_tokens=300,
+            temperature=0.7
+        )
+
+        answer = response.choices[0].message["content"]
+        formatted_answer = format_response_to_html_chatbot(answer)
+
+        # Create new chat elements for user and AI messages
+        new_chat = [
+            # User message (right-aligned)
+            html.Div(className="item right", children=[
+                html.Div(className="msg", children=html.P(user_input))
+            ]),
+            # AI message with icon
+            html.Div(className="item ai", children=[
+                html.Div(className="icon", children=html.I(className="fa fa-robot")),
+                html.Div(className="msg", children=html.P(formatted_answer))
+            ])
+        ]
+
+        # Append new messages to chat history
+        chat_history.extend(new_chat)
+
+        return chat_history, ""
+
+    except Exception as e:
+        return [html.Div(f"Error: {str(e)}", style={"color": "red"})]
+
+
 
 
 # Run the app
