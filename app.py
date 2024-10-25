@@ -10,8 +10,16 @@ from chatbot import get_gpt_response
 from dash.dependencies import Input, Output, State
 import openai
 import re
+from dotenv import load_dotenv
 
+# Load environment variables from .env file
+load_dotenv()
 
+# Set up Azure OpenAI credentials
+openai.api_type = "azure"
+openai.api_key = "d8d5498ded0548acaaed330390551216"
+openai.api_base = "https://northstar-ai.openai.azure.com/"
+openai.api_version = "2023-03-15-preview"
 
 # Load the data
 df_employment_outlook = pd.read_csv('data/employment_outlook.csv')
