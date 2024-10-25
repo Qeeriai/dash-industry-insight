@@ -52,7 +52,7 @@ app.layout = html.Div([
         html.H5("Job Industry Analytics", style={"color": "#2c82ff"}),
         html.H3("Welcome to the Job Industry Insights Dashboard", style={"marginBottom": "20px"}),
         html.Div(
-            "Explore job industry trends, job demand, salary, and employee satisfaction. Select different filters to visualize insights over time.",
+            "Navigate through industry trends, employment distributions, and job growth forecasts. Understand how roles evolve across states and between genders. Utilize AI-powered summaries and the chatbot to make informed career decisions for your future",
             style={"marginBottom": "10px"}
         ),
         html.Div([
