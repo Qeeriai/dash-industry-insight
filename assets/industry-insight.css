@@ -195,3 +195,102 @@ H5, H3 {
     }
 
 }
+
+/* Chat message container */
+#chat-response {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px; /* Space between messages */
+
+}
+
+/* Message container styles */
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* AI message styling */
+.item.ai .icon {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.item.ai .msg {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* User message styling */
+.item.right .msg {
+    background-color: #efefef;
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    margin-left: auto; /* Aligns user messages to the right */
+}
+
+/* Ensure icon stays visible */
+.item.ai {
+    display: flex;
+    align-items: center;
+}
+
+.item.right {
+    justify-content: flex-end;
+}
+
+/* Input area styling */
+.typing-area {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    gap: 10px;
+}
+
+.typing-area input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.typing-area button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.typing-area button:hover {
+    background-color: #0056b3;
+}
+
+/* Ensure proper spacing between paragraphs */
+.msg p {
+    margin: 0 0 10px; /* Add spacing between paragraphs */
+}

@@ -11,6 +11,8 @@ from dash.dependencies import Input, Output, State
 import openai
 import re
 
+
+
 # Load the data
 df_employment_outlook = pd.read_csv('data/employment_outlook.csv')
 
@@ -95,12 +97,7 @@ app.layout = html.Div([
         html.Div([
             html.Label("Chatbot Assistant", style={
                 'font-weight': 'bold', 'margin-top': '12px', "color": "#2c82ff",'font-size': '16px'}),
-            dcc.Textarea(
-                id='chat-input',
-                placeholder='Type your message...',
-                style={"width": "100%", "height": "50px"}
-            ),
-            html.Button('SEND', id='chat-submit', style={"marginTop": "10px"}),
+            
             html.Div(id='chat-response', style={
                 "marginTop": "10px", 
                 "padding": "10px", 
@@ -110,7 +107,14 @@ app.layout = html.Div([
                 "borderRadius": "10px",  # Smooth rounded edges
                 "boxShadow": "0 4px 8px rgba(0, 0, 0, 0.1)",  # Subtle shadow effect
                 "fontFamily": "'Arial', sans-serif",  # Clean font
-            })
+            }),
+            
+            dcc.Textarea(
+                id='chat-input',
+                placeholder='Type your message...',
+                style={"width": "100%", "height": "50px"}
+            ),
+            html.Button('SEND', id='chat-submit', style={"marginTop": "10px"}),
         ], style={"marginTop": "20px"})
 
 
@@ -604,33 +608,104 @@ def generate_ai_summary(selected_occupations):
 
 
 
+
+
+def format_response_to_html_chatbot(text):
+    """
+    Convert markdown-like syntax into Dash HTML components.
+    """
+
+
+    # Convert **bold** to <b>...</b>
+    formatted_text = re.sub(r'\*\*(.*?)\*\*', r'\1', text) 
+
+     # Remove any markdown headers, e.g., '#'
+    formatted_text = re.sub(r'#', '', formatted_text)  
+
+    # Split the text into lines
+    lines = formatted_text.split('\n')
+
+    # Handle ordered and unordered lists
+    list_items = []
+    is_ordered = False
+
+    for line in lines:
+        stripped_line = line.strip()
+        if re.match(r'^\d+\.\s', stripped_line):
+            # Handle ordered list items
+            list_items.append(html.Li(stripped_line[3:]))  # Remove the 'X. ' part
+            is_ordered = True
+        elif stripped_line.startswith('- '):
+            # Handle unordered list items
+            list_items.append(html.Li(stripped_line[2:]))  # Remove the '- ' part
+        elif stripped_line:  # Handle regular paragraphs
+            list_items.append(html.P(stripped_line))
+
+    # If we have list items, wrap them accordingly
+    if list_items:
+        if is_ordered:
+            return html.Ol(list_items)  # Ordered list
+        else:
+            return html.Ul(list_items)  # Unordered list
+
+    # If no lists detected, return as regular paragraphs
+    return [html.P(line.strip()) for line in lines if line.strip()]
+
+
+
 @app.callback(
     Output('chat-response', 'children'),
     Input('chat-submit', 'n_clicks'),
     State('chat-input', 'value'),
+    State('chat-response', 'children'),
     prevent_initial_call=True
 )
+def handle_chat_input(n_clicks, user_input, chat_history):
+    # Ensure chat history is initialized as a list if it's None
+    if chat_history is None:
+        chat_history = []
 
-def handle_chat_input(n_clicks, user_input):
     if not user_input:
-        return "Please enter a message."
+        return chat_history
 
     try:
-        # Get response from Azure OpenAI
+        # Generate AI response
         response = openai.ChatCompletion.create(
-            engine="northstar_4omini",  # Replace with your engine
+            engine="northstar_4omini",
             messages=[
                 {"role": "system", "content": "You are a chatbot answering questions about the job market."},
                 {"role": "user", "content": user_input}
             ],
-            max_tokens=500,
+            max_tokens=300,
             temperature=0.7
         )
+
         answer = response.choices[0].message["content"]
-        return html.P(answer)
+        formatted_answer = format_response_to_html_chatbot(answer)
+
+        # Create new chat elements for user and AI messages
+        new_chat = [
+            # User message (right-aligned)
+            html.Div(className="item right", children=[
+                html.Div(className="msg", children=html.P(user_input))
+            ]),
+            # AI message with icon
+            html.Div(className="item ai", children=[
+                html.Div(className="icon", children=html.I(className="fa fa-robot")),
+                html.Div(className="msg", children=html.P(formatted_answer))
+            ])
+        ]
+
+        # Append new messages to chat history
+        chat_history.extend(new_chat)
+
+        return chat_history
 
     except Exception as e:
-        return f"Error: {str(e)}"
+        return [html.Div(f"Error: {str(e)}", style={"color": "red"})]
+
+
+
 
 # Run the app
 if __name__ == '__main__':
