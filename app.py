@@ -6,7 +6,10 @@ import plotly.colors as pcolors
 import plotly.express as px
 import json
 from flask_cors import CORS
-
+from chatbot import get_gpt_response
+from dash.dependencies import Input, Output, State
+import openai
+import re
 
 # Load the data
 df_employment_outlook = pd.read_csv('data/employment_outlook.csv')
@@ -48,10 +51,10 @@ app.layout = html.Div([
         html.H3("Welcome to the Job Industry Insights Dashboard", style={"marginBottom": "20px"}),
         html.Div(
             "Explore job industry trends, job demand, salary, and employee satisfaction. Select different filters to visualize insights over time.",
-            style={"marginBottom": "30px"}
+            style={"marginBottom": "10px"}
         ),
         html.Div([
-            html.Label("Select Occupation:", style={'font-weight': 'bold', 'margin-top': '10px'}),
+            html.Label("Select Occupation:", style={'font-weight': 'bold', 'margin-top': '5px'}),
             dcc.Dropdown(
                 id='occupation-filter',
                 options=[{'label': occ, 'value': occ} for occ in df_employment_outlook['Occupation'].unique()],
@@ -60,13 +63,66 @@ app.layout = html.Div([
                 multi=True
             ),]
         , style={"padding": "10px"}),  # Adjust the padding here to reduce space
+
+        # Summary section (AI-generated insights)
+        html.Label("Future Outlook for Selected Occupations", style={
+            'font-weight': 'bold', 
+            'margin-top': '12px',
+            "color": "#2c82ff",
+            'font-size': '16px'
+            }
+        ),
+        html.Div(
+            html.H6("Loading ... ", style={"marginBottom": "5px"}),
+            id='ai-summary',
+            style={
+                "marginTop": "20px", 
+                "padding": "20px", 
+                "backgroundColor": "#f8f9fa",  # Light background for better contrast
+                "borderRadius": "10px",  # Smooth rounded edges
+                "boxShadow": "0 4px 8px rgba(0, 0, 0, 0.1)",  # Subtle shadow effect
+                "fontFamily": "'Arial', sans-serif",  # Clean font
+                "lineHeight": "1.6",  # Improved line spacing
+                "color": "#333",  # Darker text for readability
+                "fontSize": "16px",  # Adjusted font size
+                "maxHeight": "300px", 
+                "overflowY": "auto"
+            }
+        ),
+
+
+        # Chatbot area
+        html.Div([
+            html.Label("Chatbot Assistant", style={
+                'font-weight': 'bold', 'margin-top': '12px', "color": "#2c82ff",'font-size': '16px'}),
+            dcc.Textarea(
+                id='chat-input',
+                placeholder='Type your message...',
+                style={"width": "100%", "height": "50px"}
+            ),
+            html.Button('SEND', id='chat-submit', style={"marginTop": "10px"}),
+            html.Div(id='chat-response', style={
+                "marginTop": "10px", 
+                "padding": "10px", 
+                "backgroundColor": "#f8f9fa", 
+                "borderRadius": "8px",
+                "backgroundColor": "#f8f9fa",  # Light background for better contrast
+                "borderRadius": "10px",  # Smooth rounded edges
+                "boxShadow": "0 4px 8px rgba(0, 0, 0, 0.1)",  # Subtle shadow effect
+                "fontFamily": "'Arial', sans-serif",  # Clean font
+            })
+        ], style={"marginTop": "20px"})
+
+
     ], className="four columns", style={
         "padding": "20px", 
         "backgroundColor": "#f9f9f9",
         "flexShrink": "0",     # Prevents shrinking when the window resizes
         "position": "sticky",   # Makes the sidebar sticky
         "top": "0",             # Sticks the sidebar to the top when scrolling
-        "height": "100vh"      # Ensures the sidebar takes the full height
+        "height": "100vh" ,     # Ensures the sidebar takes the full height
+        "overflowY": "auto"     # Enables vertical scrolling in the sidebar
+
         }),  
 
     html.Div([
@@ -102,7 +158,7 @@ app.layout = html.Div([
         
         ], style={"backgroundColor": "#ffffff", "padding": "20px"}),
 
-           # Graph for Gender by Occupation
+        # Graph for Gender by Occupation
         html.Div([
             html.B("Gender Distribution by Occupation"),
             html.Hr(),
@@ -472,6 +528,109 @@ def update_state_map( selected_occupations):
 
     return fig
 
+
+
+def format_response_to_html(text):
+    """
+    Convert **bold** markdown to <b>HTML</b>, clean up formatting, 
+    and ensure proper Dash HTML rendering.
+    """
+    # Convert **bold** to <b>...</b>
+    formatted_text = re.sub(r'\*\*(.*?)\*\*', r'\1', text)  
+
+    # Remove leading dashes from the text
+    formatted_text = re.sub(r'- ', '', formatted_text)  
+
+    # Remove any markdown headers, e.g., '#'
+    formatted_text = re.sub(r'#', '', formatted_text)  
+
+    # Split the text into lines and return as a list for bullet points
+    return [line.strip() for line in formatted_text.split('\n') if line.strip()]
+
+
+
+@app.callback(
+    Output('ai-summary', 'children'),
+    Input('occupation-filter', 'value')
+)
+def generate_ai_summary(selected_occupations):
+    if not selected_occupations:
+        return html.P("Select one or more occupations to see insights.")
+
+    # Build summaries for all selected occupations
+    summaries = []
+    try:
+        for occupation in selected_occupations:
+            # Prompt Engineering: Ask for concise summary limited to key points
+            prompt =  (
+                f"Provide a very concise summary for {occupation}, what the future will look like, very high level what happening in that industry "
+                f"highlighting key things in 2-3 bullet points."
+                f"throwing some emoji for friendly responses"
+                )
+
+            response = openai.ChatCompletion.create(
+                engine="northstar_4omini",  # Replace with your engine name
+                messages=[
+                    {"role": "system", "content": "You are an assistant providing concise job market insights."},
+                    {"role": "user", "content": prompt}
+                ],
+                max_tokens=100,  # Limit the response to ensure conciseness
+                temperature=0.5   # Lower creativity for more focused response
+            )
+            summary = response.choices[0].message["content"]
+            formatted_summary = format_response_to_html(summary)
+
+            # Split the summary into individual points for bullet lists
+            summary_points = format_response_to_html(summary)
+
+
+            # Build the summary block using proper Dash HTML components
+            summaries.append(
+                html.Div([
+                    html.B(f"{occupation}:"),
+                    html.Ul([html.Li(point) for point in summary_points]),
+                ], style={"marginBottom": "15px"})
+            )
+
+        ## Return the final summary with proper structure
+        return html.Div([
+            html.Div(summaries),
+            html.Hr(),
+            html.P("Need more details? Use the chatbot below to ask further questions."),
+        ], style={"backgroundColor": "#f9f9f9", "padding": "15px", "borderRadius": "8px"})
+
+    except Exception as e:
+        return html.P(f"Error generating summary: {str(e)}", style={"color": "red"})
+
+
+
+@app.callback(
+    Output('chat-response', 'children'),
+    Input('chat-submit', 'n_clicks'),
+    State('chat-input', 'value'),
+    prevent_initial_call=True
+)
+
+def handle_chat_input(n_clicks, user_input):
+    if not user_input:
+        return "Please enter a message."
+
+    try:
+        # Get response from Azure OpenAI
+        response = openai.ChatCompletion.create(
+            engine="northstar_4omini",  # Replace with your engine
+            messages=[
+                {"role": "system", "content": "You are a chatbot answering questions about the job market."},
+                {"role": "user", "content": user_input}
+            ],
+            max_tokens=500,
+            temperature=0.7
+        )
+        answer = response.choices[0].message["content"]
+        return html.P(answer)
+
+    except Exception as e:
+        return f"Error: {str(e)}"
 
 # Run the app
 if __name__ == '__main__':
