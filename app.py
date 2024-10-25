@@ -67,13 +67,23 @@ app.layout = html.Div([
         , style={"padding": "10px"}),  # Adjust the padding here to reduce space
 
         # Summary section (AI-generated insights)
-        html.Label("Future Outlook for Selected Occupations", style={
-            'font-weight': 'bold', 
-            'margin-top': '12px',
-            "color": "#2c82ff",
-            'font-size': '16px'
-            }
-        ),
+        html.Div([
+            html.Div(id="future-icon", children="🚀", style={
+                "fontSize": "30px", 
+                "color": "#007bff", 
+                "marginRight": "10px", 
+                "cursor": "default"
+            }),
+            html.Label("Future Outlook for Selected Occupations", style={
+                'font-weight': 'bold', 
+                'font-size': '16px',
+                'color': "#2c82ff"
+            }),
+        ], style={
+            "display": "flex", 
+            "alignItems": "center", 
+            "marginTop": "20px"
+        }),
         html.Div(
             html.H6("Loading ... ", style={"marginBottom": "5px"}),
             id='ai-summary',
@@ -93,29 +103,66 @@ app.layout = html.Div([
         ),
 
 
-        # Chatbot area
+        # Chatbot Area
         html.Div([
-            html.Label("Chatbot Assistant", style={
-                'font-weight': 'bold', 'margin-top': '12px', "color": "#2c82ff",'font-size': '16px'}),
-            
+            # Header with Icon and Label on the Same Line
+            html.Div([
+                html.Div(id="chat-icon", children="🤖", style={
+                    "fontSize": "30px", 
+                    "color": "#007bff", 
+                    "marginRight": "10px", 
+                    "cursor": "default"
+                }),
+                html.Label("Chatbot Assistant", style={
+                    'font-weight': 'bold',
+                    'font-size': '16px',
+                    'color': "#2c82ff",
+                    'verticalAlign': 'middle'
+                }),
+            ], style={
+                "display": "flex", 
+                "alignItems": "center", 
+                "marginTop": "20px"
+            }),
+
+            # Chat Response Box
             html.Div(id='chat-response', style={
                 "marginTop": "10px", 
                 "padding": "10px", 
                 "backgroundColor": "#f8f9fa", 
-                "borderRadius": "8px",
-                "backgroundColor": "#f8f9fa",  # Light background for better contrast
-                "borderRadius": "10px",  # Smooth rounded edges
-                "boxShadow": "0 4px 8px rgba(0, 0, 0, 0.1)",  # Subtle shadow effect
-                "fontFamily": "'Arial', sans-serif",  # Clean font
+                "borderRadius": "10px", 
+                "boxShadow": "0 4px 8px rgba(0, 0, 0, 0.1)", 
+                "fontFamily": "'Arial', sans-serif", 
+                "minHeight": "80px",  # Ensures some height even when no messages yet
+                "overflowY": "auto",  # Scroll if content overflows
             }),
-            
+
+            # Text Input Area
             dcc.Textarea(
                 id='chat-input',
                 placeholder='Type your message...',
-                style={"width": "100%", "height": "50px"}
+                style={
+                    "width": "100%", 
+                    "height": "50px", 
+                    "marginTop": "10px", 
+                    "borderRadius": "8px", 
+                    "border": "1px solid #ddd"
+                }
             ),
-            html.Button('SEND', id='chat-submit', style={"marginTop": "10px"}),
-        ], style={"marginTop": "20px"})
+
+            # Send Button
+            html.Button('SEND', id='chat-submit', style={
+                "marginTop": "10px", 
+                "backgroundColor": "#007bff", 
+                "color": "white", 
+                "border": "none", 
+                "padding": "10px 20px", 
+                "borderRadius": "8px", 
+                "cursor": "pointer",
+                "transition": "background 0.3s"
+            })
+        ], style={"marginTop": "20px", "width": "100%"})
+
 
 
     ], className="four columns", style={
@@ -654,7 +701,8 @@ def format_response_to_html_chatbot(text):
 
 
 @app.callback(
-    Output('chat-response', 'children'),
+    [Output('chat-response', 'children'),
+     Output('chat-input', 'value')],  # Reset input field
     Input('chat-submit', 'n_clicks'),
     State('chat-input', 'value'),
     State('chat-response', 'children'),
@@ -666,7 +714,7 @@ def handle_chat_input(n_clicks, user_input, chat_history):
         chat_history = []
 
     if not user_input:
-        return chat_history
+        return chat_history, ""  # Clear input field
 
     try:
         # Generate AI response
@@ -699,7 +747,7 @@ def handle_chat_input(n_clicks, user_input, chat_history):
         # Append new messages to chat history
         chat_history.extend(new_chat)
 
-        return chat_history
+        return chat_history, ""
 
     except Exception as e:
         return [html.Div(f"Error: {str(e)}", style={"color": "red"})]
